@@ -4,6 +4,35 @@ body {background: url(https://i.imgur.com/awujZIM.jpg) fixed;}
 /* окно с эмодзи */
 .emj-dropdown-content {width:80%!important;}
 
+/* убрать подсчет записей в блоке */
+.blog_total_counter{display:none;}
+
+
+/* менюшка выезжает
+.hamburger-menu {
+display: block !important;
+width:339px;
+position:absolute!important;
+margin-left: 76%!important;
+margin-top:-10px!important;}
+
+ul.menu__box {
+    padding-top: 70px;
+    background: #000000;
+    overflow: auto;
+}
+
+a.menu__item {
+    text-align: center;
+    color: #ebebebc2;
+    font-weight: unset;
+    text-transform: uppercase;
+    font-size: 11px;
+border-left:#360e0e outset 3px; /* - округляет outset  края*/
+border-top:#360e0e dashed 1px;
+}
+*/
+
 /* записи и комы */
 .post-content,.comment-content {background: url(https://i.imgur.com/ZzuL1Vb.png) scroll repeat;
 /*вторая картинка и ее позиция, как правильно поставить
@@ -44,7 +73,7 @@ padding-left: 1px !important;
 text-shadow: 0 0 2px #ff0000;!important;
 }
 
-/* цвет текста и ссылок */
+/* цвет текста и ссылок  */
 a,div,td{ color: #878787!important;}
 
 /* блок где вводится текст когда пишешь пост или ком */
@@ -82,11 +111,13 @@ background-color:transparent!important;
 .left-menu{width:339px;
 background:url(https://i.imgur.com/o0zpFXN.png);
 position:absolute!important;
-border:#360e0e dashed 1px!important;
+border: #360e0e dashed  1px!important;
 margin-left: 69%!important;
 margin-top:50px!important;
 }
-
+.left-menu-text p{padding:0px;}
+p {margin-top: 0;
+margin-bottom: 0;}
 
 /* эт я отключила картинки аватарки в меню 
 .left-menu img{display:none!important;}*/
@@ -165,14 +196,16 @@ max-width:100%;
 [class="post-title"] {
 text-align:left;
 margin-left: 15px;
-margin-top: -52px;
+margin-top: -40px;
 }
 
 /* анимация заголовка поста */
-.post-title:hover {font-size: 20px;
+.post-title:hover {
+/*font-size: 20px;
+padding-top: 5px !important; - это для анимации текста вниз*/
 text-decoration: unset;
-transition: 0.7s; 
-padding-top: 5px !important;
+letter-spacing: 2px;
+transition: 0.7s;
 text-shadow: 4 0 0px #360e0e;}
 
 /* шапка */
@@ -190,7 +223,7 @@ list-style-type: none;}*/
 nav.navbar a:hover {
 text-decoration: unset;
 transition: 0.2s;
-text-shadow: 0 0 3px #fff;}
+text-shadow: 0 0 3px #fff;} 
 
 /* навигация коментов */
 h2 {background: url(https://i.imgur.com/1kExa2U.png) scroll no-repeat center;
@@ -208,6 +241,7 @@ h1
 border-bottom:#360e0e dashed 2px;
 border-top:#360e0e dashed 2px;}
 
+/* убирает серые полоски в окне при удалении */
 .modal-header,.modal-footer{border:none;}
 
 /* скролл*/
@@ -231,6 +265,20 @@ background-color: #000;
 /* текст левого меню */
 h3.left-menu-text {font-size:15px;}
 
+/* изменяет цвет кнопок в дневнике */
+input{background:linear-gradient(rgb(76,1,1), rgb(76,1,1));
+border: #ffeceb solid 1px;
+border-radius: 5px;
+color:#fff }
+
+/* делает серыми человечков у ника */
+.user:before { filter: grayscale(100%);}
+
+/* курсор изменить
+* {cursor:url('https://cdn.custom-cursor.com/db/5684/32/hunter-x-hunter-chrollo-lucilfer-and-book-bandit-s-secret-cursor.png'), default;}
+*{cursor:url('https://cdn.custom-cursor.com/db/5683/32/hunter-x-hunter-chrollo-lucilfer-and-book-bandit-s-secret-pointer.png'), pointer;} */
+
+
 
 @media (max-width: 700px){
 .left-menu ,.content,nav.navbar{
@@ -245,7 +293,7 @@ width: 100%;
 @media (max-width: 700px){
 .left-menu{position:relative !important;}
 
-@media (max-width: 700px){.textarea{width: 99%;}
+@media (max-width: 700px){.textarea{width: 99%;}  
 
 /*меню, чтобы с телефона было нормально, прописать в скобках, что нужно */
 .menu__box{background-color: #000000;}
