@@ -14,7 +14,7 @@ width: 80%;
 
 body {
 background-color: #000!important; 
-background: url(https://i.postimg.cc/4dzSn6d3/image.png)  no-repeat fixed/*,url(https://i.postimg.cc/hP36NTtd/image.png) fixed*/;
+background: url(https://i.postimg.cc/4dzSn6d3/image.png)  no-repeat fixed,url(https://i.postimg.cc/hP36NTtd/image.png) fixed;
 background-position-x: 1400px;
 background-position-y:125px;
 background-blend-mode:screen;
