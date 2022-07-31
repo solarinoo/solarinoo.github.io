@@ -49,7 +49,7 @@ filter: brightness(0.2) grayscale(1) contrast(1.10) ;
 
 
 .bg-white {
-border-bottom: 2px solid #45454550;
+border: 1px solid #45454550;
  background-color: #000!important;
 background: url(https://i.postimg.cc/Kjby6N5g/1111.png) no-repeat  top;
 background-position-y: -16px;
@@ -82,9 +82,6 @@ margin-bottom: 0;}
 
 
 .blog__about {
-/*position: absolute;
-top: 13%; 
-width: 16%;*/ 
 background-color: #141414!important;
 text-align:center;
 background: url(https://i.postimg.cc/FzKzWC2D/ss-1b78aca1d96e65e29ae189f2beb3268b1465f785.png) no-repeat top;
