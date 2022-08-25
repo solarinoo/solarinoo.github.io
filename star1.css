@@ -522,5 +522,9 @@ top: -300%!important;
 right: 10%!important;
   color: #fff!important;
 }
+ 
+ a.navbar-brand {
+  z-index:1;
+}
 
 }
