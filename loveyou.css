@@ -995,7 +995,10 @@ display:none;
 display:none;
 }
 
-.content { background: url(),#564987!important;}
+.content { 
+background: url(),#564987!important;
+}
+
 body {
     background: url(),#564987!important;
 
@@ -1017,7 +1020,7 @@ body {
 }
 
 .menu__box {
-background-color: #564987!important;
+background: url(https://i.postimg.cc/VNGFNYcQ/22222.png) no-repeat bottom left/80%, #564886;
 border: 2px solid #b16aaa50;
 z-index: 4;
 }
