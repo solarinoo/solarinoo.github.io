@@ -1,0 +1,1046 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Kelly+Slab&family=Ubuntu+Mono&display=swap');
+/*font-family: 'IBM Plex Serif', serif;
+font-family: 'Kelly Slab', cursive;
+font-family: 'Ubuntu Mono', monospace;*/
+
+
+.post-title {
+font-family: 'Kelly Slab', cursive;
+}
+
+ .post-content:nth-child(2) span {
+color: #564987;
+}
+
+.comment-box h2, .comment-box__message-partial.comment-content {
+   display:none;
+}
+.comment-content span {
+color: #fff;
+}
+
+.comment-base span {
+color: #564987;
+}
+
+
+.post-opt {
+    margin-top: 5px;
+}
+
+ .quotation {
+    font-weight: bold;
+    border-left:2px solid #56488690;
+    background: linear-gradient(90deg, #b16aaa80 , transparent);
+}
+
+.datebg {
+ background-color: #56488680;
+text-align:center;
+margin-left: 8px;
+ font-size: 10px;
+border: 2px solid #b16aaa50;
+ border-radius: 15px;
+    color:#b16aaa;
+}
+
+
+span.crumb-item {
+color:#b16aaa!important;
+}
+
+
+.crumbs {
+font-family: 'IBM Plex Serif', serif;
+margin-top:18px!important;
+margin-bottom:5px;
+ background-color: #564886;
+font-size:15px!important;
+text-align:left;
+border: 2px solid #b16aaa50;
+ border-radius: 15px;
+text-transform: uppercase;
+}
+
+
+.comment-box__message-partial.comment-content {
+ padding: 1px 15px;
+ text-align:left;
+ background: linear-gradient(90deg, #b16aaa 0%, transparent);
+color: #fff;
+text-decoration: none;
+}
+ 
+
+h1,h2 {
+ padding: 1px 15px;
+ text-align:left;
+ background: linear-gradient(90deg, #b16aaa 0%, transparent);
+color: #fff;
+text-decoration: none;
+
+}  
+h1 {
+font-family: 'IBM Plex Serif', serif;
+margin-left:-8px!important;
+ font-size: 15px;
+}
+
+h2 {
+font-family: 'IBM Plex Serif', serif;
+ font-size: 9px;
+} 
+
+h5 {
+color: #fff;
+    font-size: 100%;
+}
+div#footer {
+    font-size: 0;
+}
+
+a {
+color:#564987;
+}
+ a:hover {
+color:#b16aaa;
+text-decoration: none;  
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #564987;
+    cursor: pointer;
+}
+
+span[data-target="#deleteconfirmmodal"]:hover {
+    color: #b16aaa;
+    text-decoration: none;
+}
+
+span {
+color:#56498780;
+}
+
+.comments_count  span {
+    color:#564987;
+}
+ .comments_count  span:hover {
+    color:#b16aaa50;
+}
+
+.user:before {
+    display:none;
+}
+
+.post-title-user {
+font-family: 'Ubuntu Mono', monospace;
+color: white;
+ margin-left:140px;
+ padding-top:5px;
+transition: 0.5s;
+}
+.post-title-user:hover {
+    font-weight: bold;
+color: #564987;
+ margin-left:143px;
+transition: 0.5s;
+}
+
+.post-title-date {
+padding-left:8px;
+color: #fff;
+text-decoration: none;
+transition: 0.5s;
+}
+
+.post-title {
+font-size: 18px;
+margin-top: 26px;
+width: 74%;
+position: absolute;
+display: block;
+background: linear-gradient(90deg, #b43988 0%, transparent);
+margin-left: 133px;
+padding-left: 5px;
+color: #fff;
+text-decoration: none;
+z-index: 4;
+border-radius: 13px 0 0 0;
+transition: 0.5s;
+}
+
+.post-title:hover {
+padding-left:8px;
+color: #fff;
+text-decoration: none;
+transition: 0.5s;
+}
+
+.post-text {
+font-family: 'Ubuntu Mono', monospace;
+padding-top:40px!important;
+background:#fff;
+min-height: 137px;
+position:relative;
+padding: 10px;
+margin-left:20px;
+margin-right: 50px;
+border-radius: 15px;
+color:#564987;
+z-index:3;
+border: 2px solid #b43988;
+box-shadow: 5px 4px 0px 2px #564987;}
+
+.comment-text{min-height: 137px;
+background:#fff;
+position:relative;
+padding: 10px;
+margin-left:20px;
+margin-right: 50px;
+border-radius: 15px;
+color:#564987;
+z-index:3;
+border: 2px solid #b16aaa;
+box-shadow: 5px 4px 0px 2px #564987;}
+
+.comment-text:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(https://i.imgur.com/Qfjx2yW.png)no-repeat;
+    left: -10px;
+    top:30px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.post-content .post-avatar{margin-top: 30px;}
+
+ 
+.blog_total_counter{display:none;} 
+
+.post-content, .comment-content  {width:100%;
+padding: 8px;
+position:relative;
+background:transparent;}
+
+.comment-content .post-opt a{color:#fff;}
+.comment-content .post-opt {color:#fff;
+margin-left:40px;
+margin-top:10px;}
+
+.comment-content [data-target="#deleteconfirmmodal"]{color:#fff;}
+
+.post-opt{text-transform: lowercase;}
+
+.comment-base .post-opt a{color:#fff}
+.comment-base .post-opt {
+margin-left:40px;
+margin-top:10px;}
+
+.comment-base [data-target="#deleteconfirmmodal"]{color:#fff;}
+
+.comment-box i.fas {margin-left:30px;}
+
+
+.post-text:before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: url(https://i.imgur.com/Qfjx2yW.png)no-repeat;
+    left: -10px;
+    top: 64px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+
+
+/*МЕНЮ*/
+
+
+.blog__about {
+background-color: #564987;
+padding-bottom: 10px;
+text-align: center;
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa;
+color:#b16aaa!important;
+}
+
+.blog__about:before {
+content: ' а ';
+ font-size: 0;
+ display: block;
+height: 300px;
+background: linear-gradient(0deg, #564987 0%, transparent), 
+                      url(https://i.postimg.cc/tTp67dLn/www.png) top no-repeat;
+background-size: 100%;
+color:#564987;
+background-color: #564987;
+padding-top: 110%;
+transition: 0.5s; 
+}
+ 
+
+ .blog__tags { 
+background-color: #564987;
+margin-top: 25px;
+text-align: left;
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa;
+color:#b16aaa;
+}
+
+h3.left-menu-text {
+font-family: 'IBM Plex Serif', serif;
+background-color: #564987!important;
+padding-top: 5px;
+padding-bottom: 2px;
+border-bottom: 1px solid #b16aaa;
+color: #b16aaa!important;
+text-transform: uppercase;
+font-weight: bold;
+font-size:8px;
+}
+
+.left-menu__user-notification, .left-menu__unread-message {
+font-family: 'Ubuntu Mono', monospace;
+width:100%;
+background-color: #564987;
+padding: 10px;
+margin-bottom: 20px;
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa;
+color:#b16aaa;
+}
+
+[class="left-menu__user-notification left-menu__unread-message"] img {
+    width:25%!important;
+padding-top: 5px;
+}
+
+
+ .blog__about h3.left-menu-text {
+    display: none;
+}
+
+.blog__about  p {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.left-menu__friends, .community__moders, .community__members, .blog__read-me { 
+	display:none;
+}
+
+.left-menu {
+font-family: 'Ubuntu Mono', monospace;
+position: absolute;
+top:10%;
+left: 0.5%;
+padding: 10px !important;
+margin: 15px;
+font-size:10px;
+border: unset !important;
+/*border-radius: 15px;*/
+}
+
+ .left-menu-text a{
+    color:#b16aaa!important;
+}
+
+ .left-menu-text a:hover{
+    color:#b16aaa50!important;
+text-decoration: none;  
+}
+
+div#app {
+width: 57%;
+background-color:transparent;
+margin: 10px auto;
+padding: 0px 20px;
+height: auto;
+}
+
+body {
+background: url(https://i.postimg.cc/Hnt7QJ1v/eees.png)  no-repeat fixed ,
+url(https://i.postimg.cc/RVXHhnRN/ee.png)  no-repeat 170% 110% fixed;
+background-size: cover, auto;
+background-blend-mode: lighten;
+}
+
+.content {width:100%;
+margin:auto!important;
+background:url(https://i.imgur.com/hrNZyg6.png)fixed no-repeat;
+background-size:100%; 
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa;}
+
+/*АВАТАР И ПОДПИСЬ ПОД НИМ*/
+
+
+.post-avatar img {
+    border: 3px solid #b43988;
+}
+
+.sign {
+   color:#b43988;
+}
+ 
+[href="#footer"] { 
+    font-size: 0px;
+}
+
+[href="#footer"]:before { 
+content: '+';
+font-size:45px!important;
+font-weight: bold;
+position: fixed;
+color: #000;
+right:1.1%;
+top:90%;
+}
+[href="#footer"]:hover:before { 
+color: #b16aaa!important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0px;
+    text-shadow: unset !important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+content: '+';
+position: relative;
+color:  #b16aaa!important;
+font-size: 45px !important;
+font-weight: bold;
+right: 79%;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before { 
+ color: #000!important;
+}
+
+/*----------------------*/
+
+/*ШАПКА*/
+
+a.navbar-brand {
+    font-size: 0px;
+    background: url(https://i.postimg.cc/vHmVhy7N/1111-1.png) no-repeat left/ auto 135%;
+    width: 65px;
+    height: 45px;
+margin-left: 30px;
+transition: 0.5s; 
+}
+
+.navbar-brand:hover {
+   background:  url(https://i.postimg.cc/x1JbrP4G/22.png) no-repeat left/ auto 135%;
+transform: rotate(35deg);
+transition: 0.5s; 
+} 
+
+.bg-white  {
+   background-color: #564987;
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa!important;
+}
+
+
+.pc-menu  a {
+font-family: 'IBM Plex Serif', serif;
+font-size:10px!important;
+font-weight: bold;
+ padding-left: 5px;
+color:#b16aaa!important;
+text-transform: lowercase;
+}
+
+.pc-menu a:hover {
+  color:#b16aaa50!important;
+text-decoration: none;  
+}
+
+ul { 
+   color:#b16aaa!important;
+  font-size: 7px;
+}
+/*----------------*/
+
+
+/* КНОПКИАВАТАРЫСКРОЛЛ*/
+
+select {
+font-family: 'Ubuntu Mono', monospace;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+}
+
+button.btn.btn-secondary, button.btn.btn-primary {
+font-family: 'Ubuntu Mono', monospace;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+transition: 0.5s;
+}
+
+.textareabg input[type="submit"] {
+font-family: 'Ubuntu Mono', monospace;
+margin-top:-10px;
+margin-bottom:20px;
+margin-left:20px;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+transition: 0.5s;
+}
+
+input {
+font-family: 'Ubuntu Mono', monospace;
+margin-top:20px;
+margin-left:20px;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+transition: 0.5s;
+}
+
+.left-menu-text input[type="text"]{
+font-family: 'Ubuntu Mono', monospace;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+transition: 0.5s;
+}
+
+ .left-menu-text input[type="submit"] {
+font-family: 'Ubuntu Mono', monospace;
+margin-left:5px;
+background-color: #564886;
+ border-radius: 15px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+transition: 0.5s;
+}
+
+input:hover,
+.textareabg input[type="submit"]:hover,
+.left-menu-text input[type="text"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover {
+background-color: #b16aaa;
+color:#564886;
+padding-right:15px;
+transition: 0.5s;
+}
+
+body {
+    overflow: overlay;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    outline: 1px solid #b16aaa;
+    outline-offset: -10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:transparent;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+ 
+::-webkit-scrollbar-thumb {
+border-left: 2px solid #564886;
+ border-right: 2px solid #564886;
+width: 2px; 
+height:20px;
+background-color: #564886;
+border-radius:70px!important;
+}
+
+
+.avatar-select-list {
+text-align: center;
+height: 255px;
+width: 130px;
+overflow-y: scroll;
+margin-left: -6px;
+}
+
+.avatar-select-label {
+margin:2px;
+border-radius: 15px;
+width: 100px;
+border: 2px solid #b16aaa;
+filter:opacity(0.5);
+ transition: 0.2s;
+}
+
+.avatar-select-label-selected {
+border-radius: 15px;
+width: 95px;
+border: 5px solid #564886;
+filter:opacity(1);
+ transition: 0.2s;
+}
+
+
+input[type="text" i] {
+     margin: auto!important;
+}
+
+form.messageform > p {
+ margin-left: 30px!important;
+font-size: 12px;
+}
+
+.emj-dropdown {
+font-size: 12px;
+ margin-left: 20px!important;
+}
+
+.tag_bar {
+ margin-left: 30px!important;
+ 
+}
+
+.fas, .far {
+font-size: 12px;
+}
+
+.tag_bar span{ 
+color:#b16aaa!important;
+font-size: 12px;
+}
+
+.tag_bar > span {
+    font-size: 12px;
+}
+
+
+.textareabg > div {
+color:#fff!important;
+font-size: 12px;
+ margin-left: 30px!important;
+}
+
+.textareabg  > p {
+color:#b16aaa!important;
+font-size: 12px;
+ margin-left: 30px!important;
+}
+
+
+.textareabg { 
+background:#56488680;
+padding-right:10px;
+border-radius: 15px;
+text-align: left;
+color:#fff;
+}
+
+
+textarea {
+font-family: 'Ubuntu Mono', monospace;
+background: url(https://i.postimg.cc/VNGFNYcQ/22222.png) no-repeat right, #564886;
+ background-size: contain;
+border-radius: 15px;
+border: 2px solid #b16aaa;
+box-shadow: 10px 9px 0px 2px #b16aaa;
+color:#fff;
+outline: none;
+ margin-left: 20px!important;
+margin-right: 20px!important;
+}
+
+/*форма внизу*/
+ form.messageform p, form.messageform div {
+    font-size: 12px;
+   margin-bottom: 0px;
+}
+
+form.messageform p, form.messageform div {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+/*--------------*/
+
+
+/* допштуки*/
+
+
+.post-avatar [href="//solarinoo.beon.fun"]:before {
+content: 'пёс';
+font-family: 'Ubuntu Mono', monospace;
+margin-left:5px;
+font-size: 15px;
+color: #fff;
+}
+
+ .post-content [href$="/unsubscribe"],
+a.post-subscribe {
+    font-size: 0px;
+}
+
+.post-content [href$="/unsubscribe"]:before {
+content: 'Отписаться';
+font-family: 'Ubuntu Mono', monospace;
+font-size: 12px;
+color:#fff;
+}
+.post-content [href$="/unsubscribe"]:hover:before {
+color:#b16aaa;
+}
+
+a.post-subscribe  {
+font-size: 0px;
+}
+
+
+a.post-subscribe:before {
+content: 'Подписаться';
+font-family: 'Ubuntu Mono', monospace;
+font-size: 12px;
+color:#fff;
+}
+
+
+a.post-subscribe:hover:before {
+    content: 'Подписаться';
+font-size: 12px;
+color:#b16aaa;
+}
+/*-------------------------------*/
+
+/* сердечко */
+.post-opt.col-12.col-md-6 span{
+    color: #564987;
+}
+i.fas.fa-heart {
+color: #564987;
+}
+/*------*/
+
+
+/*ОКНОУДАЛЕНИЯ и загрузка картинок*/
+
+h5 {
+color: #b16aaa!important;
+font-size: 100%;
+font-family: 'Ubuntu Mono', monospace;
+}
+
+.modal-body {
+color: #b16aaa;
+position: relative;
+flex: 1 1 auto;
+font-family: 'Ubuntu Mono', monospace;
+}
+
+
+.modal-content {
+ background-size: 300px;
+background-position-x: 200px;
+background: url(https://i.postimg.cc/VNGFNYcQ/22222.png) no-repeat right/55%, #564886!important;
+border-bottom:#74747450 solid 2px;
+border-top:#74747450 solid  2px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-content  a {
+    color: #b16aaa80;
+}
+.modal-content  span{
+    color: #b16aaa!important;
+}
+/*----------------------------*/
+
+
+
+/*плеер*/
+
+ div#beon-fnplayer {
+border-radius: 25px;
+border: 1px solid #b4398860;
+height: 17px!important;
+padding-top: 5px;
+padding-bottom: 5px;
+background: #564987;
+margin-left: 4px;
+}
+
+#fnplayer-slider > span {
+font-size:0px!important;
+}
+
+#fnplayer-slider {
+height: 5px!important;
+background-color: #b16aaa!important;
+border-radius: 25px;
+flex-grow: 1;
+position: relative;
+}
+#fnplayer-slider-inner {
+height: 5px!important;
+background-color: #b43988!important;
+border-radius: 25px;
+}
+
+#fnplayer-volume {
+border-radius: 25px;
+height: 5px!important; 
+width: 30px;
+flex-direction: row;
+background-color: #b16aaa!important;
+}
+
+#fnplayer-volume-mask {
+border:none!important;
+}
+
+
+#fnplayer-volume-inner {
+border-radius: 25px;
+width: 100%;
+height:5px!important; 
+background-color: #b43988!important;
+}
+
+button#fnplayer-stop {
+border-radius: 25px;
+background: #b16aaa;
+border: 1px solid #b43988;
+}
+
+
+button#fnplayer-play {
+opacity: 1;
+border-color: #b43988!important;
+border: 2px solid #b16aaa !important;
+border-top: unset !important;
+border-bottom: unset !important;
+margin-right: 4px;
+background: #b16aaa;
+clip-path: polygon(0 0, 0% 100%, 90% 50%);
+}
+
+ #fnplayer-play.paused {
+opacity: 1;
+border-color: #b43988!important;
+border: 2px solid #b16aaa !important;
+border-top: unset !important;
+border-bottom: unset !important;
+margin-right: 4px;
+background: #b16aaa;
+clip-path: unset;
+}
+
+#fnplayer-play.paused {
+    background: transparent !important;
+}
+
+
+/*----------------------*/
+
+
+/*МЕДИА*/
+
+
+@media (max-width: 700px) {
+
+div#app {
+    width: 100%!important;
+   padding: 0 0%!important; 
+   border-left:  unset!important;
+    border-right:  unset!important;
+    background-color: transparent!important;
+}
+
+.left-menu:before{
+ display: none!important;
+ height: auto;
+}
+.left-menu:hover {
+ height: auto;
+}
+
+.left-menu {
+ height: auto;
+    position:static!important;
+}
+
+.left-menu > div.mobile_open_menu > h3 {
+font-size:12px!important;
+}
+
+.comment-base [data-target="#deleteconfirmmodal"] {
+    color: #b16aaa!important;
+}
+.comment-base .post-opt a {
+    color: #b16aaa!important;
+}
+.comment-content .post-opt a {
+    color: #b16aaa!important;
+}
+
+
+.textarea-wrapper > textarea {
+    width: 90%!important;
+}
+textarea {
+    box-shadow: none!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+ span {
+color:#b16aaa80!important;
+}
+ .avatar-select-list {
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+
+.post-title-date {
+    padding-left: 0px!important;
+    color: rgb(86, 73, 135)!important;
+}
+
+.post-title-user {
+    color: rgb(86, 73, 135)!important;
+    margin-left: 0px!important;
+}
+
+
+
+.post-avatar img {
+  width:80px!important;
+}
+
+
+.post-content,   .comment-content {
+width: 95%!important;
+padding: 5px!important;
+    position: static!important;
+    background: white!important;
+}
+
+.comment-content {
+    width: 97% !important;
+}
+ 
+.comment-text {
+  padding-top: 25px!important;
+     padding-right: 0px!important;
+    padding-bottom: 0px!important;
+     padding-left: 0px!important;
+    position: static!important;
+    margin-left: 0px!important;
+    margin-right: 15px!important;
+    border-radius: 0px!important;
+    z-index: 1!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.post-text:before {
+display:none;
+}
+
+.post-title {
+     margin-top: 0px!important;
+     border-radius:0!important;
+    font-size: 14px!important;
+    position: static!important;
+    margin-left: -5px!important;
+    padding-left: 5px!important;
+    text-decoration: none;
+    z-index: 1!important;
+}
+ 
+.post-text {
+    padding-top: 25px!important;
+     padding-right: 0px!important;
+    padding-bottom: 0px!important;
+     padding-left: 0px!important;
+    position: static!important;
+    margin-left: 0px!important;
+    margin-right: 15px!important;
+    border-radius: 0px!important;
+    z-index: 1!important;
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.post-avatar [href="//solarinoo.beon.fun"]:before {
+display:none;
+}
+
+.content { background: url(),#564987!important;}
+body {
+    background: url(),#564987!important;
+
+}
+
+.post-content, .comment-content {
+    position: static;
+    background: transparent;
+}
+
+.menu__btn {
+   z-index: 5;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    font-family: 'Ubuntu Mono', monospace;
+    background: #b16aaa;
+    z-index: 5;
+}
+
+.menu__box {
+background-color: #564987!important;
+border: 2px solid #b16aaa50;
+z-index: 4;
+}
+
+.menu__item {
+font-family: 'Ubuntu Mono', monospace;
+color:#b16aaa!important;
+}
+
+[href="#footer"]:before {
+position:absolute!important;
+right: 20% !important;
+top: -15% !important;
+color: #b16aaa50!important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+    position: absolute;
+  bottom:auto!important;
+  left: 0%;
+}
+
+
+
+}
+/*---------------*/
