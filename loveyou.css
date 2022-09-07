@@ -1020,7 +1020,7 @@ body {
 }
 
 .menu__box {
-background: url(https://i.postimg.cc/VNGFNYcQ/22222.png) no-repeat bottom left/80%, #564886;
+background: url(https://i.postimg.cc/VNGFNYcQ/22222.png) no-repeat bottom center/80%, #564886;
 border: 2px solid #b16aaa50;
 z-index: 4;
 }
@@ -1028,6 +1028,7 @@ z-index: 4;
 .menu__item {
 font-family: 'Ubuntu Mono', monospace;
 color:#b16aaa!important;
+text-align: center;
 }
 
 [href="#footer"]:before {
