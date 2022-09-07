@@ -1040,7 +1040,7 @@ color: #b16aaa50!important;
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
     position: absolute;
   bottom:auto!important;
-  left: 0%;
+  left: 90%;
 }
 
 
