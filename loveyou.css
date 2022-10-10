@@ -8,6 +8,16 @@ font-family: 'Ubuntu Mono', monospace;*/
 	max-width:70%!important;
 }
 
+[class="imagewrapper"] [src="//i1.beon.fun/27/35/3527/68/132468/6.gif"] {
+ max-width:100%!important; 
+}
+
+[class="imagewrapper"] [src="//i1.beon.fun/27/35/3527/45/132545/d7we9gd63b0bd3264ef4ba3b7c332241009913f.png"] {
+ max-width:100%!important; 
+}
+
+/*--------*/
+
 .post-title {
 font-family: 'Kelly Slab', cursive;
 }
