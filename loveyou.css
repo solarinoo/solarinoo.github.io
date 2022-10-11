@@ -4,15 +4,25 @@ font-family: 'Kelly Slab', cursive;
 font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
-/*.imagefsme {
+.imagefsme {
 	max-width:70%!important;
-}*/
+}
 
+/*в предисловии*/
 [class="imagewrapper"] [src="//i1.beon.fun/27/35/3527/68/132468/6.gif"] {
  max-width:100%!important; 
 }
 
 [class="imagewrapper"] [src="//i1.beon.fun/27/35/3527/45/132545/d7we9gd63b0bd3264ef4ba3b7c332241009913f.png"] {
+ max-width:100%!important; 
+}
+
+/*картинки в постах*/
+[class="imagewrapper"] [src="//i1.beon.fun/27/35/3527/96/388896/dolpNXYO4ZM.jpg"], 
+[src="//i1.beon.fun/29/35/3529/9/134209/11.png"],
+[src="//i1.beon.fun/29/35/3529/4/134204/12.png"],
+[src="//i1.beon.fun/29/35/3529/6/134206/13.png"], 
+[src="//i1.beon.fun/29/35/3529/7/134207/14.png"] {
  max-width:100%!important; 
 }
 
