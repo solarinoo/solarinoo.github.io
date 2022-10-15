@@ -7,6 +7,7 @@ font-family: 'Caveat', cursive;
 div#app {
  padding: 11.5%; 
  padding-top:7%;
+padding-bottom: 0;
 background-color: #fff!important;
 background:url(https://i.postimg.cc/14x05nKh/tumblr-static-4xlg0ayuld4488gw0g444so4o.png)repeat-x fixed;
 }
