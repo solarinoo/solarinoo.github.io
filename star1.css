@@ -108,8 +108,7 @@ ul {
 position: absolute;
 top: 0.5%;
 left: 79%;
-/*overflow: hidden!important;*/
- overflow-y: scroll;
+overflow: hidden!important;
 font-size:10px;
  border: unset !important;
 background-color: #transparent!important;
@@ -140,7 +139,7 @@ transition: 0.5s;
 transition-delay: 0.2s;
 }
 .left-menu:hover {
-height: 2000px;
+height: 2500px;
 transition: 0.5s;
 transition-delay: 0.2s;
 }
