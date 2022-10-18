@@ -26,6 +26,24 @@ font-family: 'Ubuntu Mono', monospace;*/
  max-width:100%!important; 
 }
 
+/* минус картинки у кнопок офлайнонлайн дизайна*/
+[src="//beon.fun/i/offline.png"],
+[src="//beon.fun/i/online.png"],
+[src="//beon.fun/i/design-off.png"] { 
+	display:none;
+}
+
+/*цвет оф диз в дневе*/
+.blog__about [href="/design/disable"]  {
+ color: #b43988!important;
+}
+
+/*в лс фиксит флаги юзеров*/
+ [class="left-menu__user-notification left-menu__unread-message"] img.flag {
+  height: 15px!important;
+    width: 18px!important;
+}
+
 /*--------*/
 
 .post-title {
