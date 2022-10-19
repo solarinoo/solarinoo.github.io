@@ -4,6 +4,10 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Open Sans', sans-serif;
 */
 
+ [class="left-menu__user-notification left-menu__unread-message"] img.flag {
+  height: 15px!important;
+    width: 18px!important;
+}
 
 /*--------------------*/
 
