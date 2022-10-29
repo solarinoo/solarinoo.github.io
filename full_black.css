@@ -132,7 +132,7 @@ font-family: 'Alegreya SC', serif;
     display: block;
     height: 100px;
     background: url(https://i.pinimg.com/564x/34/e6/ba/34e6ba9aebb969c1135dac0100dafbb5.jpg) no-repeat  center;
-    background-size: cover;
+    background-size: cover!important;
 filter: brightness(0.3) GRAYSCALE(1);
 margin-bottom: 20px;
 border-top: 3px solid;
