@@ -95,7 +95,8 @@ transition: .5s;
 
 div.left-menu {
  border:none!important;
-margin-top: 15px;
+ margin-top: 15px;
+ margin-bottom: 0px;
 }
 
 
