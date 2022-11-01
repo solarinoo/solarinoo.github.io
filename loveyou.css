@@ -1086,7 +1086,14 @@ color: #b16aaa50!important;
   left: 90%;
 }
 
-
+span.comments_count span::before {
+    font-size: 15px!important;
+}
+	
+span.comments_count a {
+    font-size: 15px!important;
+margin-right: -30px!important;
+}
 
 }
 /*---------------*/
