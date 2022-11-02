@@ -284,9 +284,9 @@ filter: grayscale(0);
     margin-left: 0px;
 }
 
-.comment-box__message-partial.comment-content {
+/*.comment-box__message-partial.comment-content {
 display:none;
-}
+}*/
 
 .sign {
     color: #505050;
