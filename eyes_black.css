@@ -4,6 +4,17 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 
 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    text-shadow: unset !important;
+ transition: .5s;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+    color:#89898960;
+transition: .5s;
+}
+
+
 div#app {
  background-color: #00000005!important;
 margin: auto;
