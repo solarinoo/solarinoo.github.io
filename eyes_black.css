@@ -4,18 +4,18 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 
 
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] [href="//wewewewewew.beon.fun/"] {
      font-size: 0px !important;
     text-shadow: unset !important;
 }
 
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"][href="//wewewewewew.beon.fun/"]:before { 
    content: '↑ Вверх ↑ ';
   color:  #646464;
    font-size: 15px !important;
  
 }
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before { 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"][href="//wewewewewew.beon.fun/"]:hover:before { 
     color:#89898960;
 }
 
