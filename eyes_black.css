@@ -9,7 +9,7 @@ font-family: 'Source Sans Pro', sans-serif;
  transition: .5s;
 }
 
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover { 
     color:#89898960;
 transition: .5s;
 }
