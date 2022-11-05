@@ -6,12 +6,10 @@ font-family: 'Source Sans Pro', sans-serif;
 
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
     text-shadow: unset !important;
- transition: .5s;
 }
 
-[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover { 
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before { 
     color:#89898960;
-transition: .5s;
 }
 
 
