@@ -165,7 +165,7 @@ box-shadow: -3px 3px 0px #000;
 margin: 0px 10px 0px !important;
 color: #878787;
 }
-.post-content {
+.post-content,  .comment-content  {
 min-height: 250px;
 }
 
