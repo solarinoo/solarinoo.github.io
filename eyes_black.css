@@ -3,6 +3,25 @@
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+.alert-success {
+ 
+  font-size: 15px;
+text-align:center;
+    color: #505050;
+    background-color: #0e0e0ef2;
+    border-color: #5050504a;
+   font-weight: bold;
+}
+
+.alert-success:after {
+content: ' По всем вопросам/помощь по дизингу - solarinoo.beon.fun/ шу, вэй';
+display:block;
+    font-size: 10px;
+    top: -65px;
+    margin-left:375px;
+    width: 400px;
+    font-weight: bold; 
+}
 
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]   {
      font-size: 0px !important;
@@ -165,7 +184,7 @@ box-shadow: -3px 3px 0px #000;
 margin: 0px 10px 0px !important;
 color: #878787;
 }
-.post-content,  .comment-content  {
+.post-content   {
 min-height: 250px;
 }
 
@@ -343,58 +362,55 @@ border:none;
 
 /*плеер*/
 
- div#fnplayer-slider {
-    height: 2px;
-    background: #646464;
-    margin-right: 10px;
-}
 
-
-#beon-fnplayer {
-    height: 10px;
-    width: 95%;
-    display: flex;
-    align-items: center;
-    margin: auto;
-}
-
-
-div#beon-fnplayer {
-     padding-top: 11px;
-    padding-bottom: 6px;
-    background: #000;
+ div#beon-fnplayer {
+     padding-top: 10px;
+    padding-bottom: 10px;
+    background: #0000;
 }
 
 #fnplayer-slider > span {
     font-size:0px!important;
 }
 
+#fnplayer-slider {
+    height: 2px!important;
+    background-color: #333333!important;
+    flex-grow: 1;
+    position: relative;
+}
 #fnplayer-slider-inner {
     height: 2px!important;
     width: 2%;
-    background-color: #646464!important;
+    background-color: #000000!important;
 }
 
-
 #fnplayer-volume-mask {
-    border-color: #000 transparent  transparent transparent!important;
+   border:none!important;
 }
 
 #fnplayer-volume-inner {
     width: 100%;
-    background-color: #646464!important;
-    height: 10px;
-    background-color: #646464!important;
+    height:2px!important; 
+    background-color: #333333!important;
 }
 
+#fnplayer-volume {
+    display: flex;
+    align-items: flex-end;
+    height: 2px!important; 
+    width: 30px;
+    flex-direction: row;
+    background-color: #000000;
+}
 
 #fnplayer-stop {
     border: 0;
-    background:  #646464!important;
+    background:  #333333!important;
 }
 
 #fnplayer-play {
-    border-color: transparent transparent transparent #646464!important;
+    border-color: transparent transparent transparent #333333!important;
 }
 
 
@@ -404,7 +420,7 @@ div#beon-fnplayer {
 div#app {
     width: 100%!important;
    padding: 0 0%!important; 
-border-left:  unset!important;
+    border-left:  unset!important;
     border-right:  unset!important;
 }
 
@@ -436,5 +452,26 @@ border: 1px solid #64646430;
 .menu__item:hover {
     color: #646464;
 }
+ span.comments_count span::before {
+    font-size: 15px!important;
+ 
+}
+     
+span.comments_count a {
+    font-size: 15px!important;
+margin-right: -30px!important;
+}
 
+.post-avatar img,
+.left-menu__unread-message img {
+  width:80px!important;
+}
+
+.fas, .far, .tag_bar > * {
+    font-size: 0.8rem!important;
+}
+
+.alert-success:after {
+    margin-left: -40px!important;
+}
 }
