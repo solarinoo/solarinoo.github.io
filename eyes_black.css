@@ -164,7 +164,7 @@ border: 1px solid #64646420;
 .post-title-date  {
     font-size: 0.7rem;
     color: grey;
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
 
 }
 
@@ -186,6 +186,10 @@ color: #878787;
 }
 .post-content   {
 min-height: 250px;
+}
+
+ .comment-content {
+    padding-bottom: 30px;
 }
 
 .post-title {
