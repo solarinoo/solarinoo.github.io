@@ -3,8 +3,13 @@
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+
+.text-center img {
+    filter: grayscale(1) drop-shadow(10px 4px 6px black);
+}
+
+
 .alert-success {
- 
   font-size: 15px;
 text-align:center;
     color: #505050;
