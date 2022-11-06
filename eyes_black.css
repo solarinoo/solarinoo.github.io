@@ -298,7 +298,9 @@ border-radius:30px!important;
 }
 
 
-input {
+input,
+button.btn.btn-secondary, 
+button.btn.btn-primary {
     background: #646464;
     color: #fff;
     border: none;
@@ -309,7 +311,9 @@ input {
    transition: 0.4s;
 }
 
-input:hover {
+input:hover,
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover {
     color: #fff;
     background-color: #000;
    transition: 0.4s;
