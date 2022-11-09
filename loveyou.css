@@ -4,6 +4,18 @@ font-family: 'Kelly Slab', cursive;
 font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
+
+
+
+.left-menu-text span {
+color:#b16aaa;
+}
+
+::selection {
+color:#fff;
+background: #b16aaa;
+}
+
 .imagefsme {
 	max-width:70%!important;
 }
