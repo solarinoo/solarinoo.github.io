@@ -7,6 +7,11 @@ font-family: 'Ubuntu Mono', monospace;*/
 
 
 
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #b43988!important;
+}
+
+
 .left-menu-text span {
 color:#b16aaa;
 }
