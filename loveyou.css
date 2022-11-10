@@ -425,8 +425,8 @@ height: auto;
 }
 
 body {
-background: url(https://i.postimg.cc/Hnt7QJ1v/eees.png)  no-repeat fixed ,
-url(https://i.postimg.cc/RVXHhnRN/ee.png)  no-repeat 170% 110% fixed;
+background: url(https://i.ibb.co/r3w6RSR/eees.png)  no-repeat fixed ,
+url(https://i.ibb.co/qxFrPpn/ee.png)  no-repeat 170% 110% fixed;
 background-size: cover, auto;
 background-blend-mode: lighten;
 }
@@ -489,7 +489,7 @@ right: 79%;
 
 a.navbar-brand {
     font-size: 0px;
-    background: url(https://i.postimg.cc/vHmVhy7N/1111-1.png) no-repeat left/ auto 135%;
+    background: url(https://i.ibb.co/RP6PNvK/1111-1.png) no-repeat left/ auto 135%;
     width: 65px;
     height: 45px;
 margin-left: 30px;
@@ -497,7 +497,7 @@ transition: 0.5s;
 }
 
 .navbar-brand:hover {
-   background:  url(https://i.postimg.cc/x1JbrP4G/22.png) no-repeat left/ auto 135%;
+   background:  url(https://i.ibb.co/jGBDhQy/22.png) no-repeat left/ auto 135%;
 transform: rotate(35deg);
 transition: 0.5s; 
 } 
