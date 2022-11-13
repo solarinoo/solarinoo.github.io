@@ -382,7 +382,7 @@ transition-delay: 0.3s;
 }
 
 .bg-white:hover  ul.navbar-nav.ml-auto{
- height: 40px;
+ height: 42px;
 transition: 0.4s;
 transition-delay: 0.3s;
 }
