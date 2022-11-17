@@ -4,8 +4,8 @@ font-family: 'Exo 2', sans-serif; */
 
 
 .left-menu__unread-message img.flag {
-height:12px;
-width:18px;
+height:12px!important;
+width:18px!important;
 }
 
 
