@@ -16,13 +16,6 @@ div#footer,script+div,div#app+div+[style="text-align: center"]  {
 }
 
 body.bodybg {
-    margin: 0;
-    font-family: Nunito,sans-serif;
-    font-size: .9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #212529;
-    text-align: left;
     background:url(https://i.pinimg.com/564x/06/53/4e/06534ec6bed36907fd94a05be8248cc7.jpg) no-repeat right top 
          fixed,
                       url(https://i.imgur.com/6VeJuom.jpg) no-repeat left bottom fixed, #f3f3f3;
