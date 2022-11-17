@@ -434,8 +434,8 @@ content: ' По всем вопросам/помощь по дизингу - sol
 display:block;
     font-size: 10px;
     top: -65px;
-    margin-left:185px;
-    width: 400px;
+    margin:auto;
+    max-width: 500px;
     font-weight: bold; 
 }
 
