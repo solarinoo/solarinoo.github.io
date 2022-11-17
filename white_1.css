@@ -533,7 +533,6 @@ font-size:12px;
 .pagination {
     position: fixed;
     display: block;
-    padding: 1px;
     right: 0;
     line-height: 2.5;
     bottom: 15px;
