@@ -64,6 +64,10 @@ font-weight: bold;
     color: #212529;
 }
 
+.emj-dropdown-content {
+    width: 50%;
+}
+
  [src="//beon.fun/i/offline.png"],
 [src="//beon.fun/i/online.png"],
 [src="//beon.fun/i/design-off.png"],
