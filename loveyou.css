@@ -221,6 +221,7 @@ display: block;
 background: linear-gradient(90deg, #b43988 0%, transparent);
 margin-left: 133px;
 padding-left: 5px;
+padding-top: 2px;
 color: #fff;
 text-decoration: none;
 z-index: 4;
