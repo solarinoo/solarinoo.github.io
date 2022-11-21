@@ -6,8 +6,8 @@ div#app {
 	padding-bottom: 0;
 }
 
-div#footer, div#app+div+[style="text-align: center"], body > div:nth-child(19) {
-font-size:0;
+div#footer,script+div,div#app+div+[style="text-align: center"]  {
+    font-size: 0;
 }
 
 
