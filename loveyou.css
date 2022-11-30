@@ -5,6 +5,15 @@ font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
 
+.left-menu__user-notification {
+font-family: 'Ubuntu Mono', monospace;
+width:100%;
+background-color: #564987;
+padding: 10px;
+margin-bottom: 20px;
+border: 2px solid #b16aaa;
+color:#b16aaa;
+}
 
 .left-menu__user-notification a {
 color:#b16aaa;
