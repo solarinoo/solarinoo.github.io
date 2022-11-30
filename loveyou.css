@@ -6,6 +6,9 @@ font-family: 'Ubuntu Mono', monospace;*/
 /*upd*/
 
 
+.left-menu__user-notification a {
+color:#b16aaa;
+}
 
 .liked .fas, .reposted .fas, .bookmarked .fas {
     color: #b43988!important;
@@ -366,7 +369,7 @@ font-weight: bold;
 font-size:8px;
 }
 
-.left-menu__user-notification, .left-menu__unread-message {
+.left-menu__unread-message {
 font-family: 'Ubuntu Mono', monospace;
 width:100%;
 background-color: #564987;
