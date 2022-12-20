@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Finlandica&family=Pattaya&display=swap');
 
+.small-text {
+    color: #6f607d;
+}
+
+
 div#app {
 padding: 1.4%; 
 margin: auto;
