@@ -3,6 +3,11 @@
 font-family: 'Comfortaa', cursive;*/
 
 
+.small-text {
+    color: #ffffff;
+}
+
+
 div#app {
 width: 55%;
 background-color:#fff;
