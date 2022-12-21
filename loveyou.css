@@ -1069,9 +1069,9 @@ display:none;
     box-shadow: none!important;
 }
 
-/*.post-avatar [href="//solarinoo.beon.fun"]:before {
-display:none;
-}*/
+.post-avatar [href="//solarinoo.beon.fun"]:before {
+color:#b16aaa;
+}
 
 .content { 
 background: url(),#564987!important;
