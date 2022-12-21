@@ -758,13 +758,13 @@ form.messageform p, form.messageform div {
 
 
 .post-avatar [href="//solarinoo.beon.fun"]:before {
-content: 'муж';
-font-family: 'Ubuntu Mono', monospace;
-font-size: 15px;
-color: #fff;
-    display: block;
-    max-width: 50px;
-    margin:auto;
+   content: 'муж';
+   display: block;
+   max-width: 25px;
+   margin:auto;
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 15px;
+   color: #fff;
 }
 
  .post-content [href$="/unsubscribe"],
@@ -1072,7 +1072,11 @@ display:none;
 .post-avatar [href="//solarinoo.beon.fun"]:before {
 color:#b16aaa!important;
 }
-
+	
+.small-text {
+    color:#b16aaa!important;
+}
+	
 .content { 
 background: url(),#564987!important;
 }
@@ -1118,8 +1122,8 @@ color: #b16aaa50!important;
 
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before { 
     position: absolute;
-  bottom:auto!important;
-  left: 90%;
+    bottom:auto!important;
+    left: 90%;
 }
 
 span.comments_count span::before {
