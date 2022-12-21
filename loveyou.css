@@ -1070,7 +1070,7 @@ display:none;
 }
 
 .post-avatar [href="//solarinoo.beon.fun"]:before {
-color:#b16aaa;
+color:#b16aaa!important;
 }
 
 .content { 
