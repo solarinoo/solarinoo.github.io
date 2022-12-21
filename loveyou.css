@@ -1015,16 +1015,15 @@ color:#b16aaa80!important;
 }
 
 
-.post-content,   .comment-content {
-width: 95%!important;
-padding: 5px!important;
+.post-content, .comment-content {
+    width: 95%!important;
+    margin: 10px 10px 20px!important;
+    padding: 5px!important;
     position: static!important;
     background: white!important;
 }
 	
-.post-content .comment-content {
-width: 100%!important;
-}
+
 	
 .comment-content {
     width: 100% !important;
@@ -1149,6 +1148,10 @@ margin-right: -30px!important;
 .comment-box i.fas {
     margin-left: 0px!important;
 }
+	
+.comment-base .post-opt {
+    margin-left: 0px!important;
+}	
 	
 }
 /*---------------*/
