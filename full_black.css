@@ -371,6 +371,7 @@ a.navbar-brand:hover {
 } 
 
 .container {
+ max-width: 1500px;
  margin-left: -95px;
 margin-top: 10px;
 }
@@ -389,8 +390,7 @@ transition-delay: 0.3s;
 }
 
 .bg-white:hover  ul.navbar-nav.ml-auto{
- /*height: 42px;*/
- height: 46px;
+height: 42px;
 transition: 0.4s;
 transition-delay: 0.3s;
 }
