@@ -2,6 +2,9 @@
 /*font-family: 'Zen Antique', serif;- меню
 font-family: 'Comfortaa', cursive;*/
 
+[src="//beon.fun/i/logo2.png"] {
+    display:none;
+}
 
 .small-text {
     color: #ffffff;
