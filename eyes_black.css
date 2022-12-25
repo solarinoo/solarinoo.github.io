@@ -3,6 +3,9 @@
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+[src="//beon.fun/i/logo2.png"] {
+    display:none;
+}
 
 .text-center img {
     filter: grayscale(1) drop-shadow(10px 4px 6px black);
