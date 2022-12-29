@@ -808,6 +808,7 @@ a.navbar-brand {
 }
 
 .container {
+ min-width:0px! important;
     margin-left: 0px!important;
     margin-top: 0px!important;
 }
@@ -827,5 +828,6 @@ a.navbar-brand {
 /*.alert-success:after {
     margin-left: -40px!important;
 }*/
+
 
 }
