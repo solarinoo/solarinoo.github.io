@@ -7,6 +7,23 @@ font-family: 'Source Sans Pro', sans-serif;
     display:none;
 }
 
+::selection {
+    background:#505050;
+    color: #fff;
+}
+
+.quotation {
+    border-left: 5px solid #383838;
+    border-radius: 0 10px 10px 0px;
+    max-width: fit-content;
+    padding-right: 10px;
+    color: #cdcdcd;
+    background: #1c1c1c;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+
 .text-center img {
     filter: grayscale(1) drop-shadow(10px 4px 6px black);
 }
