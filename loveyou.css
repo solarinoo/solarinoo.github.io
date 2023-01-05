@@ -5,6 +5,38 @@ font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
 
+a.messageform__taglinks {
+    background-color: #564886;
+    border-radius: 15px;
+    color:#fff;
+    padding:3px;
+}
+
+a.messageform__taglinks:hover {
+    background-color: #b16aaa;
+    color:#564886;
+    padding-right:15px;
+    transition: 0.5s;
+}
+
+form.messageform p, form.messageform div {
+    margin-top: 5px;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+}
+
+div#newpostform br,div#newpostform br+br+p {
+    display: none;
+}
+
+div#newpostform,.textareabg {
+    margin: 0px !important;
+    padding: 5px;
+    background: transparent;
+}
+
 .small-text {
     color: #ffffff;
 }
