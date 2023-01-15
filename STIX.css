@@ -1070,6 +1070,8 @@ flex-direction: column!important;
 .crumbs {
     position: static!important;
     background: #100101;
+    display: block!important;
+    font-size: 15px!important;
 }
 
 span.crumb-item {
