@@ -732,6 +732,17 @@ transition: all .3s linear;
 -moz-transition: all .3s linear; 
 }
 
+@media (max-width: 1024px) {
+
+div#app {
+    width: 1000px;
+}
+
+.container {
+    min-width: 1000px;
+}
+}
+
 
 @media (max-width: 700px) {
 
