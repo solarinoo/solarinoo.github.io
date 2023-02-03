@@ -149,9 +149,8 @@ display:none;
 
 .comment-content .comment-text {
     padding: 15px;
-    border-left: 1px solid #88888859;
-    border-right: 1px solid #88888859;
-    border-bottom: 1px solid #88888859;
+    background: white;
+    border: 1px solid #88888859;
 }
 
 
@@ -231,8 +230,23 @@ filter: drop-shadow(0px 0px 3px #8391b3);
 transition: 0.5s;
 }
 
+.comment-content .post-avatar img  {
+    filter: drop-shadow(0px 0px 0px #fff);
+    transition: 0.5s;
+}
+
+.comment-content .post-avatar img:hover {
+    filter: drop-shadow(0px 0px 3px #000);
+    transition: 0.5s;
+}
+
 .sign {
     background: #d7dbe4;
+    color: rgb(62 62 62);
+}
+
+.comment-content .sign {
+background: #fff;
     color: rgb(62 62 62);
 }
 
