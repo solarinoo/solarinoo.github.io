@@ -724,7 +724,7 @@ form.messageform p {
    
 div#beon-fnplayer { 
     padding: 10px;
-    background: #b5b5b54a;
+    background: linear-gradient(270deg, #d7dbe4 0%, white 25%, #d7dbe4);
     border: 2px solid #d7dbe4;
 }
 
