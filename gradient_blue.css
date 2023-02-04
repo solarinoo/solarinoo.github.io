@@ -10,7 +10,7 @@
 /*-основа-*/
  
 * {
-font-family: 'Vollkorn', serif; 
+font-family: 'Vollkorn', serif;  
 }
 
 div#footer, div#app+div+[style="text-align: center"], body > div:nth-child(18) {
@@ -294,9 +294,9 @@ color: #8391b3;
 
 /*-меню-*/
 
-
-
 .left-menu {
+    position:sticky;
+    top:-80%;
     width: 28%;
     padding: 0px 0% 2% 1%!important;
     overflow-x: hidden;
@@ -316,17 +316,6 @@ div.left-menu {
 }
 
 
-  .blog__iread, .community__moders,  .blog__last-comments, .community__members {
-    max-height: 48px;
-    overflow: hidden;
-    transition: .4s;
-    transition-delay: 3s;
-}
-
-  .blog__iread:hover, .community__moders:hover,  .blog__last-comments:hover, .community__members:hover {
-    max-height: 430px;
-    transition: .4s;
-} 
 
 
 h3.left-menu-text {
@@ -724,7 +713,7 @@ form.messageform p {
    
 div#beon-fnplayer { 
     padding: 10px;
-    background: linear-gradient(270deg, #d7dbe4 0%, white 25%, #d7dbe4);
+    background: #b5b5b54a;
     border: 2px solid #d7dbe4;
 }
 
