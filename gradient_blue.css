@@ -295,8 +295,6 @@ color: #8391b3;
 /*-меню-*/
 
 .left-menu {
-    position:sticky;
-    top:-80%;
     width: 28%;
     padding: 0px 0% 2% 1%!important;
     overflow-x: hidden;
