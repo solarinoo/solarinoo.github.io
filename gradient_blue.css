@@ -113,10 +113,11 @@ font-size:0px;
 display:none;
 }
 
-[style="text-align: center"]:before {
+div#footer:before {
     content: 'Вопросы/помощь c дизайном - solarinoo.beon.fun/';
     display: block;
     font-size: 10px;
+    text-align: center;
     margin-top:-10px;
 }
 
