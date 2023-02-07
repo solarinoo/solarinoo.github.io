@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
  
+.left-menu__gift img {
+    width: 90%;
+    padding: 3px;
+}
 
 ::selection {
     background: #8391b3;
