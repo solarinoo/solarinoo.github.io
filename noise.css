@@ -373,6 +373,11 @@ filter: saturate(0.4);
 filter: saturate(1);
 }
 
+.left-menu__gift img {
+   filter: saturate(0.4);
+    width: 90%;
+}
+
 /*------------------------*/
  
 /*-вверх-*/
