@@ -382,8 +382,9 @@ filter: saturate(1);
  
 /*-вверх-*/
 
- .bg-white {
-    background-color: #fff0;
+.bg-white {
+    background: url(https://i.ibb.co/X3kZGwN/image.png) repeat fixed;
+    /* background-color: #fff0; */
 }
 
 @media (min-width: 1200px) {
