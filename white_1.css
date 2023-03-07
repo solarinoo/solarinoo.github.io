@@ -4,6 +4,15 @@
 
 
 
+.m2 {
+    font-size:0;
+}
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .info_container {
     background: #fff;
     border-radius: 10px;
