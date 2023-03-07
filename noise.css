@@ -3,7 +3,10 @@
 font-family: 'Tenor Sans', sans-serif; */ 
   
  
- 
+ /*upd*/
+.m2 {
+    margin-top: -10px;
+}
 /*-основа-*/
  
 div#footer, div#app+div+[style="text-align: center"], body > div:nth-child(18) {
