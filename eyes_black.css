@@ -3,6 +3,10 @@
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+.m2 {
+    font-size: 0;
+}
+
 [src="//beon.fun/i/logo2.png"] {
     display:none;
 }
@@ -129,7 +133,6 @@ a.navbar-brand {
     background: url(https://i.postimg.cc/SR2KWY0K/image.png) no-repeat left/ auto 85%;
     width: 55px;
     height: 45px;
-margin-left: -50px;
 }
 
 .navbar-brand:hover {
