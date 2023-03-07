@@ -5,6 +5,10 @@ font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
 
+.m2 {
+    font-size: 0;
+}
+
 .pagination-goto {
     color: #b16aaa;
     margin-right: 10px;
