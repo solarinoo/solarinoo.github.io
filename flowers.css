@@ -29,13 +29,12 @@ color: #6f607d;
 font-family: 'Finlandica', sans-seri;
 }
 
-
 .navbar-brand {
-color: #747474!important;
-font-size:25px!important;
-background-size: auto 190%;
-background-position: 1px;
-font-family: 'Pattaya', sans-serif;
+    color: #dfdfdf!important;
+    font-size: 25px!important;
+    background-size: auto 190%;
+    background-position: 1px;
+    font-family: 'Pattaya', sans-serif;
 }
 
  nav.navbar {
