@@ -4,6 +4,10 @@ font-family: 'Exo 2', sans-serif; */
 
 
 /*-------*/
+.m2 {
+    font-size: 0;
+}
+
 .btn {
     display: contents;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
