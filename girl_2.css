@@ -8,7 +8,9 @@ font-family: 'Open Sans', sans-serif;
   height: 18px!important;
     width: 12px!important;
 }
-
+.m2 {
+    font-size: 0;
+}
 /*--------------------*/
 
 div#app {
