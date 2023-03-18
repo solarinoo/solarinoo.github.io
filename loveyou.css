@@ -4,7 +4,9 @@ font-family: 'Kelly Slab', cursive;
 font-family: 'Ubuntu Mono', monospace;*/
 
 /*upd*/
-
+span.post-title-date+span {
+font-size:0px;
+} 
 .m2 {
     font-size: 0;
 }
@@ -272,7 +274,7 @@ transition: 0.5s;
 }
 
 .post-title-date {
-padding-left:8px;
+padding-left:0px;
 color: #fff;
 text-decoration: none;
 transition: 0.5s;
