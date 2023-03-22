@@ -8,7 +8,7 @@ font-family: 'Vollkorn', serif;*/
 div#app {
     padding: 0;
 }
- 
+  
 div#footer, div#app+div+[style="text-align: center"], [id="page__rendertime"] {
 font-size:0;   
 } 
@@ -675,7 +675,11 @@ ul.menu__box {
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
     position: static!important;
 }
-
+ 
+[href="#footer"]:before {
+    left: 90px!important;
+}
+ 
 a.navbar-brand:before  {
     position: absolute!important;
     right: 0px!important; 
