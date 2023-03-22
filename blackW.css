@@ -3,7 +3,6 @@
 font-family: 'Vollkorn', serif;*/ 
  
 
-
 /*основа*/ 
  
 div#app {
@@ -42,11 +41,13 @@ a:hover, span[data-target="#deleteconfirmmodal"]:hover {
     width: calc(75vw - 250px);
     max-width: 950px;
     margin-left: 500px;
+    /* margin: auto; */
     background: black;
 }
 
 .bg-white {
     position: relative;
+ /*   width: calc(82vw - 400px);*/
     margin-left: 300px!important;
     background: #00000000;
 }
@@ -127,9 +128,9 @@ div#footer:before {
     background-color: #000000;
     width: 350px;
     text-align: center;
-    height: 95%;
+    height: 90%;
     position: fixed;
-    top: 35px;
+    top: 85px;
     bottom: 0;
     left: 50px;
     overflow-y: auto;
@@ -420,7 +421,7 @@ button.btn.btn-primary:hover {
     font-size: 30px;
     position: absolute;
     color: #b1b1b150;
-    left: 100px;
+    left: -300px;
     top: 10%;
     transition: 0.3s;
 }
@@ -440,7 +441,7 @@ color: #b1b1b1!important;
     font-size: 30px;
     position: absolute;
     color: #b1b1b150;
-    left: 400px;
+    left: 0;
     margin-left: 0px;
     transition: 0.3s;
 }
