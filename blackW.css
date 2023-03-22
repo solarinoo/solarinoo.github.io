@@ -42,13 +42,11 @@ a:hover, span[data-target="#deleteconfirmmodal"]:hover {
     width: calc(75vw - 250px);
     max-width: 950px;
     margin-left: 500px;
-    /* margin: auto; */
     background: black;
 }
 
 .bg-white {
     position: relative;
- /*   width: calc(82vw - 400px);*/
     margin-left: 300px!important;
     background: #00000000;
 }
@@ -136,6 +134,10 @@ div#footer:before {
     left: 50px;
     overflow-y: auto;
     box-sizing: border-box;
+}
+
+ .left-menu::-webkit-scrollbar {
+    width: 0px;
 }
 
 div.left-menu {
