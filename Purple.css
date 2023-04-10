@@ -183,11 +183,6 @@ background: url(https://i.ibb.co/0yqSfMB/img-67666.png) no-repeat;
     font-size: 0px;
 }
 
-#app > main > div.left-menu > div.blog__about > div:nth-child(2) {
-   font-size: 12px;
-    text-align: center;
-}
-
 .blog__about h3.left-menu-text  {
  display: none!important;
 }
