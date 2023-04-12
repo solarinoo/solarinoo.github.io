@@ -5,7 +5,9 @@ font-family: 'Comfortaa', cursive;*/
 [src="//beon.fun/i/logo2.png"] {
     display:none;
 }
-
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
+font-size:0;
+}
 .small-text {
     color: #ffffff;
 }
