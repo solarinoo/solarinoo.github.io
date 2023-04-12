@@ -3,6 +3,10 @@
 font-family: 'Source Sans Pro', sans-serif;
 */
 
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
+font-size:0;
+}
+
 .m2 {
     font-size: 0;
 }
