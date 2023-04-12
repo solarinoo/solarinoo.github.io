@@ -15,7 +15,7 @@ div#app {
     padding: 0;
 } 
 
-div#footer, div#app+div+[style="text-align: center"],  body > div:nth-child(19), #app > div:nth-child(4) {
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"],  body > div:nth-child(19), #app > div:nth-child(4), div#page__rendertime.p-1  {
 font-size:0;
 }
 
