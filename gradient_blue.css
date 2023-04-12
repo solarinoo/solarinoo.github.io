@@ -19,7 +19,7 @@
 font-family: 'Vollkorn', serif;  
 }
 
-div#footer, div#app+div+[style="text-align: center"], body > div:nth-child(18) {
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
 font-size:0;
 }
 
