@@ -25,7 +25,7 @@ background-size: contain;
 }
 
 
-div#footer, div#app+div+[style="text-align: center"] {
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
 font-size:0;
 }
 
