@@ -5,9 +5,9 @@
 /* основа */
  
 
-div#footer, div#app+div+[style="text-align: center"], body > div:nth-child(18) {
-font-size:0;    
-} 
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
+font-size:0;
+}
 
 * {
 font-family: 'Gentium Book Plus', serif;
