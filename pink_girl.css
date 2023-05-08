@@ -800,14 +800,7 @@ border:none!important;
 
 /*-----*/
 
-@media (max-width: 768px) {
-
-.post-avatar img { 
-    height: 40px; 
-    width: 40px;
-    object-fit: cover; 
-}
-}
+ 
 
 @media (max-width: 700px) {
 
