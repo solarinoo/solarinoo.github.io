@@ -436,6 +436,9 @@ a.menu__item {
  
 /* посты */ 
 
+.content h1 {
+    margin-top: 10px;
+}
 
 .post-content, .comment-content {
    padding: 20px;
