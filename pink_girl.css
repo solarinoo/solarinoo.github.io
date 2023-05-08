@@ -803,7 +803,7 @@ border:none!important;
 @media (max-width: 768px) {
 
  .left-menu > div {
-     padding: 05px;
+     padding: 0px;
 }
 .post-avatar img { 
     height: 60px; 
