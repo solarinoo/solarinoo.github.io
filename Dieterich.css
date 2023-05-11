@@ -768,6 +768,11 @@ border:none!important;
 
 @media (max-width: 700px) { 
 
+ 
+.datebg {
+    margin-top: 8px!important;
+}
+
 div#app {
     padding: 2%!important;
 }
@@ -833,14 +838,14 @@ padding-right: 0px!important;
  .comment-content .post-title-user {
     margin-left: 0px!important;
 }
+  
 .post-content, .comment-content {
-    padding: 0!important;
-margin: 10px 0px 0px!important;
-
+    padding: 10!important;
+   margin: 10px 0px 0px!important;
 }
+  
 .post-text {
     padding: 10px!important;
-    margin: 0px 0px 10px!important;
 }
 
 h2 {
