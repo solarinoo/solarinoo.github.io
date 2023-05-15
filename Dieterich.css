@@ -365,9 +365,13 @@ p.quotation:before {
     height: 10px;
 }
 
+ [src="//i1.beon.fun/28/29/2928/77/675477/dfgd1.gif"].imagefsme {
+    filter: grayscale(0) opacity(1);
+}
+
 .post-avatar img {
     margin-left: 8px;
-    filter: grayscale(0.6) opacity(0.8);
+    filter: grayscale(0.1) opacity(0.8);
     box-shadow: 0px 0px 0px 2px #8f8f8f;
    transition: 0.3s;
 }
@@ -378,7 +382,7 @@ p.quotation:before {
 }
 
 img.imagefsme {
-    filter: grayscale(0.6) opacity(0.8);
+    filter: grayscale(0.3) opacity(0.8);
     transition: 0.2s;
 }
 
