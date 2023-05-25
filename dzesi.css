@@ -3,7 +3,10 @@
 font-family: 'Playfair Display', serif; 
 font-family: 'Roboto', sans-serif; */        
  
-
+::selection {
+    background: #b4aada;
+    color: #fff;
+} 
 
 
 /*основа*/
