@@ -8,6 +8,10 @@ font-family: 'Roboto', sans-serif; */
     color: #fff;
 } 
 
+/*upd*/
+[class="load_ignored_comments"] {
+ font-size:0;
+}
 
 /*основа*/
 
@@ -293,6 +297,7 @@ right:98px;
 .post-content .post-title-user, .comment-content .post-title-user {
     left: 80px;
     top: 27px;
+    max-width: 300px;
     position: absolute;
     font-size: 17px;
     color: #b4aada;
