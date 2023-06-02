@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif; */
 
 /*upd*/
 [class="load_ignored_comments"] {
- font-size:0;
+     display: none;
 }
 
 /*основа*/
