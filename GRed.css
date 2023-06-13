@@ -97,9 +97,7 @@ main.py-4 {
     max-width: 100%!important;
 }
 
-.post__mood, .post__musicplay, .post__wish, .post__tags-list {
-    color: #b0b0b0!important;
-}
+
 
 .post-opt {
     text-align: end;
