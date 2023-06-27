@@ -579,8 +579,8 @@ form.messageform p {
 /*плеер*/
 
 div#beon-fnplayer {
-    width: 100%;
-    margin: auto;
+    width: 100%!important;
+    margin: auto!important;
     padding: 10px;
     background: transparent;
     margin-top: -7px;
