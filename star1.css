@@ -82,7 +82,7 @@ padding-right: 25px;
 }
 
  
-a.-brand {
+a.navbar-brand {
     color: #ebebeb !important;
     font-size: 0px;
     background: url(https://i.postimg.cc/026G0Rtp/20fd0f5c632950198e9fe1d9962c8cd2.png) no-repeat left/ auto 85%;
@@ -268,7 +268,6 @@ text-transform: uppercase;
 .datebg {
     background-color: #000;
     padding: 3px;
-  margin-left: 800px;
    margin-top: 10px;
    margin-bottom: 2px;
     text-align:right;
