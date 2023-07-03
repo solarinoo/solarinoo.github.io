@@ -11,7 +11,9 @@ font-size:0;
 .small-text {
     color: #ffffff;
 }
-
+.m2 {
+    color: #000000;
+}
 
 div#app {
 width: 55%;
