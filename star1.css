@@ -538,5 +538,15 @@ background:transparent!important;
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #000000;
 }
-    
+   .menu__box {
+    top: 270px!important;
+    width: 300px!important;
+    height: 60%!important;
+    background-color: #000000!important;
+} 
+
+ .menu__item {
+    color: #fff!important;
+
+}
 }
