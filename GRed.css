@@ -168,7 +168,7 @@ display:none;
  [src="/i/online.png"],
 .user:before,
 .left-menu__unread-message,
-[action="/search"], .post-title-date+a, .sign, 
+[action="/search"], .post--date+a, .sign, 
 .blog_total_counter,
 .text-center img,
  [action="/search"], 
@@ -344,9 +344,14 @@ p.left-menu-text  {
     margin-top: 23px;
     left: 200px;
     position: absolute;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: 30px;
-    color:#c4c4c4;
+    color: #c4c4c4;
 }
+
  .post-avatar {
     padding: 10px;
     display: table;
