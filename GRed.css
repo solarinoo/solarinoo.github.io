@@ -400,7 +400,7 @@ color:#921010;
 color:#fff;
 }
 
-span.post-title-date+span, .post-title-date  {
+span.post-title-date+span, .post-title-date+a {
 font-size:0px;
 } 
 
