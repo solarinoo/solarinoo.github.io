@@ -406,6 +406,9 @@ span.post-title-date+span, .post-title-date+a {
 font-size:0px;
 } 
 
+.post-title-date {
+font-size:0px;
+}
 
 .quotation {
     border-left: 10px ridge #400505;
