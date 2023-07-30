@@ -804,7 +804,6 @@ font-size:0px!important;
     width: 0%;
     background-color: #676767;
     margin-top: 2px;
-    border: none!important;
 }
 
 #fnplayer-volume {
@@ -816,6 +815,7 @@ font-size:0px!important;
     height: 5px;
     width: 100%;
     background-color: #430101!important;
+    border: none;
 }
 
 #fnplayer-volume-mask {
