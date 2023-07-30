@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Exo+2&display=swap');  
+/*font-family: 'Alegreya SC', serif;
+font-family: 'Exo 2', sans-serif; */  
+ 
+#usermenu {
+    border-radius: 0 10px 10px;
+    padding: 10px;
+    display: none;
+    color: #fff;
+    position: absolute;
+    background-color: #000000;
+    top: -99999px;
+    border: 1px solid #666666;
+}
+.user-drop-menu {
+     margin-left: 0rem; 
+}
+ 
+.pagination {
+    float: none;
+    opacity: 0;
+    transition: .3s;
+} 
+
+.pagination:hover {
+    opacity: 1;
+    transition: .3s;
+}
+
+.mt-3, .my-3 {
+    margin-top: 0rem!important;
+}
+
+/*основа*/
+
+
+div#app {  
+   background: #000;
+    padding: 0%;
+    max-width: 950px;
+    min-width: 1200px; 
+    width: 98%;
+    height: 95%;
+}  
+  
+div#app {
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    border: 2px solid #1a1a1a;
+    /* backdrop-filter: brightness(0.2) grayscale(1); */
+}
+
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1, .text-center {
+font-size:0;
+}
+
+a, div, span[data-target="#deleteconfirmmodal"]  {
+    text-decoration: unset!important;
+   color:#b1b1b1;
+   transition: .3s;
+} 
+
+a:hover, span[data-target="#deleteconfirmmodal"]:hover {
+    text-decoration: unset!important;
+    color:#fff;
+    transition: .3s;
+}
+
+body.bodybg {
+     background: url(https://i.ibb.co/X3kZGwN/image.png) repeat  bottom fixed;
+}
+
+main.py-4 {
+    margin: auto;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    max-width: 900px;
+}
+
+span.post-title-date+span {
+font-size:0px;
+} 
+
+::selection {
+    background: #fff;
+    color: #000;
+} 
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+margin: auto; 
+}
+
+.comment-text+div  { 
+    position: sticky;
+    top: 100%;
+    margin-left: 35px;
+font-size: 12px;
+}
+
+.post-opt [style="font-size: 1rem;"] {
+    font-size: 13px!important;
+}
+
+.post-opt a, .post-opt span  {
+   position: relative; 
+   border-bottom:0px solid #28282800;
+    transition: .3s;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #fff!important;
+}
+
+ .blog__iread, .blog__last-comments, .pagination-goto,  .blog__gifts, .user:before, [src="//beon.fun/i/tag.png"], .tag:before, .comment-box h2, [href="/drafts"], .blog__read-me, [action="/search"], .blog__read-me,  .alert, .post-title-date,  .post-title-date+a,
+[class="flag"], [src="//beon.fun/i/offline.png"],
+[src="//beon.fun/i/online.png"],
+[src="//beon.fun/i/design-off.png"],
+[src="/i/blog.png"],
+[src="/i/user.png"],
+[src="/i/offline.png"],
+ [src="/i/online.png"],
+.user:before,
+.pagination-goto,
+.left-menu__friends,
+.blog_total_counter,
+.left-menu__unread-message img.flag,
+.text-center img  {
+display:none;
+}
+
+[href="#footer"], [onclick="window.scroll({top: 0,behavior: 'smooth'})"], [class="blog-subscribe"] {
+display:none!important;
+}
+
+/*-------------------*/
+
+/*посты*/
+
+.content {
+    width: 100%;
+} 
+
+ .comment-text {
+ min-height: 130px;
+}
+
+   .post-text {
+ min-height: 100px;
+}
+
+.post-text, .comment-text {
+    flex-grow: 1;
+    background: #000000d9;
+    padding: 10px;
+    color: #787878;
+    font-size: 14px;
+    margin-left: 26px;
+    background: #101010;
+    position: relative;
+    border-radius: 10px;
+}
+
+.post-text:before, .comment-text:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 100%;
+    top: 30px;
+    border-top: 12px solid transparent;
+    border-right: 24px solid #101010;
+    border-bottom: 12px solid transparent;
+}
+
+.post-content, .comment-content {
+    margin: 10px 10px 20px;
+}
+
+ .post-content .post-title-user { 
+    font-size: 1rem;
+    margin-left: 12px;
+}
+
+.post-title {
+font-family: 'Alegreya SC', serif;
+    display: block;
+    margin-right: 8px;
+    margin-bottom: -28px;
+    text-align: end; 
+}
+
+.comment-content .post-title-user {
+    font-size: 1rem;
+    margin-left: 140px;
+}
+
+h1 {
+    text-align: center;
+}
+.quotation {
+    border-left: 3px solid #484848;
+    background: #262626;
+    padding-left: 5px;
+    color: #bbb; 
+}
+
+
+.post-avatar [href="//asphodel.beon.fun"]:before {
+    content: 'жена';
+    display: block;
+    max-width: 40px;
+    margin:auto;
+    font-size: 15px;
+    color: #505050;
+}
+  
+.post-content:nth-child(2)  img.imagefsme{
+ filter:opacity(1);
+}
+
+.post-avatar img  {
+filter:  contrast(1.15) grayscale(1);
+transition: 0.5s;
+}
+
+   .post-avatar img:hover {
+filter:  contrast(1.15) grayscale(0);
+transition: 0.5s;
+}
+
+
+  img.imagefsme {
+ filter:opacity(0.2) grayscale(1);
+transition: 0.7s;
+}
+
+img.imagefsme:hover {
+  filter:opacity(1) grayscale(0);
+transition: 0.7s;
+}
+
+
+
+/*-----------------------*/
+
+/*меню и верх*/
+
+ .py-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-menu {
+    width: 100%;
+    padding: 0px 1% 2% 1%;
+    overflow-x: hidden;
+}
+
+div.left-menu {
+    border: none;
+}
+
+.left-menu > div {
+    text-align: center; 
+    border-bottom: 5px solid #1a1a1a;
+}
+
+.left-menu__unread-message img {
+display:none;
+}
+
+
+.left-menu , .post-text, .comment-text, .left-menu > div > h3,  
+.post-title-user {   
+font-family: 'Exo 2', sans-serif;  
+} 
+
+.left-menu > div > h3 {
+    font-weight: 100; 
+    color: #888!important;  
+     font-size: 15px;
+}
+
+.left-menu__user-notification.left-menu__unread-message {
+max-height: 25px;
+overflow: auto;
+transition-delay: 4s;
+}
+
+.left-menu__user-notification.left-menu__unread-message:active {
+max-height: 250px;
+transition-delay: 0s;
+}
+.left-menu__user-notification.left-menu__unread-message::-webkit-scrollbar {
+width: 0px;
+background-color: transparent;
+}
+
+h3.left-menu-text {
+background-color: #000!important;
+}
+
+.blog__about h3.left-menu-text  {
+ font-size: 0px!important;
+}
+
+.blog__about a, .blog__about div.left-menu-text  {
+    font-size: 0px;
+}
+.blog__about [href="/design/disable"]:before {
+    content: 'off design';
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.blog__about div.left-menu-text [href^="//beon.fun/users/"]:before {
+    content: 'about me';
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+ .blog__about:before {
+    content: '';
+    display: block;
+    height:380px;
+    background: url(https://i.ibb.co/8zp26wr/ASW-Kimetsu-no-Yaiba-Yuukaku-hen-01-1080p-HEVC-8-CC9-E487-mkv-snapshot-40-38-2021-12-0.jpg) no-repeat  center;
+    background-size: cover;
+    filter: brightness(0.3) grayscale(1);
+}
+
+/*--*/
+
+a.navbar-brand {
+font-size:0px;
+}
+
+.navbar-brand:before {
+    content: 'EXIT';
+    font-size: 25px;
+    color: #b1b1b1;
+    letter-spacing: 14px;
+}
+
+.bg-white { 
+    background: black;
+    border-bottom: 1px solid  #1a1a1a;
+}
+
+.pc-menu  a { 
+   color:  #b1b1b1!important;
+font-size:9px;
+transition: 0.5s;
+}
+
+
+
+.pc-menu  a:hover {
+color:#50505050!important;
+transition: 0.5s;
+}
+
+ul { 
+  font-size: 10px;
+}
+
+.navbar-expand-md .navbar-collapse {
+display: block !important;
+margin-left:  60px;
+}
+
+ul.navbar-nav.ml-auto {
+background:  #000;
+}
+
+
+ul.navbar-nav.ml-auto {
+height: 0px;
+overflow: hidden;
+transition: 0.4s;
+transition-delay: 0.3s;
+}
+
+.bg-white:hover  ul.navbar-nav.ml-auto{
+ height: 40px;
+transition: 0.4s;
+transition-delay: 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 15px;
+} 
+
+
+.m2 {
+    font-size: 0;  
+}   
+ 
+
+/*--------------*/
+
+.datebg {
+    font-weight: bold;
+    font-size: 11px; 
+    text-align: end;
+    color: #404040; 
+}
+   
+
+.avatar-select-list {  
+    background: transparent;  
+    text-align: center; 
+    height: 255px;  
+    width: 130px;
+    overflow-y: scroll; 
+}
+ 
+.avatar-select-label { 
+margin:2px;  
+width: 85px;
+border: 2px solid #505050;
+filter: brightness(0.3) grayscale(1); 
+ transition: 0.2s;
+}
+
+.avatar-select-label-selected {
+width: 100px;
+border: 5px solid #50505050;
+filter: brightness(1) grayscale(0);
+ transition: 0.2s;
+}
+
+span.crumb-item,span.pagination-goto {
+    display: none;
+}
+.crumb-item {
+    font-weight: 100;
+    color: #b1b1b1;
+}
+.crumbs  {
+   font-size: 15px;
+    color: #b1b1b1;
+}
+
+.textareabg {
+    background-color: #000000;
+}
+
+textarea {
+    min-width: 300px;
+    padding: 0.5%;
+    background: #101010;
+     border:none;
+    color: #b1b1b1;
+}
+
+
+div#newpostform br,div#newpostform br+br+p {
+    display: none;
+}
+ 
+span.emj-dropdown {
+    padding: 0px;
+}
+form.messageform p {
+    margin-bottom: 0px;
+}
+.container-fluid.mt-5 { 
+    margin-top: 0px !important;
+}
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+select,
+input ,
+.textareabg input[type="submit"],
+.left-menu-text input[type="text"],
+.left-menu-text input[type="submit"], 
+.btn-outline-primary,
+button.btn.btn-secondary, 
+button.btn.btn-primary {
+font-size: 12px;
+    background-color: #0e0e0ef2;
+    color: #b1b1b1;
+    border: 1px solid #262626;
+    transition: 0.5s;
+}
+ select:hover,
+input:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.left-menu-text input[type="text"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover {
+     background: #3c382f;
+    box-shadow: 0 0 4px #888, 0 0 10px #888, 0 0 90px #888;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.modal-body {
+    color: #b1b1b1;
+    position: relative;
+}
+
+.modal-content {
+    background: #000000;
+    border: 1px solid #88888859;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+
+.user_footer {
+    border: 1px solid #2c2c2c;
+} 
+
+.div_user_img {
+    width: 130px;
+    height: 185px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: table-cell;
+    text-align: center;
+    border-radius: 0;
+    background: #2828286b;
+}
+
+
+
+::-webkit-scrollbar {
+width: 3px;
+background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+width: 3px;
+background-color: #1a1a1a;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+background-color:#1a1a1a; 
+transition: all .3s linear;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear; 
+}
+
+
+
+
+/*плеер*/
+
+
+
+div#beon-fnplayer {
+ width: 100%;
+    padding: 15px;
+    background: #000;
+    border-top: 2px solid #161616;
+    border-bottom: 2px solid #161616;
+}
+  
+#beon-fnplayer {
+    height: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #cccccc;
+    margin: 2px;
+}
+ #fnplayer-slider > span {
+font-size:0px!important;
+}
+
+
+#fnplayer-slider {
+background-color: #50505050!important;
+}
+
+#fnplayer-slider-inner {
+    height: 10px;
+    width: 1%;
+    background-color: #505050;
+}
+
+
+ #fnplayer-stop {
+    border: 0;
+    background:  #50505050!important;
+margin-bottom: 1px;
+}
+
+#fnplayer-play {
+border-color: transparent transparent transparent #50505050!important;
+margin-bottom: 1px;
+}
+
+
+div#fnplayer-volume {
+    flex-direction: row;
+    background: url(https://i.postimg.cc/CKBHDDhG/23.png) no-repeat left /50%;
+
+    margin-left: 5px!important;
+}
+
+
+#fnplayer-volume-mask {
+border:none!important;
+}
+
+#fnplayer-volume-inner {
+width: 100%;
+background-color: #50505050!important;
+    margin-left: 5px;
+    margin-right: -10px;
+border: 1px solid #66666600;
+}
+
+
+@media (max-width: 1024px) {
+
+ div#app {
+    padding: 0%!important;
+     width: 100%!important;
+     height: 100%!important;
+     max-width: none!important;
+     min-width: 0!important;
+ 
+}
+
+}
+@media (max-width: 700px) {
+
+ div#app {
+    padding: 0%!important;
+     width: 100%!important;
+     height: 100%!important;
+     max-width: none!important;
+     min-width: 0!important;
+}
+.left-menu > div.mobile_open_menu > h3 {
+    font-weight: 100;
+    color: #888!important;
+     font-size: 15px;
+}
+ .post-avatar img {
+  width:73px!important;
+}
+ .blog__about:before {
+ display:none!important;
+}
+ .left-menu {
+    flex-flow: column;
+    display: flex;
+}
+
+.left-menu:before {
+    content: ' ';
+  display: block;
+    height:380px;
+    background: url(https://i.ibb.co/8zp26wr/ASW-Kimetsu-no-Yaiba-Yuukaku-hen-01-1080p-HEVC-8-CC9-E487-mkv-snapshot-40-38-2021-12-0.jpg) no-repeat  center;
+    background-size: cover;
+    filter: brightness(0.3) grayscale(1);
+}
+
+.comment-content .post-title-user {
+    margin-left: 117px!important;
+}
+ .post-content .post-title-user {
+    margin-left: 0px!important;
+}
+span.comments_count span::before {
+    font-size: 12px!important;
+}
+
+span.comments_count a {
+    font-size: 12px!important;
+margin-right: -20px!important;
+}
+.fas, .far, .tag_bar > * {
+    font-size: 0.8rem!important;
+    padding: 0rem!important;
+}
+ .col-12  {
+    padding-left: 0px; 
+    font-size: 0.64rem;
+}
+.avatar-select-list {
+    width:100%!important;
+}
+
+.left-menu__user-notification.left-menu__unread-message {
+max-height: 50px!important;
+
+}
+.bg-white:hover ul.navbar-nav.ml-auto {
+   display:none!important;
+}
+
+.menu__btn {
+    z-index: 5;
+}
+
+.menu__box {
+    background: #000000;
+    border: 1px solid #50505050;
+    width: 70%!important;
+    height: 85%!important;
+}
+
+
+.menu__btn > span::before, .menu__btn > span::after {
+ background-color: #000;
+    background: #b1b1b1;
+    height: 2px;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+ background-color: #b1b1b1;
+}
+
+.menu__box {
+ z-index:2;
+    background: #000000;
+    border: 1px solid #50505050;
+}
+.menu__item {
+    text-align: center!important;
+    color: #b1b1b1;
+  font-size: 12px!important;
+}
+.pagination {
+    float: right!important;
+    opacity: 1!important;
+}
+}
