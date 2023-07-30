@@ -30,6 +30,9 @@ div.crumbs {
     background-color: #111111;
 }
  
+#app > div:nth-child(4) > div {
+display:none;
+}
 
 /*основ*/
 
