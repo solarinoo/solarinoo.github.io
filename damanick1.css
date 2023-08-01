@@ -98,7 +98,7 @@ display:none;
 
 .row.w-100.mt-3   {
     position: absolute;
-    bottom: -82px;
+    bottom: -87px;
     left: -42px;
     right: 0;
     background: #f1c4ed;
@@ -162,7 +162,15 @@ display:none;
 position: relative;
 }
 
-.post-content, .comment-content {
+.post-content {
+    background: #cfc9eb;
+    padding: 8px;
+    padding-bottom: 75px;
+    box-shadow: 3px 3px #4a2c9e42;
+    border: ridge 3px #4a2c9e;
+    min-height: 0;
+}
+.comment-content {
     background: #cfc9eb;
     padding: 8px;
     padding-bottom: 70px;
@@ -170,7 +178,6 @@ position: relative;
     border: ridge 3px #4a2c9e;
     min-height: 0;
 }
-
 
  .comment-text {
     padding-bottom: 35px;
