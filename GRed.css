@@ -25,6 +25,24 @@ div.crumbs {
 }
 /*-----------*/
 
+/*апд*/
+
+#app > main > div.left-menu > div:nth-child(5),
+#app > main > div.left-menu > div:nth-child(6),
+#app > main > div.left-menu > div:nth-child(7),
+#app > main > div.left-menu > div:nth-child(8),
+#app > main > div.left-menu > div:nth-child(9),
+#app > main > div.left-menu > div:nth-child(10),
+#app > main > div.left-menu > div:nth-child(11),
+#app > main > div.left-menu > div:nth-child(12),
+#app > main > div.left-menu > div:nth-child(13),
+#app > main > div.left-menu > div:nth-child(14),
+#app > main > div.left-menu > div:nth-child(15),
+#app > main > div.left-menu > div:nth-child(16),
+#app > main > div.left-menu > div:nth-child(17),
+#app > main > div.left-menu > div:nth-child(18) {
+display:none;
+}
 
 #usermenu {
     background-color: #111111;
