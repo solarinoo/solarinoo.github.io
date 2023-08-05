@@ -797,6 +797,7 @@ font-size:0px!important;
     height: 4px;
     width: 100%;
     background-color: #ffccdf!important;
+    border: none;
 }
 
 #fnplayer-volume-mask {
