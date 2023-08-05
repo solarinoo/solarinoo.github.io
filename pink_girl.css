@@ -8,6 +8,18 @@
 
 /* upd */
 
+.new-comment-scroll-notice {
+    border: 1px solid #f57ca8;
+    box-shadow: 0px 0px 5px #888888;
+}
+
+.emj-dropdown-content {
+    width: 50%!important;
+    height: 8%!important;
+    background: #ffffff;
+    border: 3px solid #ffeff5;
+}
+
 .left-menu__gift img {
     width: 90%;
     padding: 3px;
