@@ -492,6 +492,7 @@ height: 350px;
 display: block;
  background: url(https://i.ibb.co/txT37pP/tumblr-static-50n4noe89mo0gco0okc40gwks.png) no-repeat center, #ffeff5;
 font-size:0;
+background-size: cover;
 }
 
 .post-title, h1 {
