@@ -491,6 +491,7 @@ button.btn.btn-primary:hover {
 .emj-dropdown-content {
     width: 50%;
     height: 15%;
+    max-height: 200px;
     background: #000;
     border: 2px solid #877d6633;
 }
