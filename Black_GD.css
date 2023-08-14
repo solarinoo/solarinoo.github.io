@@ -249,6 +249,7 @@ display:none;
 
 a.navbar-brand:before {
     content: "\eb96";
+    font-family:'cappuccicons';
     color: #ffffffde;
     font-weight: 100;
     letter-spacing: 8px;
