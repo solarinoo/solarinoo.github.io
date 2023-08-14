@@ -237,15 +237,23 @@ display:none;
     font-size: 0;
 }
 
-a.navbar-brand {
-    font-size: 0px;
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
 }
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(255 255 255 / 90%);
+    text-shadow: 0px 0px 20px #edca78e6;
+}
+
 a.navbar-brand:before {
     content: "\eb96";
     color: #ffffffde;
     font-weight: 100;
-    font-size: 35px;
-    font-family: 'cappuccicons';
+    letter-spacing: 8px;
+    float: left;
+     font-size: 25px; 
     text-shadow: 0px 0px 20px #edca78e6;
     transition: 0.3s;
 }
@@ -256,8 +264,6 @@ a.navbar-brand:hover:before {
 
 .navbar-brand:hover {
  text-shadow: 0px 0px 10px #ffffff50;
-font-family: 'cappuccicons';
-transform: rotate(-45deg);
 transition: 0.3s; 
 } 
 
