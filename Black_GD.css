@@ -476,7 +476,6 @@ button.btn.btn-primary:hover {
 }
 
 .avatar-select-label {
-    opacity: 0.4;
     margin: 2px;
     width: 95px;
     border:5px double #877d6633; 
@@ -486,9 +485,8 @@ button.btn.btn-primary:hover {
  
 
 .avatar-select-label-selected {
- opacity: 1;
   width: 100px;
-   border: 1px solid #000; 
+  border: 1px solid #000; 
   transition: 0.3s;
 }
 
