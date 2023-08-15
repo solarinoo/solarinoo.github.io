@@ -740,8 +740,11 @@ font-family: 'Rubik', sans-serif;
 
 [href="#footer"]:before {
     position: absolute;
-    margin-left: 100px!important;
+    margin-left: 40px!important;
     margin-top: -20px!important;
+}
+    .comment-text+div {
+    padding: 15px!important;
 }
     
 .small-text+div { 
