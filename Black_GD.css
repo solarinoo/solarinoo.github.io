@@ -151,7 +151,7 @@ h3.left-menu-text:before  {
     background: linear-gradient(180deg, #877d6621, transparent);
 }
 .left-menu > div {
-    background: linear-gradient(90deg, #877d662e, transparent);
+    background: radial-gradient(circle, #877d662e, #877d6600);
     margin-bottom: 25px!important;
 }
 
