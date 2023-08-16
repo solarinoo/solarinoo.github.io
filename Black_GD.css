@@ -147,9 +147,7 @@ h3.left-menu-text:before  {
     font-size: 20px;
 
 }
-.blog__about {
-    text-align: center;
-}
+ 
 .left-menu > div {
     background: radial-gradient(circle, #877d662e, #877d6600);
     margin-bottom: 25px!important;
