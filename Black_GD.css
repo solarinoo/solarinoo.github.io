@@ -148,7 +148,7 @@ h3.left-menu-text:before  {
 
 }
 .blog__about {
-    background: linear-gradient(180deg, #877d6621, transparent);
+    text-align: center;
 }
 .left-menu > div {
     background: radial-gradient(circle, #877d662e, #877d6600);
