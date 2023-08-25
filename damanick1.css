@@ -1095,4 +1095,8 @@ display:none;
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #4a2c9e;
 }
+
+    .sign {
+    font-size: 0!important;
+}
 }
