@@ -1,5 +1,9 @@
 @import url('https://solarinoo.github.io/White_B.css');
 
+.user_footer, .div_user_img {
+    border: 1px solid #fff;
+}
+
 .alert-success {
     color: #000!important;
 }
