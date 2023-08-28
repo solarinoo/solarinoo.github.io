@@ -1,0 +1,193 @@
+@import url('https://solarinoo.github.io/White_B.css');
+
+.alert-success {
+    color: #000!important;
+}
+
+div#footer:before {
+    color: #6b6b6b;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    color: #fff;
+}
+.quotation {
+    border-left: 3px solid #ffffff;
+    color: #fff;
+}
+.modal-content {
+    background: #000;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
+
+.load_ignored_comments {
+    border-bottom: 2px solid #fff;
+}
+::selection {
+    background: #5ec5fa;
+    color: #000;
+}
+.text-center img {
+    border: 2px solid #fff;
+}
+
+.blog__about [href="/design/disable"] {
+    color: #979797!important;
+}
+.avatar-select-label-selected {
+    border: 1px solid #fff;
+    transition: 0.3s;
+}
+
+ .textareabg {
+    background: #000;
+    border: 2px solid #ffffff;
+}
+.tag_bar > span:hover {
+    background: #fff;
+    color: #000;
+}
+
+#usermenu {
+    background-color: #000000;
+border: 1px solid #fff;
+}
+.left-menu__user-notification.left-menu__unread-message img+p {
+color: #fff;
+}
+
+.comment-content .fa-chevron-down:before {
+    color: #000;
+}
+.comment-content .post-title-user {
+    font-size: 1rem;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.comment-content {
+    background: #fff;
+}
+
+.comment-row {
+    background: #000;
+}
+.post-title {
+    border-bottom: 2px solid #fff;
+}
+
+a, div, span[data-target="#deleteconfirmmodal"] {
+    text-decoration: unset!important;
+    color: #fff;
+    transition: .3s;
+}
+a:hover, span[data-target="#deleteconfirmmodal"]:hover {
+    text-decoration: unset!important;
+    color:#a6a6a6;
+    transition: .3s;
+}
+
+main.py-4 {
+    background: #000;
+}
+
+body.bodybg {
+    background-color: #000000;
+}
+.post-avatar img {
+    border: 1px solid #fff;
+}
+
+.datebg {
+    margin: 30px 10px 20px;
+    padding-left: 5px;
+    font-weight: 100;
+    font-size: 12px;
+    /* text-align: end; */
+    color: #bcbcbc8f;
+}
+
+.post-content div, .comment-content div, .readertime {
+    color: #c1c1c1;
+}
+
+.post-content:after {
+    background: #fff;
+}
+
+.post-row {
+    border-left: var(--Answer-Line-Thickness) solid #fff;
+ 
+}
+
+h3.left-menu-text {
+    background: #000000!important;
+    color: #fff;
+}
+
+.left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text, .blog__gifts:hover h3.left-menu-text, .blog__iread:hover h3.left-menu-text, .blog__last-comments:hover h3.left-menu-text, .blog__read-me:hover h3.left-menu-text, .blog__tags:hover h3.left-menu-text, .community__members:hover h3.left-menu-text, .community__moders:hover h3.left-menu-text, .notifications__comments.left-menu__user-notification:hover h3.left-menu-text, .left-menu__user-notification.left-menu__unread-notifications:hover h3.left-menu-text {
+    background: white!important;
+    color: #000;
+    transition: 0.4s;
+}
+
+.blog__about h3.left-menu-text {
+    background: #fff!important;
+    color: #000;
+    outline: 2px solid #000000;
+}
+
+.bg-white {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+    z-index: 2;
+}
+
+/*плеер*/
+
+ 
+#fnplayer-slider {
+    height: 4px;
+    background-color: #fff!important;
+}
+
+#fnplayer-slider-inner {
+    height: 4px;
+    width: 0%;
+    background-color: #00000080;
+}
+
+#fnplayer-volume {
+    height: 4px;
+    background-color: #00000080;
+}
+
+#fnplayer-volume-inner {
+    height: 4px;
+    width: 100%;
+    background-color: #fff!important;
+   border: none;
+}
+
+ 
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #fff!important;
+    margin-right: -6px;
+}
+
+
+/*-----*/
+
+@media (max-width: 768px), (max-width: 700px) {
+.left-menu > div.mobile_open_menu > h3 {
+    background: #fff!important;
+    color: #000!important;
+    outline-offset: -4px;
+    outline: 2px solid #000000!important;
+}
+}
