@@ -10,7 +10,10 @@
     color: #fff;
 }
 
+.navbar-brand, .m2 {
+    font-size: 0;
 
+}
 /*-вверх i дата-*/
 
 .bg-white {
