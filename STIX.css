@@ -922,6 +922,7 @@ transition: 0.4s;
    height: 7px;
    background-color: #bf070750!important;
     margin-right: -10px;
+    border: none;
 }
 
 #fnplayer-volume-mask {
