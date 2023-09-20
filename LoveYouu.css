@@ -804,8 +804,8 @@ display:none;
 content: ' ';
     display: block;
     width: 300px;
-   margin-left: 114px;
-  background: url(https://64.media.tumblr.com/4baf55b7919a378fbd4af89f2b3a2b31/1dcfb85147b2347f-90/s2048x3072/eaab394d8de24c12aa155e478a1c5df296869e0c.jpg) no-repeat center;
+    margin-left: 114px;
+    background: url(https://i.ibb.co/x631qqx/Ey-NXIe-IVEAEQa-OP.jpg) no-repeat center;
     background-size: cover;
     height: 168.75px;
     border-radius: 4px;
@@ -836,7 +836,7 @@ border: none;
 }
 
 .left-menu__user-notification.left-menu__unread-message .post-title-date.pl-0 {
-font-size:0;
+  font-size:0;
 }
 
 .left-menu__user-notification.left-menu__unread-message img+p {
