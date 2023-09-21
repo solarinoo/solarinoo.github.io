@@ -789,6 +789,9 @@ h3.left-menu-text:after {
     position: absolute;
     top: 20px;
     left: 104px;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
     padding: 4px;
     background-color: #ffffff;
     border: 1px solid #6e8aeb;
