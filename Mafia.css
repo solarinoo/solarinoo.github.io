@@ -910,7 +910,57 @@ form.messageform p {
     color: #fff;
     font-size: 20px;
 }
+/*pleer*/
+div#beon-fnplayer {
+    background: #212121bd!important;
+    max-width: 90%;
+    margin: 10px auto 10px auto;
+    border: 1px solid #272727;
+}
 
+#fnplayer-slider > span { 
+font-size:0px!important;  
+}
+
+#fnplayer-slider {
+    background-color: transparent!important;
+}
+
+#fnplayer-slider-inner {
+    margin-top: 3px;
+    height: 3px;
+    box-shadow: inset -6px 0px 3px 0px #555;
+    border-radius: 30px;
+    width: 0%; 
+    background-color: #994747;
+}
+
+ 
+#fnplayer-volume {
+    background-color: transparent;
+}
+
+#fnplayer-volume-inner {
+    height: 3px;
+    margin-bottom: 4px;
+    box-shadow: inset -6px 0px 3px 0px #555;
+    border-radius: 30px;
+    background-color: #994747!important;
+    border: none;
+}
+
+#fnplayer-volume-mask {
+border:none!important;
+}
+
+ #fnplayer-stop {
+    display:none;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #994747!important;
+    margin-right: -6px;
+}
 
 ::-webkit-scrollbar {
     height: 15px;
