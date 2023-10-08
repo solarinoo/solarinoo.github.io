@@ -32,10 +32,6 @@ background-size: contain;
  filter: contrast(1.10) ;
 }
 
-/*body.bodybg  {
-background:url(https://i.ibb.co/mTHXbcK/222.jpg) no-repeat fixed, #000;
-background-size: cover;
-}*/
 
 body.bodybg  {
 background:url(https://i.ibb.co/GRNgyyY/2.jpg) no-repeat fixed, #000;
@@ -47,14 +43,6 @@ background-size: cover;
     padding: 50px;
 }
 
-/*main.py-4 {
-    padding-top: 0!important;
-    padding-bottom: 0!important;
-    padding-left: 40px;
-    margin: auto;
-  background: url(https://i.ibb.co/RjMfmhD/1.png) repeat fixed;
-    border: 1px solid #2b2b2b; 
-}*/
 main.py-4 {
     padding-top: 0!important;
     padding-bottom: 0!important;
