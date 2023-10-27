@@ -23,11 +23,17 @@ div.crumbs {
     font-weight: bold;
     font-family: 'STIX Two Text', serif;
 }
+
+
 /*-----------*/
 
 /*апд*/
 
- 
+ .post-text:only-child span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
 
 #usermenu {
     background-color: #111111;
