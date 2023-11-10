@@ -1038,7 +1038,7 @@ margin-right: -20px!important;
     color: #a5a5a5;
   font-size: 14px!important;
 }
-.post-title {
+.post-title, h1 {
     font-size: 20px!important;
 }
 .tag_bar > span:hover {
