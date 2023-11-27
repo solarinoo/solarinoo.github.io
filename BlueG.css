@@ -456,6 +456,22 @@ color: #78a4ef!important;
 display:none;
 }
 
+.left-menu__gift img {
+     filter: saturate(0.8);
+    width: 80%;
+    padding: 3px;
+     transition: .3s;
+}
+.left-menu__gift img:hover {
+     filter: saturate(1);
+     transition: .3s;
+}
+
+.left-menu__gift p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+}
 /*----------------*/
 
 /*4*/
