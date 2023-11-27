@@ -361,7 +361,7 @@ h3.left-menu-text:before {
 }
 
 
-.blog__about:hover h3.left-menu-text,
+.blog__about:hover h3.left-menu-text, .blog__gifts:hover h3.left-menu-text,
  [class="left-menu__user-notification left-menu__unread-message"]:hover h3.left-menu-text,
 [class="notifications__comments  left-menu__user-notification  "]:hover h3.left-menu-text,
 [class="left-menu__user-notification left-menu__unread-notifications"]:hover h3.left-menu-text,
@@ -380,7 +380,7 @@ cursor: pointer;
     transition: 0.4s;
 }
 
-.blog__about,
+.blog__about, .blog__gifts,
  [class="left-menu__user-notification left-menu__unread-message"],
 [class="notifications__comments  left-menu__user-notification  "],
 [class="left-menu__user-notification left-menu__unread-notifications"],
@@ -398,7 +398,7 @@ cursor: pointer;
     transition-delay: 5s; 
 }
 
-.blog__about:active,
+.blog__about:active, .blog__gifts:active,
  [class="left-menu__user-notification left-menu__unread-message"]:active,
 [class="notifications__comments  left-menu__user-notification  "]:active,
 [class="left-menu__user-notification left-menu__unread-notifications"]:active,
