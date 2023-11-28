@@ -406,7 +406,7 @@ cursor: pointer;
 .blog__read-me:active,
 .blog__tags:active,
 .blog__last-comments:active,
-.blog__gifts:hover,.blog__iread:active,
+.blog__iread:active,
 .community__members:active,
 .community__moders:active,
 .notifications__comments.left-menu__user-notification:active,
