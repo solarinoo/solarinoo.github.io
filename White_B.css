@@ -134,7 +134,7 @@ div.left-menu {
 .left-menu__friends.left-menu__friends_offline,
 .blog__read-me, .blog__tags,
  .blog__last-comments, 
-.blog__gifts,.blog__iread,
+.blog__gift,.blog__iread,
  .community__members, 
 .community__moders, 
 .notifications__comments.left-menu__user-notification,
@@ -149,7 +149,7 @@ div.left-menu {
 .blog__read-me:active,
 .blog__tags:active,
 .blog__last-comments:active,
-.blog__gifts:active,.blog__iread:active,
+.blog__gift:active,.blog__iread:active,
 .community__members:active,
 .community__moders:active,
 .notifications__comments.left-menu__user-notification:active,
@@ -170,7 +170,7 @@ h3.left-menu-text {
 
 
 .left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text,
-.blog__gifts:hover h3.left-menu-text,.blog__iread:hover h3.left-menu-text,
+.blog__gift:hover h3.left-menu-text,.blog__iread:hover h3.left-menu-text,
 .blog__last-comments:hover h3.left-menu-text,
 .blog__read-me:hover h3.left-menu-text,
 .blog__tags:hover h3.left-menu-text,
