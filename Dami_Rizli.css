@@ -4,7 +4,11 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 }
 
 
-
+ div.blog__about > div:nth-child(2) {
+padding-top:10px;
+text-align:center;
+  font-family: 'Source Code Pro', monospace;
+}
 
 /*1*/
 
