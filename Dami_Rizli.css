@@ -245,7 +245,7 @@ padding-left:10px;
 filter: brightness(0.5) drop-shadow(-2px 3px 4px #00000080);
 }
 
-.post-title, h1 {
+.post-title {
     font-size: 24px;
     display: block;
     letter-spacing: 0.5px;
@@ -258,6 +258,26 @@ filter: brightness(0.5) drop-shadow(-2px 3px 4px #00000080);
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(2deg, #0000 0%, #85858542 90%, #85858500, #00000000 100%);
     border-image-slice: 1;
+}
+h1 {
+    font-size: 24px;
+    display: block;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    text-align: end;
+    background: linear-gradient(38deg, transparent, #b7b7b712);
+    padding-right: 70px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(2deg, #0000 0%, #85858542 90%, #85858500, #00000000 100%);
+    border-image-slice: 1;
+}
+.content h1 {
+margin-right: 10px;
+}
+
+.post-content h1 {
+margin-right: -10px;
 }
 
 .post-text, .comment-text {
