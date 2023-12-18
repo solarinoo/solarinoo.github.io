@@ -17,7 +17,7 @@ font-size:0;
 font-family: 'Exo 2', sans-serif;
 }
 
-a.post-title, h3.left-menu-text, .crumbs,a.user.post-title-user,a.navbar-brand,.pc-menu a {
+a.post-title, h3.left-menu-text, .crumbs,a.user.post-title-user,.pc-menu a, h1 {
     font-family: 'Truetypewriter ';
 }
 
