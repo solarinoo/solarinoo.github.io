@@ -6,8 +6,12 @@ font-family: 'Sofia Sans Condensed', sans-serif;*/
 [src^="https://music.yandex.ru/iframe/#track/"] {
     filter: saturate(0.5) opacity(0.5);
 }
-
-
+.font-snowblue {
+    font-size: 0;
+}
+[src="/i/logo2-deer.png"] {
+    display:none;
+}
 /*1*/
 
 * {
