@@ -4,33 +4,6 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 }
 
 
- 
-.post-avatar::before {
-    content: "";
-    position: absolute;
-    margin-top: -29px;
-    margin-left: -30px;
-    transform: rotate(342deg);
-    background: url(https://i.ibb.co/9tCgVcy/pngwing-com.png);
-    background-size: cover;
-    z-index: 2;
-    height: 80px;
-    width: 80px;
-}
-div#app:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    background: url(https://i.ibb.co/165cGtT/1.gif);
-    height: 15px;
-    width: 74.5%;
-    margin: auto!important;
-    filter: drop-shadow(2px 1px 4px #00000090);
-    z-index: 99;
-}
-
 .post-title-user {
     margin-left: 43px;
 }
