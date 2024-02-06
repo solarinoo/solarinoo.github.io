@@ -717,6 +717,10 @@ img.imagefsme:hover {
   filter:saturate(1) brightness(1);
 transition: 0.7s;
 }
+
+[id="commentpreviewplace"] .post-title-date {
+    left: 176px; 
+}
 /*----------*/
 
 .crumb-item {
