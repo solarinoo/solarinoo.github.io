@@ -4,7 +4,7 @@
     width: 90%;
     padding: 3px;
 }
-.blog__gifts a.user {
+.blog__gifts p {
 font-size:0;
 }
 ::selection {
