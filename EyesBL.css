@@ -432,7 +432,7 @@ transition: 0.2s;
     position: sticky;
     top: 0;
     z-index: 6;
-    background-color: #000;
+ background-color: #000 !important;
     border-bottom: 1px solid #242424;
     width: 96%;
 }
