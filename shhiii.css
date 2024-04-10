@@ -1,9 +1,55 @@
 @import url('https://solarinoo.github.io/white_1.css');
 
 
-.fa-heart:before {
-    content: "\f004";
-    color: #810303;
+
+
+.text-center img {
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #3f3f3f;
+    margin-bottom: 5px;
+}
+
+
+/*----*/
+div#beon-fnplayer {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #5b0202;
+    border-radius: 10px;
+}
+#fnplayer-slider {
+    background-color: #2d2d2d !important;
+}
+
+#fnplayer-volume-inner {
+    width: 100%;
+    background-color: #430000 !important;
+    border-radius: 0;
+    border: none;
+}
+#fnplayer-stop {
+    border: 0;
+    background: #430000 !important;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+#fnplayer-play {
+    border-color: transparent transparent transparent #430000 !important;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+#fnplayer-slider-inner {
+    background-color: transparent !important;
+    border-right: 4px solid #430000;
+}
+/*---------*/
+
+ 
+[class="fas fa-heart"] {
+color:#810303;
 }
 .liked .fas, .reposted .fas, .bookmarked .fas {
     color: #ffffff !important;
@@ -23,6 +69,11 @@ body.bodybg {
 background-blend-mode: difference;
 }
 
+.pagination {
+    background: #000;
+    color: #abb4b9 !important;
+    border: 1px solid #bb030363;
+}
 .alert-success {
     font-size: 15px;
     text-align: center;
