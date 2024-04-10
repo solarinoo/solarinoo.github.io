@@ -379,3 +379,9 @@ span[data-target="#deleteconfirmmodal"]:hover {
     color: #fff;
     font-size: 18px;
 }
+
+@media (max-width: 700px) {
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #595959;
+}
+}
