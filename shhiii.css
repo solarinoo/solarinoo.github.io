@@ -382,6 +382,28 @@ span[data-target="#deleteconfirmmodal"]:hover {
 
 @media (max-width: 700px) {
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
-    background-color: #595959;
+    background-color: #690000;
+}
+[href="#footer"]:before {
+    color: #4c0000 !important;
+    left: 70% !important;
+    top: 15% !important;
+}
+
+.menu__box {
+    z-index: 2;
+    background: #000;
+    border: 1px solid #b5000050;
+}
+
+.menu__item {
+    font-family: 'Nunito';
+    text-align: center !important;
+    color: #747474;
+    font-size: 16px !important;
+}
+.left-menu > div.mobile_open_menu > h3 {
+    color: #bdbdbd !important;
+    font-weight: bold;
 }
 }
