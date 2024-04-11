@@ -453,11 +453,12 @@ font-family: Apple Chancery, cursive;
 .sign {
     color: #000;
 }
-
+ 
 .comment-box__message-partial.comment-content {
    font-size: 12px;
     padding: 5px;
    box-shadow: unset;
+	 color: #abb4b9!important;
 }
 
 h2 {
