@@ -472,4 +472,7 @@ span[data-target="#deleteconfirmmodal"]:hover {
 .left-menu__friends  {
 display:none!important;
 }
+    .pagination {
+    text-align: end!important;
+    }
 }
