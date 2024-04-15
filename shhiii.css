@@ -465,4 +465,8 @@ span[data-target="#deleteconfirmmodal"]:hover {
     color: #bdbdbd !important;
     font-weight: bold;
 }
+ 
+.left-menu__friends  {
+display:none!important;
+}
 }
