@@ -191,10 +191,10 @@ div.left-menu {
 }
 
 
- .left-menu:active:before {
+/* .left-menu:active:before {
  filter: grayscale(0);
 background-size: 120%;
-}
+}*/
 
 h3.left-menu-text {
     font-size: 15px!important;
