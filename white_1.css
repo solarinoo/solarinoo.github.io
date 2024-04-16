@@ -999,5 +999,7 @@ font-size: 10px!important;
 .left-menu__unread-message:before {
 display:none;
 }
-
+.left-menu:active:before {
+background-size: unset!important;
+}
 }
