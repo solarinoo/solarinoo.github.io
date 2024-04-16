@@ -400,8 +400,9 @@ span[data-target="#deleteconfirmmodal"]:hover {
 }
 .post-title, h1 {
     color: #7f7f7f;
+     max-width: fit-content;
 }
-
+ 
 .post-title:hover:before {
     content: '>';
     padding: 3px;
