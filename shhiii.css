@@ -475,4 +475,7 @@ display:none!important;
     .pagination {
     text-align: end!important;
     }
+     .left-menu:active:before {
+background-size: unset!important;
+}
 }
