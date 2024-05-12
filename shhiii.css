@@ -54,9 +54,9 @@ div#beon-fnplayer {
 [class="fas fa-heart"] {
 color:#810303;
 }
-.liked .fas, .reposted .fas, .bookmarked .fas {
+/*.liked .fas, .reposted .fas, .bookmarked .fas {
     color: #ffffff !important;
-}
+}*/
 
 #navbarSupportedContent > ul.navbar-nav.ml-auto > div > table > tbody > tr:nth-child(4) > td:nth-child(6) > ul > li > a > span {
 color: #720000!important;
