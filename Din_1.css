@@ -431,7 +431,7 @@ position:releative;
 }
  
 .post-content .post-avatar img  {
-    filter: grayscale(1);
+    filter: grayscale(0);
    transition: .5s;
 }
 
