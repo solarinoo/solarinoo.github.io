@@ -7,7 +7,8 @@ font-display:block;
 
 
 
-
+ 
+ 
 
 /*1*/
 
@@ -33,7 +34,10 @@ div#app {
 body.bodybg {
 background: url(https://i.ibb.co/wLqv8d7/2.png) repeat-y left fixed, url(https://i.ibb.co/26dnzTp/seamless-pattern-with-tropical-palm-leaves-vector-25047499.png) repeat-y right fixed;
 }
-
+ * {
+    outline: 0;
+}
+ 
 
 a,div {
 text-decoration: none!important;
