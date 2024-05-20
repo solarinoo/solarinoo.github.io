@@ -350,7 +350,7 @@ color:#000!important;
     text-transform: uppercase;
     letter-spacing: 0.7px;
     display: block;
-    max-width: fit-content;
+/*    max-width: fit-content;*/
     margin-bottom: 10px;
     margin-left: 10px;
 }
