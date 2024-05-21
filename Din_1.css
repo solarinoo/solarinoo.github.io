@@ -519,7 +519,7 @@ transition-delay: 0.2s;
 }
 
 .bg-white:hover ul.navbar-nav.ml-auto {
-max-height:150px;
+max-height:350px;
 background: #fff;
     border-left: solid 2px #158d87;
     border-top: solid 2px #158d87;
