@@ -924,4 +924,9 @@ div.left-menu {
     display: block;
     margin-bottom: 30px!important;
 }
+
+ body.bodybg {
+    margin: 0;
+    background: url() no-repeat left fixed, #070707;
+}
 }
