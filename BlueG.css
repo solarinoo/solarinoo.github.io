@@ -2,6 +2,9 @@
  
 
 
+.blog__last-comments h3{
+width: max-content;
+}
 
 
 
@@ -843,6 +846,27 @@ border:none!important;
 /*-----------*/
 
 
+ @media  (max-width: 2200px)  {
+
+ul.navbar-nav.ml-auto {
+    left: -2px;
+}
+
+}
+ @media  (max-width: 1920px)  {
+
+ul.navbar-nav.ml-auto {
+    left: -1px;
+}
+
+}
+@media  (max-width: 1520px)  {
+
+ul.navbar-nav.ml-auto {
+    left: -0.5px;
+}
+
+}
 @media (max-width: 1024px) {
 
  div#app {
