@@ -8,22 +8,21 @@ font-family: 'Exo 2', sans-serif; */
     font-size: 0;
 }
 
-.btn {
-    display: contents;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-}
-
- .btn-outline-primary {
-  color:#505050;
-    background-color: transparent;
-    background-image: none;
-    border-color: transparent;
-}
-
+ 
   .mb-3, .my-3 {
     margin-bottom: 0rem!important;
 }
+.emj-dropdown {
+    padding: 0px;
+}
 
+.emj-dropdown-content {
+ width: 50%;
+    height: 25%;
+    max-height: 200px;
+    background: #070707;
+    border: 1px solid #222;
+}
 /*----*/
 
 .left-menu__unread-message img.flag {
@@ -42,8 +41,8 @@ width:18px!important;
 
 div#app {
     padding: 0%;
-      width: 1200px; 
-    margin:  auto;
+    max-width: 1200px;
+    margin: auto;
 }
 
 div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"],   #app > div:nth-child(4), div#page__rendertime.p-1  {
@@ -493,7 +492,56 @@ border: 5px solid #50505050;
 filter: brightness(1) grayscale(0);
  transition: 0.2s;
 }
+div#newpostform br,div#newpostform br+br+p {
+    display: none;
+}
+ 
+span.emj-dropdown {
+    padding: 0px;
+}
+form.messageform p {
+    margin-bottom: 0px;
+} 
 
+.container-fluid {
+    padding-left: 0px;
+}
+
+.container-fluid .row {
+    margin-left: -15px!important;
+}
+
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+    padding-left: 0px!important;
+}
+
+
+
+
+input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary, input.btn.btn-info {
+font-family: 'Alegreya SC', serif;
+font-weight: bold;
+font-size:11px;
+background-color: #0e0e0ef2;
+color:#505050;
+ border: 2px solid transparent;
+margin-top: 2px;
+transition: 0.5s;
+}
+
+input:hover, select:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.textareabg input[type="button"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover,
+input.btn.btn-info:hover {
+background-color: #fff;
+color:#000;
+transition: 0.5s;
+}
 
 
 .textareabg { 
@@ -506,7 +554,7 @@ color:#201e21;
 
 textarea {
 border:none;
-margin-left: 10px;
+
 background:  #50505050;
  color:#d8d8d6;
 }
@@ -580,41 +628,7 @@ transition: .5s;
 
 
 
- select,
-input ,
-.textareabg input[type="submit"],
-.left-menu-text input[type="text"],
-.left-menu-text input[type="submit"], 
-button.btn.btn-secondary, 
-button.btn.btn-primary {
-font-family: 'Alegreya SC', serif;
-font-size:11px;
-background-color: #0e0e0ef2;
-color:#505050;
- border: 2px solid transparent;
-margin-top: 2px;
-transition: 0.5s;
-}
 
- select:hover,
-input:hover,
-.textareabg input[type="submit"]:hover,
-.left-menu-text input[type="text"]:hover,
-.left-menu-text input[type="submit"]:hover, 
-button.btn.btn-secondary:hover, 
-button.btn.btn-primary:hover {
-background-color: #fff;
-color:#000;
-transition: 0.5s;
-}
-
-.textareabg input[type="submit"] {
-margin: 10px!important;
-}
-
-.post-content [type=submit]   {
-    margin-left: 10px;
-}
 
  select {
     margin-left: 5px;
@@ -715,6 +729,11 @@ width: 100%;
 background-color: #50505050!important;
     margin-left: 5px;
     margin-right: -10px;
+    width: 100%;
+    background-color: #50505050 !important;
+    margin-left: 5px;
+    margin-right: -10px;
+    border: none;
 }
 
 
@@ -737,10 +756,13 @@ transition: all .3s linear;
 }
 
 @media (max-width: 1024px) {
+ 
+   div#app {
+        position: unset!important;
+    width: 100%!important;
+ 
+    }
 
-div#app {
-    width: 1000px;
-}
 
 .container {
     min-width: 1000px;
