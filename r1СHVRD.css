@@ -1,0 +1,1009 @@
+@font-face { font-family: "WENDY"; src: url('https://solarinoo.github.io/WENDY.TTF'); }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+
+
+
+
+/*1*/
+
+
+* {
+font-family: "Montserrat", system-ui;
+
+}
+
+div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1, .text-center {
+font-size:0;
+}
+
+div#app {
+    padding: 0;
+}
+div#app::before {
+    content: '';
+    height: 250px;
+    display: block;
+    background: url(https://i.ibb.co/Kx4ScBB/yearwalk-3-10-2014-6-16-02-pm-4344.png) repeat-x;
+    background-size: 80%;
+}
+
+body.bodybg {
+    background: url(https://i.ibb.co/8NRbNP1/photo-2024-08-04-01-11-40.jpg) fixed;
+    background-size: auto;
+}
+main.py-4 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+width: 80%;
+    max-width: 1550px;
+    margin: 50px auto;
+}
+
+.content {
+    width: 80%;
+    padding: 25px;
+}
+a, div  {
+    text-decoration: unset!important;
+   color:#dfdfdf;
+   transition: .4s;
+} 
+
+span[data-target="#deleteconfirmmodal"] {
+color:#333;
+  transition: 0.2s;
+}
+span[data-target="#deleteconfirmmodal"]:hover {
+color:#000;
+ text-decoration: unset!important;
+transition: 0.4s;
+}
+a:hover {
+    color: #fff;
+  text-decoration: unset!important;
+transition: 0.4s;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px ridge #444;
+    margin-right: -15px;
+    margin-left: 0px;
+align-items: flex-end;
+}
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+}
+.comment-text+div {
+    position: sticky;
+    top: 100%;
+    padding-left: 10px;
+   transition: .3s;
+}
+
+::selection {
+    background: #7f7f7f;
+    color: #000;
+}
+
+[class="fas fa-heart"] {
+    color: #43434370;
+}
+
+ .post-opt [style="font-size: 1rem;"] {
+    font-size: 14px!important;
+}
+  
+.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before  {
+    color: #333;
+   padding: 3px;
+   transition: .5s;
+}
+.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
+    color: #000;
+   cursor:pointer;
+   transition: .2s;
+}
+
+ [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
+    color: #333;
+   transition: .3s;
+}
+
+ [class="post-opt col-12 col-md-6"] span:hover,  .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
+    color: #000;
+   transition: .3s;
+}
+
+  .post-text a, .comment-text a {
+color:#333;
+    transition: .3s;
+}
+
+  .post-text a:hover, .comment-text a:hover {
+color:#000;
+margin-left:0px;
+    transition: .3s;
+}
+.tag:before {
+    content: '\eb02';
+    font-family: 'cappuccicons';
+    font-size: 10px;
+    margin-right: 2px;
+    color: #777;
+}
+span.comments_count span {
+font-size:0;
+}
+span.comments_count span:before {
+ content: "\f27a";
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+.comments_count a {
+    font-size: 12px!important;
+    padding-left: 5px;
+  color:#333;
+}
+span.post-title-date+span {
+font-size:0px;
+}
+
+[src="//beon.fun/i/offline.png"],
+[src="//beon.fun/i/online.png"],
+[src="//beon.fun/i/design-off.png"],
+[src="/i/blog.png"],
+[src="/i/offline.png"],
+[src="/i/user.png"],
+.pagination-goto,
+.left-menu__friends,
+.left-menu__unread-message img.flag,
+.post-content.blog_total_counter,
+.blog__read-me,
+.blog__last-comments,
+ .user:before {
+display:none;
+}
+/*-----*/
+
+
+
+/*2*/
+
+
+.left-menu {
+    width: 24%;
+min-width: 250px;
+}
+.left-menu {
+    flex-flow: column;
+    display: flex;
+}
+
+.left-menu:before {
+    content: ' ';
+    background: url(https://i1.beon.fun/10/88/8810/30/1173430/tumblr_n6j2c18ahz1rkkpoeo5_1280-copy-22.png) no-repeat center;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 2px ridge #000000;
+}
+.left-menu > div {
+    margin-bottom: 20px;
+    border: 2px ridge #000000;
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png) right, #bfbfbf;
+    background-size: cover;
+    background-blend-mode: difference;
+    box-shadow: inset 0px 0px 3px 1px #0a0a0a;
+}
+div.left-menu {
+    margin-right: 5px;
+    margin-bottom: auto;
+    padding: 0;
+    border: none; 
+}
+
+.left-menu > div > h3 {
+    margin: 0px;
+    padding-top: 3px;
+    font-size: 16px;
+    text-align: center!important;
+    text-transform: uppercase;
+    color: #ffffff;
+  transition: 0.4s;
+    background: url(https://i.ibb.co/8NRbNP1/photo-2024-08-04-01-11-40.jpg) repeat !important;
+    background-size: auto;
+    border-bottom: 4px groove #000000;
+}
+.left-menu a {
+   transition: .4s;
+}
+.left-menu a:hover {
+margin-left:3px;
+   transition: .4s;
+}
+
+  .blog__gifts,
+ [class="left-menu__user-notification left-menu__unread-message"],
+[class="notifications__comments  left-menu__user-notification  "],
+[class="left-menu__user-notification left-menu__unread-notifications"],
+.left-menu__friends.left-menu__friends_offline,
+ .community__members, 
+.community__moders, 
+.notifications__comments.left-menu__user-notification,
+.left-menu__user-notification.left-menu__unread-notifications  {
+    max-height: 28px;
+    overflow: hidden;
+    transition: 0.1s;
+    transition-delay: 5s; 
+}
+
+  .blog__gifts:active,
+ [class="left-menu__user-notification left-menu__unread-message"]:active,
+[class="notifications__comments  left-menu__user-notification  "]:active,
+[class="left-menu__user-notification left-menu__unread-notifications"]:active,
+.left-menu__friends.left-menu__friends_offline:active,
+.community__members:active,
+.community__moders:active,
+.notifications__comments.left-menu__user-notification:active,
+.left-menu__user-notification.left-menu__unread-notifications:active {
+    max-height: 500px;
+    transition: 0.1s;
+}
+
+.blog__about:hover h3.left-menu-text, .blog__gifts:hover h3.left-menu-text,
+ [class="left-menu__user-notification left-menu__unread-message"]:hover h3.left-menu-text,
+[class="notifications__comments  left-menu__user-notification  "]:hover h3.left-menu-text,
+[class="left-menu__user-notification left-menu__unread-notifications"]:hover h3.left-menu-text,
+.left-menu__friends.left-menu__friends_offline:hover h3.left-menu-text,
+.blog__tags:hover h3.left-menu-text,
+.community__members:hover h3.left-menu-text,
+.community__moders:hover h3.left-menu-text,
+.notifications__comments.left-menu__user-notification:hover h3.left-menu-text,
+.left-menu__user-notification.left-menu__unread-notifications:hover h3.left-menu-text {
+text-shadow: 0 0 3px white;
+cursor: pointer;
+    transition: 0.4s;
+}
+
+.blog__about.mb-3 {
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png) right, #bfbfbf;
+    background-size: cover;
+    background-blend-mode: difference;
+padding-bottom:10px;
+}
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    font-size: 12px;
+    color: #999;
+    overflow: auto;
+    line-height: normal;
+    max-height: 50px;
+    margin-top: 8px;
+} 
+
+ .left-menu__unread-message img {
+    margin-top: -8px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+/*---*/
+
+
+/*3*/
+
+.bg-white {
+    background: url(https://i.ibb.co/Kx4ScBB/yearwalk-3-10-2014-6-16-02-pm-4344.png) repeat-x fixed, url(https://i.ibb.co/8NRbNP1/photo-2024-08-04-01-11-40.jpg) fixed;
+       border: 3px solid #272727;
+    background-size: 80%, auto;
+    background-blend-mode: hard-light;
+}
+
+ul ul:hover {
+    list-style-type: circle;
+    color: #fff;
+transition: 0.3s;
+}
+.pc-menu a {
+color:#fff!important;
+}
+.pc-menu a:hover {
+text-shadow: 0 0 6px black;
+transition: 0.3s;
+}
+a.navbar-brand {
+    font-size: 0px;
+}
+
+.m2 {
+    font-size: 0;
+    color: #666666;
+}
+a.navbar-brand:before {
+    content: '';
+    display: block;
+    height: 75px;
+    width: 75px;
+    background: url(https://i.postimg.cc/CLN47wW4/Year-Walk-i-Tunes-App-Store-Icon.png);
+    background-size: contain;
+    transition: 0.4s;
+}
+a.navbar-brand:hover:before {
+    filter: drop-shadow(0px 0px 3px #000);
+        transition: 0.4s;
+}
+
+/*------*/
+
+
+/*4*/
+
+
+.post-title  {
+    margin-left: 115px;
+    letter-spacing: 0.5px;
+}
+.post-title:hover {
+    color: #777;
+transition: 0.4s;
+}
+  h1 {
+text-align: end;
+    margin-left: 115px;
+    letter-spacing: 0.5px;
+}
+.post-avatar img {
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+}
+
+
+.quotation {
+    border-left: 3px solid #7f7f7f;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 12px;
+    background: #1a1a1acc;
+    padding-left: 5px;
+    margin-left: 12px;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.post-title-user:hover {
+    color: #777;
+transition: 0.4s;
+}
+.small-text { 
+   color: #333;
+   text-align: right;
+    position: relative;
+}
+
+.small-text+div { 
+    margin-left: auto !important;
+    flex-direction: column; 
+    align-items: flex-end;
+}
+
+.container-fluid .postsiblings.row {
+    padding-left: 110px;
+    border-top: none;
+}
+.sign {
+    color: rgb(79 79 79);
+}
+ .post-title-date {
+    font-size: 0.7rem;
+    padding-left: 0; 
+}
+#usermenu {
+    border-radius: 0;
+     background: #bfbfbf;
+border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+}
+#usermenu a {
+color:#333;
+}
+.user-drop-menu {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+h2, .comment-box__message-partial.comment-content  {
+    font-size: 14px;
+    text-align: center;
+text-transform: lowercase;
+}
+.comment-base  {
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background-size: cover;
+    padding: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #333;
+}
+
+.post-content, .comment-content {
+    margin: 10px 10px 20px;
+min-height: auto;
+}
+.post-row .post-text  {
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background-size: cover;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #333;
+}
+.comment-base .post-content .post-text   {
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background-size: cover;
+    padding: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #333;
+}
+
+ .comment-content .comment-base {
+    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background-size: cover;
+    padding: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #333;
+}
+ .comment-text {
+    color: #333;
+    font-size: 13px;
+}
+div.post-text.comment-text {
+    background: url( );
+    background-size: cover;
+    padding: 0px;
+    border: unset;
+    box-shadow: unset;
+}
+
+
+/*-----*/
+
+
+.datebg {
+    margin: 10px 10px 20px;
+    padding-left: 5px;
+    font-weight: bold;
+    text-align: end;
+    font-size: 10px;
+    color: #a7a7a7;
+}
+.datebg:after {
+    content: '';
+    height: 14px;
+    width: 20px;
+    display: block;
+    float: inline-end;
+    margin-left: 4px;
+    background: url(https://i.postimg.cc/Fs73Nwfb/Year-Walk-i-Tunes-App-Store-Icon.png) no-repeat;
+    background-size: contain;
+}
+.datebg:before {
+    content: '— ';
+    margin-right: 5px;
+}
+.pagination {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 280px;
+    text-align: center;
+    float: unset;
+    margin-right: 12px;
+    font-size: 12px;
+}
+
+ .pagination a {
+ padding-left:3px;
+}
+
+ 
+#app > div:nth-child(2) > span, .crumbs [href="/"]  {
+font-family: "WENDY";
+}
+ .crumbs [href="/p"] > span {
+    font-family: "WENDY" ;
+}
+
+
+.crumbs [href="/p"] {
+    color: #272727;
+}
+.crumbs  span {
+  color:#272727;
+}
+div.crumbs {
+    position: absolute;
+    top:75px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.crumbs {
+    font-size: xxx-large;
+    color: #272727;
+    padding:0;
+}
+
+
+.crumbs [href="/"] {
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 70px;
+    padding: 5px;
+    color: #272727;
+}
+ 
+.crumb-item {
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-size: 70px;
+    padding: 5px;
+    color: #272727;
+}
+
+ 
+.py-4+.crumbs {
+display:none;
+}
+
+
+.crumbs [href="/"] > span {
+    font-family: "WENDY";
+}
+
+ 
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    font-size: 0px;
+    text-shadow: unset !important;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: '\e922';
+    font-family: 'cappuccicons';
+    font-size: 20px;
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    color: #272727;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    background: #b7b7b7;
+    line-height: 1.5;
+padding-left: 6px;
+    padding-top: 1px;
+    right: 20px;
+    bottom: 67px;
+    z-index: 8;
+    transition: 0.3s;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before { 
+color: #fff!important;
+background:#000;
+  transition: 0.3s;
+}
+
+ [href="#footer"] { 
+    font-size: 0px;
+}
+
+[href="#footer"]:before {
+    content: '\e91f';
+    font-family: 'cappuccicons';
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    color: #272727;
+    right: 20px;
+    bottom: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    background: #b7b7b7;
+    padding-left: 6px;
+    padding-top: 1px;
+    z-index: 7;
+    transition: 0.3s;
+}
+[href="#footer"]:hover:before { 
+color: #fff!important;
+background:#000;
+  transition: 0.3s;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+}
+.emj-dropdown {
+    padding: 0px;
+}
+
+.emj-dropdown-content {
+    width: 50%;
+    height: 15%;
+    max-height: 200px;
+    background: #494949;
+      border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+}
+
+.tag_bar {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.tag_bar > span {
+    display: inline-block;
+    min-width: 15px;
+ 
+}
+
+.tag_bar > span:hover {
+    color:#ffffff60;
+  transition: 0.3s;
+}
+
+[class="user_processed user"], [class="adduser_users"] [href="#"] ,[href="/p/photo-library"] {
+    color: #333;
+}
+.modal-body {
+    color: #333;
+    position: relative;
+}
+
+.modal-content {
+   background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background-size: cover;
+    padding: 15px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #333;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+.modal-title {
+    color: #333;
+}
+.modal-body > div {
+    color: #333;
+}
+.modal-footer {
+    border-top: none;
+}
+.user_footer, .div_user_img {
+  border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+} 
+
+input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary {
+    background: #494949;
+    color: #dfdfdf;
+    font-size: 13px;
+    cursor: pointer;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    transition: 0.4s;
+}
+
+input:hover, select:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.textareabg input[type="button"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.4s;
+}
+[placeholder="Поиск по дневнику"] {
+    background: #000;
+    color: #fff;
+}
+
+.avatar-select-list {
+    background: transparent;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.avatar-select-label {
+    filter: brightness(0.8);
+    margin: 2px;
+    width: 100px;
+    border: 3px solid #222;
+    transition: 0.2s;
+}
+
+ 
+.avatar-select-label-selected {
+filter: brightness(1);
+  width: 100px;
+border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+  transition: 0.2s;
+}
+
+.alert-success {
+    font-size: 15px;
+    text-align: center;
+    color: #afafaf;
+    background: #161616;
+    border: 1px solid;
+    border-color: #222;
+    font-weight: 900;
+}
+.textareabg {
+    background: transparent;
+    margin: 10px 10px 20px;
+    padding: 18px !important;
+}
+textarea {
+    background: url(https://i.ibb.co/Kx4ScBB/yearwalk-3-10-2014-6-16-02-pm-4344.png) repeat-x, url(https://i.ibb.co/8NRbNP1/photo-2024-08-04-01-11-40.jpg);
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px 1px #545454;
+    color: #fff;
+    background-blend-mode: hard-light;
+}
+div#newpostform br,div#newpostform br+br+p {
+    display: none;
+}
+ 
+span.emj-dropdown {
+    padding: 0px;
+}
+form.messageform p {
+    margin-bottom: 0px;
+} 
+
+.container-fluid {
+    padding-left: 0px;
+}
+
+.container-fluid .row {
+    margin-left: -15px !important;
+    border-top: none;
+}
+.container-fluid.mt-5 {
+    margin-top: 0px !important;
+    padding-left: 0px!important;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-right: 2px ridge #000000;
+    border-left: 2px ridge #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 15px;
+    width: 15px;
+    border-top: 2px ridge #000000;
+    border-bottom: 2px ridge #000000;
+    border-left: 2px ridge #000000;
+    border-right: 2px ridge #000000;
+    background-color: #222222;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+background-color:#f0f8ff6e;
+transition: all .3s linear;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear; 
+}
+
+@media (max-width: 1024px) {
+ .left-menu > div {
+    background: url(https://i.postimg.cc/RCT9XtLh/yearwalk-3-10-2014-6-16-02-pm-4344.jpg) right!important;
+        background-size: cover !important;
+}
+.bg-white {
+    background: url(), url()!important;
+
+}
+main.py-4 {
+    margin: 20px 0!important;
+    width: 100%!important;
+}
+.post-avatar img {
+    width: 80px!important;
+}
+div#app::before {
+    height: 215px!important;
+}
+.blog__about:active,
+ [class="left-menu__user-notification left-menu__unread-message"]:active,
+[class="notifications__comments  left-menu__user-notification  "]:active,
+[class="left-menu__user-notification left-menu__unread-notifications"]:active,
+.blog__tags:active,
+.blog__last-comments:active,
+.blog__gifts:hover,.blog__iread:active,
+.community__members:active,
+.community__moders:active,
+.notifications__comments.left-menu__user-notification:active,
+.left-menu__user-notification.left-menu__unread-notifications:active {
+     transition-delay: 0s!important; 
+    transition: 0s!important;
+}
+}
+
+@media (max-width: 700px) {
+
+
+#app > div:nth-child(2) > span, .crumbs [href="/"] {
+    font-size: 20px !important;
+}
+.crumbs [href="/"] {
+    font-size: 30px!important;
+}
+
+.menu__box {
+    background: url(https://i.ibb.co/8NRbNP1/photo-2024-08-04-01-11-40.jpg) repeat!important;
+    margin-top: 188px!important;
+    width: 70%!important;
+    height: 55%!important;
+        border: 1px solid #000 ;
+        box-shadow: 0px 0px 0px 1px #545454 ;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #a7a7a7;
+    }
+
+    .menu__item {
+        color: #dfdfdf;
+        text-align: center;
+    }
+
+
+.fas, .far {
+    font-size: 0.9rem!important;
+    padding: 0rem!important;
+}
+
+.tag_bar > * {
+    padding: 0rem!important;
+}
+
+ .col-12  {
+    padding-left: 8px; 
+    font-size: 0.80rem;
+}
+span.comments_count span::before {
+    font-size: 12px!important;
+}
+
+span.comments_count a {
+    font-size: 14px!important;
+margin-right: -20px!important;
+}
+
+
+    .post-title {
+        display: block!important;
+    }
+.post-avatar img {
+    width: 70px!important;
+}
+
+.blog__about:active,
+ [class="left-menu__user-notification left-menu__unread-message"]:active,
+[class="notifications__comments  left-menu__user-notification  "]:active,
+[class="left-menu__user-notification left-menu__unread-notifications"]:active,
+.blog__tags:active,
+.blog__last-comments:active,
+.blog__gifts:hover,.blog__iread:active,
+.community__members:active,
+.community__moders:active,
+.notifications__comments.left-menu__user-notification:active,
+.left-menu__user-notification.left-menu__unread-notifications:active {
+     transition-delay: 0s!important; 
+    transition: 0s!important;
+}
+
+ 
+
+.left-menu > div {
+    background: url(https://i.postimg.cc/RCT9XtLh/yearwalk-3-10-2014-6-16-02-pm-4344.jpg) right!important;
+        background-size: cover !important;
+}
+
+.post-title {
+    margin-left: 0!important;
+}
+
+.left-menu > div > h3 {
+      border: 1px solid #000!important;
+    box-shadow: 0px 0px 0px 1px #545454!important;
+}
+.left-menu:before {
+    background-size: cover!important;
+       border: 1px solid #000!important;
+    box-shadow: 0px 0px 0px 1px #545454!important;
+}
+.bg-white {
+    background: url(), url()!important;
+
+}
+.crumb-item {
+    font-size: 30px!important;
+}
+div.crumbs {
+        top: 30px !important;
+        font-size: 20px!important;
+    }
+div#app::before {
+    height: 111px!important;
+    background-size: contain!important;
+}
+div#app {
+    position: unset!important;
+    width: 100%!important;
+    min-width: unset!important;
+
+}
+main.py-4 {
+    width: 100%!important;
+    margin: 0!important;
+}
+ 
+.left-menu {
+    position: unset!important;
+}
+.content, .left-menu {
+    width: 100%!important;
+}
+.content {
+    padding: 0!important;
+}
+
+[src="//beon.fun/i/offline.png"],
+[src="//beon.fun/i/online.png"],
+[src="//beon.fun/i/design-off.png"],
+[src="/i/blog.png"],
+[src="/i/offline.png"],
+[src="/i/user.png"],
+.pagination-goto,
+.left-menu__friends,
+.left-menu__unread-message img.flag,
+.post-content.blog_total_counter,
+.blog__read-me,
+.blog__last-comments,
+ .user:before {
+display:none!important;
+}
+
+
+}
