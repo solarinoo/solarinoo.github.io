@@ -153,9 +153,9 @@ div#footer:before {
 }
 div.left-menu {
     padding: 10px;
+    padding-top: 30px;
     border: none;
 }
-
 h3.left-menu-text {
     font-size: 0 !important;
 }
