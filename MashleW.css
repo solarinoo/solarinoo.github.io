@@ -147,7 +147,7 @@ div#footer:before {
 .left-menu {
     width: 23%;
     min-width: 300px;
-    margin-left: 45px;
+    margin-left: 50px;
     padding: 0px 1% 2% 1%;
     overflow-x: hidden;
 }
