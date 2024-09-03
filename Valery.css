@@ -229,7 +229,26 @@ select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg inpu
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
 }
+#fnplayer-slider {
+    height: 4px;
+    background-color: #80b47c !important;
+}
 
+#fnplayer-play {
+    border-color: transparent transparent transparent #80b47c !important;
+    margin-right: -6px;
+}
+
+ 
+#fnplayer-volume-inner {
+ 
+    background-color: #80b47c !important;
+ 
+}
+.text-center img {
+  
+    border: 2px solid #80b47c ;
+}
 
 @media (max-width: 700px) {
     .left-menu > div.mobile_open_menu > h3 {
