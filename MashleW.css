@@ -206,6 +206,7 @@ display:none;
 }
 .post-text, .comment-base {
     padding: 10px;
+ min-height: 80px;
     padding-left: 15px;
     padding-right: 15px;
     color: #000000;
