@@ -727,7 +727,7 @@ background-size: contain !important;
 
 
 .crumbs:after {
-    position: relative;
+    /*position: relative;*/
     display: block;
     height: 550px;
     margin: auto;
