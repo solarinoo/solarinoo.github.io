@@ -289,7 +289,7 @@ div.left-menu-text, .left-menu-text div {
     border-bottom: 1px solid #ebebeb;
 }
 
-[class="notifications__comments  left-menu__user-notification  "], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification left-menu__unread-notifications"] {
+[class="left-menu__user-notification"], [class="notifications__comments  left-menu__user-notification  "], [class="left-menu__user-notification left-menu__unread-message"], [class="left-menu__user-notification left-menu__unread-notifications"] {
     order:1;
 }
 .blog__about:after {
