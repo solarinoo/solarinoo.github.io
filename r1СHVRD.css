@@ -861,7 +861,9 @@ div#app::before {
 
 @media (max-width: 700px) {
 
-
+.pagination {
+    top: 184px!important;
+}
 #app > div:nth-child(2) > span, .crumbs [href="/"] {
     font-size: 20px !important;
 }
@@ -950,7 +952,7 @@ margin-right: -20px!important;
 }
 .left-menu:before {
     background-size: cover!important;
-       border: 1px solid #000!important;
+    border: 2px ridge #000000!important;
     box-shadow: 0px 0px 0px 1px #545454!important;
 }
 .bg-white {
