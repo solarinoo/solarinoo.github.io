@@ -2,6 +2,21 @@
 /*font-family: 'Gentium Book Plus', serif;
   font-family: 'Phudu', cursive;*/
 
+
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #b7b7b7;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
+
 /* основа */
  
 
@@ -696,5 +711,16 @@ margin-right: -25px!important;
     background: black;
     width: 100%;
 }
-
+ 
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #b7b7b7;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
 }
