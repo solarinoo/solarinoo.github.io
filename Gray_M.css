@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Kurale&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
 
+.avatars-fullscreen-link-wrapper {
+    background: #070707;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 .iframe_listContainer__8Yb7E {
     background: #070707!important;
     border: 1px solid #222!important;
@@ -931,5 +941,17 @@ div.left-menu {
  body.bodybg {
     margin: 0;
     background: url() no-repeat left fixed, #070707;
+}
+         
+.avatars-fullscreen-link-wrapper {
+    background: #070707;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #afafaf;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
