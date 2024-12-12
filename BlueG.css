@@ -6,7 +6,17 @@
 width: max-content;
 }
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
 
+.avatars-fullscreen-link-wrapper {
+    background: #1d1e22;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 
 /*1*/
 
@@ -1041,5 +1051,15 @@ border: 1px solid #f0f8ff6e;
 .menu__item {
     color: #dfdfdf;
 }
-
+.avatars-fullscreen-link-wrapper {
+    background: #1d1e22;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #afafaf;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
 }
