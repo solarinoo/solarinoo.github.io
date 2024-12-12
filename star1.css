@@ -2,6 +2,19 @@
 /*font-family: 'Zen Antique', serif;- меню
 font-family: 'Comfortaa', cursive;*/
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+   
+}
+
 [src="//beon.fun/i/logo2.png"] {
     display:none;
 }
@@ -550,5 +563,22 @@ background:transparent!important;
  .menu__item {
     color: #fff!important;
 
+}
+
+         .avatars-fullscreen-link-wrapper {
+        position: relative!important;
+        width: 98% !important;
+    }
+
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
