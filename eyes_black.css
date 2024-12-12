@@ -6,7 +6,18 @@ font-family: 'Source Sans Pro', sans-serif;
 div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1 {
 font-size:0;
 }
-
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+   
+}
 .m2 {
     font-size: 0;
 }
@@ -510,5 +521,22 @@ margin-right: -30px!important;
 
 .alert-success:after {
     margin-left: -40px!important;
+}
+
+         .avatars-fullscreen-link-wrapper {
+        position: relative!important;
+        width: 98% !important;
+    }
+
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
