@@ -23,7 +23,19 @@ div.crumbs {
     font-weight: bold;
     font-family: 'STIX Two Text', serif;
 }
-
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #b0b0b0;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #111111;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 
 /*-----------*/
 
@@ -963,5 +975,17 @@ div#beon-fnplayer {
     width: 60px;
     height: 60px;
     object-fit: cover;
+}
+   
+.avatars-fullscreen-link-wrapper {
+    background: #111111;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #b0b0b0;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
