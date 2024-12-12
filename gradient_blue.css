@@ -11,7 +11,23 @@
     background: #8391b3;
     color: #fff;
 }
-
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #e2e3e7;
+      position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 85%;
+    margin: auto;
+}
 .m2 {
     margin-top: -10px;
 }
@@ -861,5 +877,20 @@ margin-right: -30px!important;
     height: 85%!important;
 }
 
- 
+      .avatars-fullscreen-link-wrapper {
+        position: relative!important;
+        width: 98% !important;
+    }
+
+.avatars-fullscreen-link-wrapper {
+    background: #e2e3e7;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #505050;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
 }
