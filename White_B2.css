@@ -1,5 +1,19 @@
 @import url('https://solarinoo.github.io/White_B.css');
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #000;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #fff;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
+
 .user_footer, .div_user_img {
     border: 1px solid #fff;
 }
@@ -193,5 +207,17 @@ h3.left-menu-text {
     color: #000!important;
     outline-offset: -4px;
     outline: 2px solid #000000!important;
+}
+
+    .avatars-fullscreen-link-wrapper {
+    background: #fff;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #000;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
