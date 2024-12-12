@@ -4,7 +4,17 @@ font-weight:normal;font-style:normal;
 font-display:block;
 }
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
 
+.avatars-fullscreen-link-wrapper {
+    background: #000000;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 /*1*/
 
 div#footer, .footer__infolinks.p-1, div#app+div+[style="text-align: center"], div#page__rendertime.p-1, .text-center {
@@ -1191,5 +1201,16 @@ background:#000!important;
  .community__members,
 .blog__read-me, .blog__gifts {
 display:none!important;
+}
+    .avatars-fullscreen-link-wrapper {
+    background: #070707;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #afafaf;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
