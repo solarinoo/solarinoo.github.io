@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Wix+Madefor+Display&display=swap');
 
-
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #fff;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 /*1*/
 
 * {
@@ -885,5 +897,16 @@ border: 1px solid #fff;
 .menu__item {
     color: #fff;
 }
-
+ 
+.avatars-fullscreen-link-wrapper {
+    background: #000;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #fff;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
 }
