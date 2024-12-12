@@ -4,7 +4,19 @@
     background: #8774d5;  
     color: #fff; 
 }  
- 
+ #avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #8774d5;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #fff;
+    /* border: 1px solid #cccccc; */
+    /* box-shadow: 1px 1px 1px #b8b8b8; */
+}
 /* Основа */
 
 div#app {
@@ -774,5 +786,15 @@ display:none!important;
 .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     background-color: #8774d5;
 }
-
+.avatars-fullscreen-link-wrapper {
+    background: #fff;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #8774d5;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
 }
