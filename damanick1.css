@@ -6,6 +6,19 @@ a.post-title, h1, h3.left-menu-text, .row.w-100.mt-3, .datebg, .crumb-item, .sig
     font-family: "12H30";
 }
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+.avatars-fullscreen-link-wrapper a {
+    color: #2e1195;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #cfc9eb;
+    box-shadow: 3px 3px #4a2c9e42;
+    border: ridge 3px #4a2c9e;
+}
 
 /* 1 */
 
@@ -1099,4 +1112,17 @@ display:none;
     .sign {
     font-size: 0!important;
 }
+
+    .avatars-fullscreen-link-wrapper {
+    background: #cfc9eb;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #2e1195;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
+
 }
