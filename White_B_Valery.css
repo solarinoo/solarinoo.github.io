@@ -1,0 +1,182 @@
+@import url('https://solarinoo.github.io/White_B.css');
+
+div#footer:before {
+   display:none;
+}
+
+.post-title {
+   text-shadow: 1px 1px #ffffff;
+}
+.datebg {
+    color: #0e0e0e;
+   text-shadow: 1px 1px #ffffff;
+}
+.crumbs span {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 900;
+    text-shadow: 1px 1px #ffffff;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:hover:before { 
+ color: #fff!important;
+  transition: 0.3s;
+}
+[href="#footer"]:hover:before { 
+color: #000!important;
+  transition: 0.3s;
+}
+.textareabg, input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary, .avatar-select-label, .tag_bar > span, .emj-dropdown-content {
+    border-color:#950002;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #950002;
+}
+::-webkit-scrollbar {
+    width: 17px;
+    height: 17px;
+    background-color: #950002;
+}
+::-webkit-scrollbar-thumb {
+    border: 8px solid #950002;
+    background-color: #fff;
+}
+
+.comment-content  .post-title-date {
+    font-size: 10px;
+    color: #fff;
+}
+.post-title-date+a {
+    display: inline;
+font-size:11px!important;
+color:#fff;
+}
+.comment-content {
+    background: #950002;
+}
+ h3.left-menu-text, .blog__about h3.left-menu-text {
+    background: #950002 !important;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    outline-offset: -4px;
+    outline: 2px solid #ffffff;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display', serif;
+}
+.left-menu__friends.left-menu__friends_offline, .blog__read-me, .blog__tags, .blog__last-comments, .blog__gifts, .blog__iread, .community__members, .community__moders, .notifications__comments.left-menu__user-notification, .left-menu__user-notification.left-menu__unread-notifications {
+    max-height: unset;
+    overflow: hidden;
+    transition: 0.1s;
+    transition-delay: 5s;
+}
+.post-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #950002;
+    letter-spacing: 1px;
+    position: relative;
+    display: block;
+    border-bottom: none;
+    max-width: fit-content;
+    margin-bottom: -24px;
+    margin-left: -3px;
+    font-family: 'Playfair Display', serif;
+}
+
+.post-content:after  {
+display:none;
+}
+.left-menu {
+    position: relative;
+    /* top: 10%; */
+    width: 22%;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.left-menu > div {
+    margin-bottom: 15px;
+    background: #fff;
+       border: var(--Answer-Line-Thickness) solid #950002;
+}
+main.py-4 {
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+    margin: 20px auto;
+    padding-left: 10px;
+    max-width: 1450px;
+    background: #ffffff00;
+}
+body.bodybg {
+    background: url(https://i.postimg.cc/HnPDhy1Q/red-white-paint-splatter-1031939-3671.jpg) no-repeat bottom right fixed, url(https://i.postimg.cc/bpCyN213/8b38d4a167ba88230c6dec3f6f2131bb.jpg) no-repeat top left fixed;
+    background-color: #0e0e0e00;
+}
+.post-row {
+   
+    margin-left: 2px;
+    padding-top: 50px;
+    padding-left: 20px;
+    background: #fff;
+    border: var(--Answer-Line-Thickness) solid #950002;
+}
+.post-content.blog_total_counter {
+    font-size: 0px;
+    background: url(https://i.postimg.cc/tTctt3WZ/7.jpg) no-repeat center top, #fff;
+    height: 445px;
+    background-size: cover;
+filter:none;
+}
+.bg-white {
+    position: sticky;
+    top: 0;
+    background-color: #940001;
+    height: 60px;
+    z-index: 2;
+}
+
+ul.navbar-nav.ml-auto {
+    position: unset;
+    letter-spacing: 0.2px;
+    top: 40%;
+    left: 0;
+    right: 0;
+    max-height: unset; 
+    /* overflow: hidden; */
+    margin-right: 174px;
+    z-index: 6;
+    transition: 0.3s;
+    transition-delay: 0.2s;
+    justify-content: center;
+}
+
+.bg-white:hover ul.navbar-nav.ml-auto {
+max-height:100px;
+background: #00000000;
+ 
+}
+
+.blog__about:hover h3.left-menu-text {
+    background: black!important;
+    color: #fff;
+    transition: 0.4s;
+}
+
+@media  (max-width: 768px), (max-width: 700px)  {
+.post-content.blog_total_counter {
+    height: 300px!important;
+}
+body.bodybg {
+    background: url(https://i.postimg.cc/ZYGYXWLr/i.jpg) repeat!important;
+    background-color: #0e0e0e00;
+}
+
+    .left-menu > div.mobile_open_menu > h3 {
+        background: #990000 !important;
+    }
+
+.left-menu > div {
+    border: none!important;
+}
+}
