@@ -179,4 +179,22 @@ body.bodybg {
 .left-menu > div {
     border: none!important;
 }
+
+   .menu__box {
+ background-color: #fff!important;
+    margin-top: 50px!important;
+    width: 70%!important;
+    height: 80%!important;
+border: 1px solid #950002 ;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #fff;
+}
+
+.menu__item {
+    color: #950002 ;
+font-size:15px;
+}
+
 }
