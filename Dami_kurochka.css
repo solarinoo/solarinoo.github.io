@@ -2,7 +2,23 @@
 @font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
 
 
+.fa-external-link-alt:before {
+    content: "♡";
+    font-size: 18px;
+    float: left;
+    line-height: 0.5;
+}
 
+#avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+
+.avatars-fullscreen-link-wrapper {
+    background: #f6d3d8;
+ 
+}
 
 /*1*/
 
@@ -1025,5 +1041,17 @@ main.py-4 {
 .post-content.blog_total_counter,
  .user:before, img.flag {
 display:none!important;
+}
+
+    .avatars-fullscreen-link-wrapper {
+    background: #f6d3d8;
+width: 98%;
+    margin: auto;
+}
+ .avatars-fullscreen-link-wrapper a {
+    color: #666;
+}
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
 }
 }
