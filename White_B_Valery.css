@@ -13,7 +13,7 @@ div#footer:before {
 }
 .crumbs span {
     color: #000000;
-    font-size: 15px;
+/*     font-size: 15px; */
     font-weight: 900;
     text-shadow: 1px 1px #ffffff;
 }
