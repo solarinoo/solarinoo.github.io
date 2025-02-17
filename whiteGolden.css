@@ -955,4 +955,11 @@ margin-right: -20px!important;
     color: #fb9d28;
         font-size: 15px;
 }
+
+    .crumbs {
+    width: 100%!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+    
 }
