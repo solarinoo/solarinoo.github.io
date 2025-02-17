@@ -135,12 +135,14 @@ color:#fb9d28 ;
 .left-menu__unread-message img.flag, .post-title-date+a, [class="flag"], .user:before, .left-menu-text img {
 display:none;
 }
- span.post-title-date+span {
+ 
+ span.post-title-date+span, [href="#footer"] {
 font-size:0px;
 }
 [href="#footer"],  [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
-display:none!important;
+display:none;
 }
+
 
 
 /*-------*/
@@ -960,6 +962,38 @@ margin-right: -20px!important;
     width: 100%!important;
     padding-left: 10px!important;
     padding-right: 10px!important;
+}
+
+    [style="float:right;cursor:pointer;text-shadow: 1px 1px 1px white;"] {
+display:unset;
+}
+[href="#footer"] {
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    text-transform: uppercase;
+    background: #000000e0;
+    position: fixed;
+    color: #adadad;
+    border-radius: 2px;
+    left: 10px;
+    bottom: 5px;
+    z-index: 7;
+}
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
+    text-shadow: unset !important;
+    padding-left: 0 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #000000e0;
+    font-size: 11px;
+    position: fixed;
+    color: #adadad;
+    left: 11px;
+    bottom: 30px;
+    border-radius: 2px;
+    z-index: 7;
 }
     
 }
