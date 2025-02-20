@@ -1067,6 +1067,21 @@ border:none!important;
 
 @media (max-width: 820px), (max-width: 700px) {
 
+[data-target="#deleteconfirmmodal"], a.post-subscribe, .small-text+div {
+font-size:13px;
+}
+[onclick="deleteComment(this)"]:before {
+    content: none!important;
+}
+.post-row .row.w-100.mt-3 {
+    position: unset!important; 
+     margin: 0px!important;
+     padding-right: 0px!important; 
+    display: flex;
+    align-items: flex-end!important;
+margin-left: 0!important;
+}
+
 .small-text {
     padding-top: 20px!important;
 }
@@ -1100,18 +1115,8 @@ h3.left-menu-text {
     opacity: 1;
     z-index: 15!important;
 }
-
-.post-content .post-header {
-    height: 200px!important;
-}
-.post-row .row.w-100.mt-3 {
-    top: -70px!important;
-}
-    [class="post-opt col-12 col-md-6 text-right"] {
-        position: absolute;
-        right: 23%;
-        z-index: 11;
-    }
+ 
+ 
 .post-title  {
     display: block!important;
     font-size: 20px!important;
@@ -1131,6 +1136,7 @@ font-size:0px!important;
 
  .col-12  {
     font-size: 0.80rem;
+flex: 0 0 50%!important;
 }
 span.comments_count span::before {
     font-size: 12px!important;
@@ -1277,14 +1283,7 @@ h3.left-menu-text {
 .post-content .post-header {
     height: 200px!important;
 }
-.post-row .row.w-100.mt-3 {
-    top: -83px!important;
-}
-    [class="post-opt col-12 col-md-6 text-right"] {
-        position: absolute;
-        right: 21%;
-        z-index: 11;
-    }
+ 
 .post-title  {
     display: block!important;
     font-size: 20px!important;
