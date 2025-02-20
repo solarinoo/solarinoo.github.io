@@ -584,7 +584,10 @@ input ,
 .left-menu-text input[type="text"],
 .left-menu-text input[type="submit"], 
 button.btn.btn-secondary, 
-button.btn.btn-primary {
+button.btn.btn-primary,
+input.w-100.input-tags, input.w-100.input-mood,
+input.w-100.input-music,
+input.w-100.input-want {
    background: #d7dbe4;
     border: 4px double #ededed;
     color: #000000;
@@ -599,7 +602,10 @@ input:hover,
 .left-menu-text input[type="text"]:hover,
 .left-menu-text input[type="submit"]:hover, 
 button.btn.btn-secondary:hover, 
-button.btn.btn-primary:hover {
+button.btn.btn-primary:hover,
+input.w-100.input-tags:hover, input.w-100.input-mood:hover,
+input.w-100.input-music:hover,
+input.w-100.input-want:hover {
     background: #f6f6f6;
     border: 4px double #ededed;
     box-shadow: 0px 0px 2px 0px #00000047;
