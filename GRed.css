@@ -570,7 +570,10 @@ transform: rotateY(25deg);
 .textareabg input[type="button"],
 .left-menu-text input[type="submit"], 
 button.btn.btn-secondary, 
-button.btn.btn-primary {
+button.btn.btn-primary,
+input.w-100.input-tags, input.w-100.input-mood,
+input.w-100.input-music,
+input.w-100.input-want {
     background: #430101;
     border: 1px solid #1a1a1a;
     border-radius: 3px;
@@ -587,7 +590,10 @@ input:hover, select:hover,
 .textareabg input[type="button"]:hover,
 .left-menu-text input[type="submit"]:hover, 
 button.btn.btn-secondary:hover, 
-button.btn.btn-primary:hover {
+button.btn.btn-primary:hover,
+input.w-100.input-tags:hover, input.w-100.input-mood:hover,
+input.w-100.input-music:hover,
+input.w-100.input-want:hover {
     background: #9e9e9e;
     color: #430101;
     transition: 0.4s;
