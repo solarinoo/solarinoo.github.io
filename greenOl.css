@@ -1,5 +1,48 @@
 @import url('https://solarinoo.github.io/full_black.css');
 
+
+.text-center img {
+    border: 3px solid #5b7449;
+    filter: none;
+}
+
+div#beon-fnplayer {
+    padding: 15px;
+    background: #00000000;
+    border-top: 2px solid #5b7449;
+    border-bottom: 2px solid #5b7449;
+}
+
+#fnplayer-slider {
+    background-color: #5b7449 !important;
+}
+
+#fnplayer-slider-inner {
+    background-color: transparent !important;
+    border-right: 4px solid #d6cdbf;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #5b7449 !important;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+#fnplayer-stop {
+    border: 0;
+    background: #5b7449 !important;
+    margin-bottom: 1px;
+    margin-top: 2px;
+}
+
+#fnplayer-volume-inner {
+ 
+    background-color: #5b7449 !important;
+    margin-left: 5px;
+    margin-right: -10px;
+    border: none;
+}
+
 .quotation {
     border-left: 2px solid #3d4736;
     color: #000000;
