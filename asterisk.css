@@ -183,14 +183,7 @@ font-size:0px;
 .post__mood, .post__musicplay, .post__wish, .post__tags-list {
     color: #ededed33!important;
 }
-.tag:before {
-    content: "\e99c";
-    color: #614771;
-    letter-spacing: 2px;
-    font-weight: 100;
-    font-size: 12px;
-    font-family: 'cappuccicons';
-}
+ 
 [src="//beon.fun/i/offline.png"],
 [src="//beon.fun/i/online.png"],
 [src="//beon.fun/i/design-off.png"],
