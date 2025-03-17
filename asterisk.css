@@ -4,6 +4,9 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 }
 /*font-family: "Caveat", cursive;*/
 
+#page__admincontact {
+display:none;
+}
 
  .blog__tags  h3.left-menu-text {
 position:sticky;
