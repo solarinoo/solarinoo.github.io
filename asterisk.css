@@ -8,18 +8,6 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 display:none;
 }
 
- .blog__tags  h3.left-menu-text {
-position:sticky;
-top:0;
-}
-
-.blog__tags {
-    overflow: auto;
-}
-
-.blog__tags::-webkit-scrollbar {
-       width: 0;
-}
 
 
 
@@ -316,6 +304,18 @@ cursor: pointer;
     transition: 0.1s;
 }
 
+ .blog__tags  h3.left-menu-text {
+position:sticky;
+top:0;
+}
+
+.blog__tags {
+    overflow: auto;
+}
+
+.blog__tags::-webkit-scrollbar {
+       width: 0;
+}
 .left-menu__unread-message img {
     margin-top: -8px;
     width: 60px;
