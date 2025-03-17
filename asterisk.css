@@ -5,6 +5,58 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 /*font-family: "Caveat", cursive;*/
 
 
+ .blog__tags  h3.left-menu-text {
+position:sticky;
+top:0;
+}
+
+.blog__tags {
+    overflow: auto;
+}
+
+.blog__tags::-webkit-scrollbar {
+       width: 0;
+}
+
+@import url('https://solarinoo.github.io/asterisk.css');
+
+
+.text-center img {
+    /* padding: 50px; */
+    margin-bottom: 50px;
+    margin-top: 16px;
+    /* position: relative; */
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.text-center:before {
+    content: '';
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -45px;
+    background: url(https://i.ibb.co/WNw50kpM/pngwing-com.png) no-repeat;
+    background-size: contain;
+    height: 270px;
+    width: 270px;
+    filter: drop-shadow(1px 3px 3px #00000060) hue-rotate(348deg) brightness(0.7);
+}
+
+
+.content  > p > img {
+display:unset;
+}
+.tag:before {
+content: url(https://i.ibb.co/RpStwGNr/image.png);
+    filter: drop-shadow(0px 1px 0px #c9b2c6);
+  
+}
+
+[class="unread-message"], .unread-sended-message {
+    font-size: 15px !important;
+    background: #643566;
+}
 
 /*1*/
 
