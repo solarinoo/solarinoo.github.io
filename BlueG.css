@@ -366,12 +366,13 @@ h3.left-menu-text:before {
 .left-menu > div > h3 {
     margin: 0px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     text-align: left;
     color: #f0f8ff6e;
      background: transparent!important;
 }
+
 
 
 .blog__about:hover h3.left-menu-text,
@@ -386,7 +387,8 @@ h3.left-menu-text:before {
 .community__members:hover h3.left-menu-text,
 .community__moders:hover h3.left-menu-text,
 .notifications__comments.left-menu__user-notification:hover h3.left-menu-text,
-.left-menu__user-notification.left-menu__unread-notifications:hover h3.left-menu-text {
+.left-menu__user-notification.left-menu__unread-notifications:hover h3.left-menu-text, 
+.left-menu__user-notification:hover h3.left-menu-text  {
  background: #f0f8ff1a!important;
     color: #fff;
 cursor: pointer;
@@ -404,7 +406,8 @@ cursor: pointer;
  .community__members, 
 .community__moders, 
 .notifications__comments.left-menu__user-notification,
-.left-menu__user-notification.left-menu__unread-notifications  {
+.left-menu__user-notification.left-menu__unread-notifications,
+.left-menu__user-notification  {
     max-height: 42px;
     overflow: hidden;
     transition: 0.1s;
@@ -423,7 +426,8 @@ cursor: pointer;
 .community__members:active,
 .community__moders:active,
 .notifications__comments.left-menu__user-notification:active,
-.left-menu__user-notification.left-menu__unread-notifications:active {
+.left-menu__user-notification.left-menu__unread-notifications:active,
+.left-menu__user-notification:active {
  background: #f0f8ff14!important;
     max-height: 500px;
     transition: 0.1s;
@@ -1029,7 +1033,8 @@ display:none!important;
 .community__members:active,
 .community__moders:active,
 .notifications__comments.left-menu__user-notification:active,
-.left-menu__user-notification.left-menu__unread-notifications:active {
+.left-menu__user-notification.left-menu__unread-notifications:active,
+ .left-menu__user-notification:active {
      transition-delay: 0s!important; 
     transition: 0s!important;
 }
