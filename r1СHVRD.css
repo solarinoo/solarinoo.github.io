@@ -3,7 +3,7 @@
 @font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
 
 
-
+ 
 
 /*1*/
 
@@ -272,7 +272,9 @@ text-shadow: 0 0 3px white;
 cursor: pointer;
     transition: 0.4s;
 }
-
+[href="/design/disable"] {
+font-weight: bold;
+}
 .blog__about.mb-3 {
     background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png) right, #bfbfbf;
     background-size: cover;
@@ -329,7 +331,7 @@ a.navbar-brand {
     font-size: 0;
     color: #666666;
 }
-a.navbar-brand:before {
+a.navbar-brand:after {
     content: '';
     display: block;
     height: 75px;
@@ -338,10 +340,36 @@ a.navbar-brand:before {
     background-size: contain;
     transition: 0.4s;
 }
-a.navbar-brand:hover:before {
+a.navbar-brand:hover:after {
     filter: drop-shadow(0px 0px 3px #000);
         transition: 0.4s;
 }
+
+
+a.navbar-brand:before {
+    content: 'exit';
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffffff12;
+}
+
+a.navbar-brand:hover:before {
+    content: 'exit';
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-brand:hover:before {
+filter: drop-shadow(0px 0px 3px #000);
+    animation: blinksS_2 1.5s linear infinite;
+}
+
+ @keyframes blinksS_2 {
+  0% { opacity: 0; }
+  50% { opacity:1; }
+  100% { opacity: 0; }
+} 
 
 /*------*/
 
@@ -951,10 +979,11 @@ margin-right: -20px!important;
     box-shadow: 0px 0px 0px 1px #545454!important;
 }
 .left-menu:before {
-    background-size: cover!important;
-    border: 2px ridge #000000!important;
-    box-shadow: 0px 0px 0px 1px #545454!important;
-}
+        margin-top: 35px !important;
+        background-size: cover !important;
+        border: 2px ridge #000000 !important;
+        box-shadow: 0px 0px 0px 1px #545454 !important;
+    }
 .bg-white {
     background: url(), url()!important;
 
