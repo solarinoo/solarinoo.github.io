@@ -336,6 +336,7 @@ a.navbar-brand:after {
     display: block;
     height: 75px;
     width: 75px;
+    float:left;
     background: url(https://i.postimg.cc/CLN47wW4/Year-Walk-i-Tunes-App-Store-Icon.png);
     background-size: contain;
     transition: 0.4s;
