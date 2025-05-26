@@ -656,10 +656,11 @@ div.crumbs {
     font-size: 44px;
     margin-top: 10px;
     color: #0c1c09;
+    margin: auto;
     margin-top: 0px;
     margin-bottom: 20px;
     white-space: nowrap;
-    width: 75%;
+    width: 55%;
     overflow: hidden;
     text-overflow: ellipsis;
     text-transform: uppercase;
