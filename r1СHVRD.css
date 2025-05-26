@@ -158,7 +158,6 @@ font-size:0px;
 
 [src="//beon.fun/i/offline.png"],
 [src="//beon.fun/i/online.png"],
-[src="//beon.fun/i/design-off.png"],
 [src="/i/blog.png"],
 [src="/i/offline.png"],
 [src="/i/user.png"],
@@ -273,7 +272,7 @@ cursor: pointer;
     transition: 0.4s;
 }
 [href="/design/disable"] {
-font-weight: bold;
+    color: #a14444;
 }
 .blog__about.mb-3 {
     background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png) right, #bfbfbf;
