@@ -145,7 +145,8 @@ text-shadow: 0 0 7px #fbe0b4;
 .blog__read-me,
 .blog__tags,
 .left-menu__unread-message img.flag, .post-title-date+a, [class="flag"], .user:before, .left-menu-text img,
-.blog__iread {
+.blog__iread,
+.blog__gifts {
 display:none;
 }
  
@@ -931,7 +932,8 @@ margin-right: -18px!important;
 .blog__read-me,
 .blog__tags,
 .left-menu__unread-message img.flag, .post-title-date+a, [class="flag"], .user:before, .left-menu-text img,
-.blog__iread {
+.blog__iread,
+.blog__gifts {
 display:none!important;
 }
 
