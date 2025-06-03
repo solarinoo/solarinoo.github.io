@@ -1,0 +1,355 @@
+@import url('https://solarinoo.github.io/MashleW.css');
+
+.blog__about:before {
+    content: '';
+    display: block;
+    height: 200px;
+    background: url(https://i.postimg.cc/KcqkQ1yw/b7637ca84421a89be32328d94160e4d0.jpg) no-repeat center;
+    background-size: cover;
+    border-bottom: 2px solid #252525;
+}
+
+.avatar-select-label-selected {
+    border: 2px solid #5f5f5f;
+    transition: 0.1s;
+}
+
+.modal-content {
+    border: 2px solid #222222;
+    background: #080808;
+}
+
+[type=submit], .btn-outline-primary, .textareabg input[type="button"], button.btn.btn-secondary, button.btn.btn-primary {
+    background: #080808;
+    border: 1px solid #252525;
+    color: #ddd;
+    cursor: pointer;
+    transition: 0.4s;
+}
+input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], button.btn.btn-secondary, button.btn.btn-primary, input.w-100.input-tags, input.w-100.input-mood, input.w-100.input-music, input.w-100.input-want {
+    background: #080808;
+    border: 1px solid #252525;
+    color: #ddd;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: "Play", sans-serif;
+    transition: 0.4s;
+}
+
+
+input:hover, select:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.textareabg input[type="button"]:hover,
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover,
+input.w-100.input-tags:hover, input.w-100.input-mood:hover,
+input.w-100.input-music:hover,
+input.w-100.input-want:hover {
+       color: #757575;
+transition: 0.2s;
+}
+
+div#footer:before {
+    content: 'Вопросы/помощь c дизайном - solarinoo.beon.fun/';
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+    color: #242424;
+}
+.alert-success {
+    font-size: 15px;
+    text-align: center;
+    color: #dddddd;
+    background: #080808;
+    border: 1px solid;
+    border-color: #252525;
+    font-weight: 400;
+}
+
+textarea {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #dddddd;
+    font-size: 14px;
+    background: #080808;
+    border-radius: 4px;
+    border: 1px solid #252525;
+    box-shadow: 1px 1px 1px #252525;
+}
+#usermenu {
+    border-radius: 0 10px 10px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #080808;
+    top: -99999px;
+    border: 1px solid #252525;
+}
+.avatars-fullscreen-link-wrapper {
+    background: #080808;
+    border: 1px solid #252525;
+    box-shadow: 1px 1px 1px #252525;
+}
+body.bodybg {
+    background: url(https://i.postimg.cc/8z0g0VC1/photo-2024-08-11-23-07-44.jpg) repeat fixed;
+}
+ .post-content.blog_total_counter {
+    margin-left: 20px !important;
+    color: #dddddd;
+    font-size: 8px;
+    box-shadow: -4px 0px 0px #252525;
+}
+.bg-white {
+    background-color: #080808;
+    border-bottom: 1px solid #252525;
+    box-shadow: inset 0px -4px 0px 0px #252525 !important;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgb(207 207 207 / 90%);
+}
+
+.post-avatar img {
+    border: 1px solid #252525;
+    border-left: 4px solid #252525;
+    border-right: 4px solid #252525;
+}
+.datebg {
+    margin: 10px 10px 10px;
+    background: #080808;
+    max-width: fit-content;
+    font-weight: 500;
+    font-size: 11px;
+    padding: 4px;
+    border-radius: 6px;
+    margin-left: auto !important;
+    box-shadow: inset 0px 0px 0px 1px #252525;
+}
+.post-text, .comment-base {
+    padding: 10px;
+    min-height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #c5c5c5;
+    font-size: 14px;
+    margin-left: 25px;
+    background: #080808;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid #252525;
+    box-shadow: 1px 1px 1px #252525;
+}
+
+.post-content > div:first-child {
+    margin-left: 146px !important;
+    margin-right: 0px !important;
+    font-size: 11px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0px -6px 0px 0px #252525;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+.comment-content > div:first-child {
+    margin-left: 140px !important;
+    margin-right: 0px !important;
+    font-size: 11px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0px -6px 0px 0px #252525;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
+.post-text:before, .comment-base:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -35px;
+    top: 20px;
+ filter: none;
+    border: 15px solid transparent;
+    border-right: 20px solid #252525;
+}
+
+.left-menu > div {
+    color: #c5c5c5;
+    padding: 5px;
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 20px;
+    background: #080808;
+    border-radius: 4px;
+    border: 1px solid #252525;
+    box-shadow: 1px 1px 1px #252525;
+}
+
+
+.left-menu__user-notification.left-menu__unread-message img+p {
+    font-size: 12px;
+    color: #dddddd;
+    overflow: auto;
+    line-height: normal;
+    max-height: 50px;
+    margin-top: 8px;
+}
+
+a, div, span[data-target="#deleteconfirmmodal"] {
+    color: #dddddd;
+    transition: 0.2s;
+}
+
+a:hover, span[data-target="#deleteconfirmmodal"]:hover {
+    color: #757575;
+transition: 0.2s;
+}
+
+.pc-menu a {
+    font-size: 11px;
+    color: #dddddd!important;
+    transition: 0.3s;
+}
+
+.pc-menu a:hover {
+color:#757575!important;
+transition: 0.3s;
+}
+.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before  {
+    color: #dddddd;
+   padding: 3px;
+   transition: .5s;
+}
+.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
+    color: #757575;
+   cursor:pointer;
+   transition: .2s;
+}
+ [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
+    color: #dddddd;
+   transition: .3s;
+}
+
+ [class="post-opt col-12 col-md-6"] span:hover,  .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
+    color: #757575;
+   cursor:pointer;
+   transition: .3s;
+}
+
+
+div.crumbs {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    background-color: #080808;
+    border-bottom: 1px solid #252525;
+    box-shadow: 0px 1px 0px 0px #252525 !important;
+}
+
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+    background: #0e0e0e;
+    border: 1px solid #252525;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #252525;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 12px;
+    width: 12px;
+    background-color: #252525;
+    border-radius: 4px;
+}
+
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
+    content: '\25B2';
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    color: #ddd;
+    right: 20px;
+    bottom: 15px;
+    border: 1px solid #222222;
+    background: #080808;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    right: 20px;
+    bottom: 67px;
+    z-index: 8;
+    transition: 0.3s;
+}
+
+[href="#footer"]:before {
+    content: '\25BC';
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    color: #ddd;
+    right: 20px;
+    bottom: 15px;
+    border: 1px solid #252525;
+    background: #080808;
+    padding-left: 6px;
+    padding-top: 2px;
+    border-radius: 5px;
+    z-index: 7;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 700px) {
+    .left-menu:before {
+        content: '';
+        display: block;
+        height: 200px;
+        background: url(https://i.postimg.cc/KcqkQ1yw/b7637ca….jpg) no-repeat center;
+        background-size: cover;
+        border-bottom: 2px solid #1c1c1c;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        border: 1px solid #1c1c1c;
+        box-shadow: 1px 1px 1px #1c1c1c;
+    }
+
+    .post-text:before, .comment-base:before {
+        filter: none !important;
+        border: 10px solid transparent !important;
+        border-right: 15px solid #1a1a1a !important;
+        left: -25px !important;
+    }
+    .left-menu > div.mobile_open_menu > h3 {
+        background-color: #0e0e0e;
+        color: #ddd;
+        font-weight: bold;
+        font-size: 20px !important;
+    }
+    .avatars-fullscreen-link-wrapper a {
+        color: #ddd !important;
+    }
+
+    .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+        background-color: #ddd;
+    }
+
+.menu__box {
+        background-color: #080808;
+        margin-top: 50px !important;
+        width: 70% !important;
+        height: 70% !important;
+        border: 1px solid #171717;
+    }
+
+    .menu__item {
+        color: #ddd;
+        font-size: 15px;
+    }
+
+}
