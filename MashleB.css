@@ -265,6 +265,54 @@ div.crumbs {
     border-radius: 4px;
 }
 
+/*плеер*/
+
+
+div#beon-fnplayer {
+    height: 16px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    background-color: #2f2f2f;
+    border-radius: 50px;
+    margin: 2px;
+    padding: 10px;
+}
+#fnplayer-slider > span { 
+font-size:0px!important;  
+} 
+#fnplayer-volume-inner {
+    border: none;
+}
+
+#fnplayer-slider {
+    height: 10px;
+    background-color: #0c0c0c;
+    flex-grow: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+#fnplayer-volume-mask {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 30px 0 0;
+    border-color: #2f2f2f transparent transparent transparent;
+    position: absolute;
+}
+
+#fnplayer-volume {
+    background-color: #0c0c0c;
+}
+
+#fnplayer-volume-inner {
+    width: 100%;
+    background-color: #999999 !important;
+    border: 1px solid #999999;
+}
+
+/*-----*/
 
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
     content: '\25B2';
