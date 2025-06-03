@@ -67,7 +67,15 @@ div#footer:before {
     border-color: #252525;
     font-weight: 400;
 }
-
+.post-header {
+    margin-left: 140px !important;
+    margin-right: 0px !important;
+    font-size: 11px;
+    border-radius: 4px 4px 0 0;
+    box-shadow: inset 0px -6px 0px 0px #242424;
+    padding-left: 5px;
+    padding-bottom: 1px;
+}
 textarea {
     padding-left: 15px;
     padding-right: 15px;
