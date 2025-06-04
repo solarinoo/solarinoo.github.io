@@ -18,7 +18,9 @@
     border: 2px solid #222222;
     background: #080808;
 }
-
+.quotation {
+    color: #a19999;
+}
 [type=submit], .btn-outline-primary, .textareabg input[type="button"], button.btn.btn-secondary, button.btn.btn-primary {
     background: #080808;
     border: 1px solid #252525;
