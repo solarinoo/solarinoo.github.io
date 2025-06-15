@@ -47,6 +47,7 @@ body {
     background-size: cover;
     filter: grayscale(1) brightness(1);
     border: 2px solid #1e1e1e;
+   border-top: none;
     box-shadow: inset 0px 0px 0px 3px #000000;
 }
 
@@ -618,7 +619,6 @@ div.crumbs {
  .py-4 + .crumbs  {
    background-color: #000000;
     border: 2px solid #1e1e1e;
-    border-bottom: none;
    margin-top: 30px;
     margin-bottom: 0px;
 }
