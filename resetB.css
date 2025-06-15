@@ -299,7 +299,7 @@ color: #fff!important;
 .community__moders:active,
 .notifications__comments.left-menu__user-notification:active,
 .left-menu__user-notification.left-menu__unread-notifications:active {
-    max-height: 400px;
+    max-height: 900px;
 cursor: pointer;
      transition-delay: 2s; 
     transition: 0.1s;
