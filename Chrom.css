@@ -268,8 +268,13 @@ display:none;
     margin-left: auto;
 }
 
+
+.post-content.post-page .container-fluid .row {
+    margin-left: 115px;
+}
+
 .container-fluid .row {
-    margin-left: 122px;
+    margin-left: 0px;
 }
 
 h2, .comment-box__message-partial.comment-content {
@@ -1115,7 +1120,7 @@ main.py-4 {
     font-size: 18px!important;
 }
 
-    .container-fluid .row {
+  .post-content.post-page .container-fluid .row {
     margin-left: 0px!important;
 }
 .navbar>.container-fluid {
