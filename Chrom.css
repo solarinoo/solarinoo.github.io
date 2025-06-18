@@ -835,10 +835,6 @@ form.messageform p {
     padding-left: 0px;
 }
 
-.container-fluid .row {
-    margin-left: -15px!important;
-}
-
 .container-fluid.mt-5 {
     margin-top: 0px !important;
     padding-left: 0px!important;
