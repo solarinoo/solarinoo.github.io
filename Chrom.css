@@ -961,6 +961,14 @@ div#app {
 main.py-4, .left-menu {
 width: 100%!important;
 }
+
+
+.content, main.py-4 {
+    padding-left: 0px!important;
+}
+.crumbs {
+    margin-right: 0px!important;
+}
      
 }
 
