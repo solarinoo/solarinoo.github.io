@@ -1135,4 +1135,8 @@ div#app:before {
 .post-content.post-page .col-md-6 {
     padding-left: 110px!important;
 }
+
+     .comment-content .post-title-user {
+    margin-left: 0px!important;
+}
 }
