@@ -969,6 +969,11 @@ width: 100%!important;
 .crumbs {
     margin-right: 0px!important;
 }
+
+.left-menu > div.mobile_open_menu > h3 {
+        color: #000000!important;
+        font-weight: bold;
+}
      
 }
 
@@ -978,6 +983,7 @@ width: 100%!important;
  display:none;
 }
 }
+
 @media (max-width: 700px) {
 
 .fa-angle-down:before {
@@ -989,7 +995,7 @@ width: 100%!important;
     margin-right: 10px!important;
 }
 .left-menu > div.mobile_open_menu > h3 {
-    color: #000000;
+    color: #000000!important;
 }
 
  .datebg {
