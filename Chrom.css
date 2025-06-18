@@ -622,6 +622,11 @@ color: #9d0000!important;
 div.left-menu-text, .left-menu-text div {
     border-bottom: 1px solid #e4e1df;
 }
+
+.text-center img {
+border: 2px solid #0a5f38;
+}
+
 /*------------*/
 
 
