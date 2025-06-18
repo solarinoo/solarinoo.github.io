@@ -433,6 +433,7 @@ display:none;
     background: url(https://i.ibb.co/yfM3Sg5/1.png) no-repeat center;
     background-size: contain;
     height: 140px;
+    margin-right: 140px;
 }
 
  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
@@ -1102,6 +1103,10 @@ main.py-4 {
     .container-fluid .row {
     margin-left: 0px!important;
 }
+.navbar>.container-fluid {
+    margin-right: 0px!important;
+}
+
     
 .blog__iread, .blog__last-comments, .pagination-goto,  .blog__gifts, 
 .left-menu__friends,
