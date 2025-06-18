@@ -40,8 +40,10 @@ body.bodybg {
 }
 
 .content {
+    position: relative;
     padding: 10px;
     padding-left: 30px;
+    z-index: 2;
 }
 
 main.py-4 {
@@ -243,7 +245,6 @@ display:none;
 }
 
 .post-avatar img {
-    /* border-radius: 5px; */
     border: 2px solid #0a5f38;
     background: #0a5f38;
     border-radius: 5px 5px 0px 0px;
@@ -266,6 +267,11 @@ display:none;
     margin-right: auto;
     margin-left: auto;
 }
+
+.container-fluid .row {
+    margin-left: 115px;
+}
+
 h2, .comment-box__message-partial.comment-content {
     font-size: 14px;
     font-weight: bold;
@@ -743,7 +749,7 @@ background-size: 100% 40%;
 border-radius:0;
 }
 
-input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], button.btn.btn-secondary, button.btn.btn-primary {
+ input, select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], button.btn.btn-secondary, button.btn.btn-primary, input.w-100.input-tags, input.w-100.input-mood, input.w-100.input-music, input.w-100.input-want  {
     background: #ddcec27a ;
     border: 1px solid #000;
 border-radius:5px;
@@ -754,7 +760,15 @@ border-radius:5px;
     transition: 0.4s;
 }
 
-input:hover, select:hover, .btn-outline-primary:hover, .textareabg input[type="submit"]:hover, .textareabg input[type="button"]:hover, .left-menu-text input[type="submit"]:hover, button.btn.btn-secondary:hover, button.btn.btn-primary:hover {
+input:hover, select:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.textareabg input[type="button"]:hover,
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover,
+input.w-100.input-tags:hover, input.w-100.input-mood:hover,
+input.w-100.input-music:hover,
+input.w-100.input-want:hover {
     background: #fff;
 border-radius:5px;
     color: #000;
@@ -1083,6 +1097,10 @@ main.py-4 {
 }
 .pagination {
     font-size: 18px!important;
+}
+
+    .container-fluid .row {
+    margin-left: 0px!important;
 }
     
 .blog__iread, .blog__last-comments, .pagination-goto,  .blog__gifts, 
