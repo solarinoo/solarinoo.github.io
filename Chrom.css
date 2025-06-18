@@ -959,10 +959,12 @@ div#app {
 }
 
      
-main.py-4, .left-menu {
+main.py-4  {
 width: 100%!important;
 }
-
+ .left-menu {
+width: unset!important;
+}
 
 .content, main.py-4 {
     padding-left: 0px!important;
