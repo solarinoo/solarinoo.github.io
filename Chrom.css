@@ -777,8 +777,18 @@ border-radius:5px;
 }
 
 
-.avatar-select-list::-webkit-scrollbar {
+.avatars-fullscreen-link-wrapper {
+    background: #ffffff;
+    z-index: 2;
+}
+ #avatars-fullscreen-modal .modal-content {
+    max-height: 90vh;
+    width: 65%;
+    margin: auto;
+}
 
+
+.avatar-select-list::-webkit-scrollbar {
     background: #fff;
 }
 .avatar-select-list {
@@ -1111,8 +1121,13 @@ main.py-4 {
 .navbar>.container-fluid {
     margin-right: 0px!important;
 }
-
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
     
+    .avatars-fullscreen-link-wrapper {
+    background: #ffffff!important;
+}
 .blog__iread, .blog__last-comments, .pagination-goto,  .blog__gifts, 
 .left-menu__friends,
 .community__moders,
