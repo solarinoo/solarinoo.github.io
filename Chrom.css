@@ -988,6 +988,10 @@ width: unset!important;
         color: #000000!important;
         font-weight: bold;
 }
+   .navbar>.container-fluid {
+    margin-right: 0px!important;
+}
+
      
 }
 
@@ -996,6 +1000,11 @@ width: unset!important;
 [href="#footer"]:before, [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before  {
  display:none;
 }
+    .navbar>.container-fluid {
+    margin-right: 0px!important;
+}
+
+    
 }
 
 @media (max-width: 700px) {
