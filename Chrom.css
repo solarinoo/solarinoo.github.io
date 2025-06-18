@@ -1078,7 +1078,10 @@ main.py-4 {
 .post-text:before, .comment-text:before {
     top: 20px!important;
 }
-
+.pagination {
+    font-size: 18px!important;
+}
+    
 .blog__iread, .blog__last-comments, .pagination-goto,  .blog__gifts, 
 .left-menu__friends,
 .community__moders,
