@@ -955,8 +955,13 @@ border:none!important;
  @media (max-width: 1280px) {  
 div#app {
     padding: 0;
-    margin: unset!important;
 }
+
+     
+main.py-4, .left-menu {
+width: 100%!important;
+}
+     
 }
 
 @media (max-width: 1024px) {
