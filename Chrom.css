@@ -423,12 +423,12 @@ display:none;
 }
 
 
-.container {
-    background: url(https://i.ibb.co/yfM3Sg5/1.png) no-repeat right !important;
-    background-size: contain!important;
+.navbar>.container-fluid {
+    background: url(https://i.ibb.co/yfM3Sg5/1.png) no-repeat center;
+    background-size: contain;
     height: 140px;
- 
 }
+
  .menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
     display: none;
 }
