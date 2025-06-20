@@ -518,6 +518,9 @@ h2, .comment-box__message-partial.comment-content {
     letter-spacing: 0.5px;
     text-align: center;
 }
+.sign {
+    padding-bottom: 12px;
+}
 .quotation {
     border-left: 4px double #141414;
     font-weight: 500;
