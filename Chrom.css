@@ -4,7 +4,11 @@ src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappucci
 }
 /*-----------*/
 
-
+.small-text {
+    font-size: 0px;
+    text-align: right;
+    color: #000;
+}
 /*-1-*/
 
 div#app {
