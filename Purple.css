@@ -17,6 +17,13 @@
     /* border: 1px solid #cccccc; */
     /* box-shadow: 1px 1px 1px #b8b8b8; */
 }
+
+
+.ml-auto {
+margin-right: auto;
+margin-left: unset!important;
+}
+
 /* Основа */
 
 div#app {
