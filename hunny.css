@@ -1,0 +1,73 @@
+@import url('https://solarinoo.github.io/white_1.css');
+
+body.bodybg {
+  background:#f3f3f3;
+ 
+}
+
+a.navbar-brand {
+    font-size: 25px;
+    background: unset;
+    background-size: contain;
+    width: 55px;
+    height: 45px;
+    filter: grayscale(1) contrast(1.5);
+    transition: 0.5s;
+    transition-delay: 1s;
+}
+.navbar-brand:hover {
+    background: unset;
+background-size: contain;
+ filter: grayscale(0);
+transform: rotate(0deg);
+transition: 0.3s; 
+} 
+
+ul.navbar-nav.ml-auto {
+height: 60px;
+}
+
+.bg-white:hover ul.navbar-nav.ml-auto {
+height: 60px; 
+transition: unset;
+transition-delay: unset;
+}
+ 
+.post-content, .comment-content {
+    margin-bottom: 25px;
+    background: #ffffffb8;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px 10px 20px !important;
+    color: #abb4b9 !important;
+    box-shadow: 0px 0px 0px 0px #00000061;
+    outline-offset: -6px;
+    outline: 5px dotted #ffd485;
+}
+.left-menu:before {
+display:none;
+}
+
+.left-menu>div {
+    background: #ffffffb8;
+    border-radius: 10px;
+    padding: 12px;
+    color: #abb4b9 !important;
+    box-shadow: 0px 0px 0px 0px #00000061;
+     outline-offset: -6px;
+    outline: 5px dotted #ffd485;
+    margin: 10px 0px 20px !important;
+}
+
+.crumbs {
+   background: #ffffffb8;
+    border-radius: 10px;
+}
+
+.datebg {
+    font-size: 12px;
+    background: #ffffffb8;
+    text-align: center;
+    color: #000 !important;
+    border-radius: 10px;
+}
