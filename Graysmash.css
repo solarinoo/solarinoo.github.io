@@ -973,4 +973,15 @@ div.left-menu {
 img.flag {
 display:none!important;
 }
+
+ .avatars-fullscreen-link-wrapper {
+width: 98%;
+    margin: auto;
+}
+ 
+#avatars-fullscreen-modal .modal-content {
+    width: 100%!important;
+}
+
+ 
 }
