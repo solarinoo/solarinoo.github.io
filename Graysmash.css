@@ -183,6 +183,7 @@ display:none;
 }
 div.left-menu {
     margin-left: 20px;
+     margin-top: 10px;
 }
 .py-4 {
     display: flex;
@@ -192,7 +193,7 @@ div.left-menu {
 .blog__about h3:before {
 content:'';
 position: absolute;
-top: 8px;
+top: 6px;
 left: 0;
 right: 0;
 margin: auto;
