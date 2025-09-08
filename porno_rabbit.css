@@ -1,0 +1,128 @@
+@import url('https://senyanhe.github.io/toga.css');
+
+select {
+    background: #fff;
+    border: 1px solid #eee;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 2px 2px #ffd0d0;
+}
+
+.avatars-fullscreen-link-wrapper {
+    background: #ffffff;
+}
+
+
+/*плеер*/
+
+div#beon-fnplayer {
+    padding: 5px;
+    background: transparent;
+}
+
+ #fnplayer-slider > span { 
+font-size:0px!important;  
+} 
+
+#fnplayer-slider {
+    height: 6px;
+    background-color: #bbb!important;
+}
+
+#fnplayer-slider-inner {
+    height: 6px;
+    width: 0%;
+    background-color: #ffd0d0;
+}
+
+#fnplayer-volume {
+    height: 6px;
+    background-color: #bbb;
+}
+
+#fnplayer-volume-inner {
+    height: 6px;
+    width: 100%;
+    background-color: #ffd0d0!important;
+    border: 1px solid #ffd0d0;
+} 
+
+#fnplayer-volume-mask {
+border:none!important;
+}
+
+#fnplayer-stop {
+    border: 0;
+    background: #ffd0d0 !important;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #ffd0d0!important;
+    margin-bottom: 1px;
+}
+
+/*---------*/
+
+div#footer, .footer__infolinks, #page__admincontact, div#page__rendertime, .text-center {
+font-size:0;
+}
+
+#app > main > div.left-menu > div.blog__about > div:nth-child(2):before  {
+display:none;
+}
+
+.content {
+    width: 736px;
+}
+.crumbs {
+    max-width: 736px;
+}
+
+main.py-4, .bg-white {
+    max-width: 1300px;
+}
+
+.left-menu .blog__about {
+    margin-left: 1017px;
+}
+
+.bg-white {
+    border-radius: 0px 0px 30px 30px!important;
+}
+
+
+body {
+background: url(https://i.postimg.cc/HW5kXKzg/image.png) no-repeat fixed;
+background-size: cover;
+}
+
+@media (max-width: 700px) {
+input {
+color:#000!important;
+}
+
+    .menu__box {
+       background: #fff;
+        margin-top: 99px !important;
+        width: 70% !important;
+        height: 70% !important;
+outline-offset: -8px;
+    border: 1px solid #eee;
+    outline: 2px dotted #FFEDF5;
+    margin-left: 909px;
+    box-shadow: 10px 10px #ffd0d0;
+    }
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    background-color: #ffd0d0 ;
+}
+
+    .menu__item {
+        color: #000;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+}
