@@ -932,7 +932,7 @@ border:none!important;
 
  
 div#app:before {
-    height: 100px!important;
+    height: 120px!important;
     background-size: contain!important;
 }
 .content, main.py-4 {
@@ -972,7 +972,7 @@ font-size: 24px;
 
 
 div#app:before {
-    height: 120px!important;
+    height: 100px!important;
     background-size: contain!important;
 }
 .content, main.py-4 {
