@@ -928,6 +928,46 @@ border:none!important;
 /*-----------*/
 
 
+@media (max-width: 1024px) {
+
+ 
+div#app:before {
+    height: 100px!important;
+    background-size: contain!important;
+}
+.content, main.py-4 {
+width: 100%!important;
+}
+.post-avatar img {
+    width: 80px!important;
+}
+.left-menu > div.mobile_open_menu > h3 {
+        background-color: #990000;
+        color: #545454;
+        font-weight: 500;
+font-size: 24px;
+    }
+.blog__about:active,
+ [class="left-menu__user-notification left-menu__unread-message"]:active,
+[class="notifications__comments  left-menu__user-notification  "]:active,
+[class="left-menu__user-notification left-menu__unread-notifications"]:active,
+.left-menu__friends.left-menu__friends_offline:active,
+.blog__read-me:active,
+.blog__tags:active,
+.blog__last-comments:active,
+.blog__gifts:hover,.blog__iread:active,
+.community__members:active,
+.community__moders:active,
+.notifications__comments.left-menu__user-notification:active,
+.left-menu__user-notification.left-menu__unread-notifications:active,
+ .left-menu__user-notification:active {
+     transition-delay: 0s!important; 
+    transition: 0s!important;
+}
+
+}
+
+
 @media  (max-width: 840px), (max-width: 700px) {
 
 
