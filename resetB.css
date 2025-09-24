@@ -964,6 +964,9 @@ font-size: 24px;
      transition-delay: 0s!important; 
     transition: 0s!important;
 }
+ .bottombg:before {
+    display: none!important;
+}
 
 }
 
