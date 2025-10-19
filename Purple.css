@@ -2,7 +2,7 @@
 
 
 [href="/design/disable"] {
-    font-size: 15px;
+    font-size: 15px!important;
 }
 
 ::selection {
@@ -205,6 +205,7 @@ h3.left-menu-text {
  
 .blog__about a, .blog__about div.left-menu-text  {
     font-size: 0px;
+    text-align: center;
 }
 
 .blog__about h3.left-menu-text  {
