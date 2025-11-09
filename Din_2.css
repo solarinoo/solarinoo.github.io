@@ -735,12 +735,11 @@ background: linear-gradient(270deg, #829384 90%, #b9bcb9 100%);
 .avatars-fullscreen-link-wrapper {
     background: #909c8e;
 }
- #avatars-fullscreen-modal .modal-content {
+#avatars-fullscreen-modal .modal-content {
     max-height: 90vh;
     width: 60%;
-    margin: auto;
+    margin: auto !important;
 }
-
 
 .avatar-select-list::-webkit-scrollbar-track {
     border: 7px solid #8d9b8f;
