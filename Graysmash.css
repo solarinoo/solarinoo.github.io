@@ -2,7 +2,13 @@
 
 
 
-
+.left-menu__gift img {
+    width: 80%;
+    padding: 3px;
+}
+.left-menu__gift p {
+    font-size: 0;
+}
 
 /*1*/
 
