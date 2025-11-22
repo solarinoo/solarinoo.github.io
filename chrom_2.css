@@ -954,6 +954,7 @@ a.menu__item {
     background-color: #fff;
     box-shadow: 3px 4px 0px 1px #ebd7b7, -4px -4px 0px 1px #ebd7b7;
     margin: 10px 10px 20px;
+ padding: 10px;
 }
 
 .textarea-wrapper > textarea {
