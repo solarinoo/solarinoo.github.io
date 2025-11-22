@@ -1008,6 +1008,7 @@ input, select, .btn-outline-primary, .textareabg input[type="submit"], .textarea
     font-size: 14px;
     cursor: pointer;
     border-radius: 10px;
+     margin-left: 5px;
     font-family: "Play", sans-serif;
     transition: 0.4s;
 }
