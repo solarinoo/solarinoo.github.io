@@ -54,7 +54,13 @@ a:hover  {
     text-decoration: unset;
     color:#60a0d7;
 }
-
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    align-items: flex-end;
+}
 .row.w-100 {
     position: sticky;
     top: 100%;
