@@ -314,7 +314,8 @@ position: relative;
     background: white;
     overflow: auto;
     padding-left: 12px;
-    min-height: 88px;
+        min-height: 88px;
+    max-height: 88px;
     margin-top: -18px;
 border: 1px solid #c1c1c1;
 }
