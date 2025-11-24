@@ -5,10 +5,10 @@
 /*1*/
 
 div#app {
-    cursor: url(https://i1.beon.fun/29/35/3529/6/1587606/Pencil_Cursor.png), pointer;
+    cursor: url(https://i1.beon.fun/29/35/3529/60/1589960/vsco-my-diary-cursor.png), pointer;
 }
 button, input, a,img,span,label.menu__btn,button, .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before,  [class="post-opt col-12 col-md-6"] span:hover,  .post-opt a:hover, [onclick="deleteComment(this)"]:hover  {
-    cursor: url(https://i1.beon.fun/29/35/3529/7/1587607/pointer.png), pointer !important;
+    cursor: url(https://i1.beon.fun/29/35/3529/61/1589961/vsco-my-diary-pointer.png), pointer !important;
 }
 
 
