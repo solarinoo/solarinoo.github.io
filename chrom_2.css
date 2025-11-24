@@ -1040,12 +1040,12 @@ display: none;
 }
 
 .pagination a {
-  
     box-shadow: 0px 0px 1px 1px #ceb38d80;
     display: inline-block;
     line-height: 10px;
     padding-right: 8px !important;
        margin-bottom: 8px;
+ color: #6c6a66 !important;
     font-size: 9px !important;
     padding: 5px 9px;
     min-width: 20px;
@@ -1109,7 +1109,6 @@ div.crumbs {
 .crumbs a {
     font-size: 28px;
     padding-right: 0px;
-    color: rgb(255 246 232);
     text-shadow: 1px 1px 4px #b996655e;
 }
 
