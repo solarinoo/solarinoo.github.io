@@ -352,7 +352,20 @@ position: relative;
     text-align: center;
 }
 
+.left-menu__user-notification.left-menu__unread-message  .post-title-date.pl-0 {
+font-size:0;
+}
 
+
+.left-menu__user-notification.left-menu__unread-message a.user {
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: -9px;
+    max-width: fit-content;
+    width: 45%;
+    overflow: hidden;
+    text-overflow: ellipsis !important;
+}
 /*---------*/
 
  /*3*/
@@ -679,6 +692,12 @@ span[style="font-size: 1.6rem;"] > span.imagewrapper > img {
     margin-bottom: 0;
     padding-top: 0;
 }
+
+
+[id="commentpreviewplace"] .comment-content .post-avatar:before {
+    left: 48px;
+}
+
 
 
 /*---------*/
