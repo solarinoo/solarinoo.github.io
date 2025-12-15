@@ -1,6 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
 @font-face { font-family: "12H30"; src: url('https://solarinoo.github.io/CustomFontTtf12H30.ttf'); }
 
+/*временно */
+
+div#app:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+    background: url(https://i1.beon.fun/29/35/3529/23/1602523/1.gif);
+    height: 15px;
+    filter: drop-shadow(2px 1px 4px #00000090);
+    z-index: 11;
+}
+body:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+pointer-events: none;
+background-image:   url(https://precode.top/images/css/zima/snow3.png), url(https://precode.top/images/css/zima/snow2.png);
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+}
+
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, -400px 400px, -300px 300px;}
+}
+
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-color:#b4cfe0;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px; background-color:#6b92b9;}
+}
+
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+
+/*----*/
 a.post-title, h1, h3.left-menu-text, .row.w-100.mt-3, .datebg, .crumb-item, .sign, .post-title-date  {
     text-shadow: 1px 1px #ffffffb3;
     font-family: "12H30";
