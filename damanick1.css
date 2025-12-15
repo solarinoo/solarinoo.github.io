@@ -22,8 +22,9 @@ body:before {
     position: absolute;
     width: 100%;
     height: 100%;
-pointer-events: none;
-background-image:   url(https://precode.top/images/css/zima/snow3.png), url(https://precode.top/images/css/zima/snow2.png);
+    opacity: 0.4;
+    pointer-events: none;
+    background-image:   url(https://precode.top/images/css/zima/snow3.png), url(https://precode.top/images/css/zima/snow2.png);
     -webkit-animation: snow 20s linear infinite;
     -moz-animation: snow 20s linear infinite;
     -ms-animation: snow 20s linear infinite;
