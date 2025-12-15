@@ -15,6 +15,7 @@ div#app:before {
     height: 15px;
     filter: drop-shadow(2px 1px 4px #00000090);
     z-index: 11;
+    pointer-events: none;
 }
 body:before {
     content: '';
