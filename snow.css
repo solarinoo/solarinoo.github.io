@@ -1,4 +1,4 @@
-body.bodybg:before {
+body:before {
     content: '';
     position: fixed;
   opacity:0.2;
