@@ -1,0 +1,16 @@
+div#app:before {
+    content: '';
+    position: fixed;
+  opacity:0.2;
+    width: 100%;
+    height: 100%;
+   pointer-events: none;
+    background-image: url(https://i1.beon.fun/29/35/3529/78/1603478/snow.png),  url(https://i1.beon.fun/29/35/3529/74/1603474/snow3.png), url(https://i1.beon.fun/29/35/3529/73/1603473/snow2.png);
+    animation: snow 25s linear infinite;
+   z-index:2;
+}
+
+@keyframes snow {
+ 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: -500px 1000px, 400px 400px, 300px -300px;}
+}
