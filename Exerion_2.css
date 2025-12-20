@@ -186,6 +186,10 @@ img.flag, .user-drop-menu, div.content > div:nth-child(2) > div.post-header > sp
 display:none;
 }
 
+[target="_blank"] {
+color:#220006;
+}
+
 /*-------*/
 
 
