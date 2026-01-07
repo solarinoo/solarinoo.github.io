@@ -199,11 +199,11 @@ h3.left-menu-text {
 /*3*/
 
 div.post-text.comment-text {
-    background: transparent;
-    padding: 0px;
-    border: unset;
-    box-shadow: unset;
-  margin-left: 0;
+    background: #ffffff;
+    /* padding: 0px; */
+    /* border: unset; */
+    /* box-shadow: unset; */
+    margin-left: 0;
 }
 div.post-text.comment-text::before {
 display:none;
