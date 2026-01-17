@@ -118,7 +118,6 @@ a.tag {
 .left-menu__friends.left-menu__friends_offline,
 [src="//beon.fun/i/offline.png"],
 [src="//beon.fun/i/online.png"],
-[src="//beon.fun/i/design-off.png"],
 [src="/i/blog.png"],
 [src="/i/user.png"],
 [src="/i/offline.png"],
@@ -322,8 +321,7 @@ width: 75%;
 
 
 .post-avatar img {
-    box-shadow: -3px -3px #202020;
-    border: 2px solid #000000;
+    border: 2px solid #202020;
     filter: saturate(0.3);
     transition: 0.4s;
 }
@@ -380,14 +378,13 @@ border: 0px double #000000;
 }
 
  .sign {
-    background: #000000;
+    background: transparent;
     font-size: 11px;
     color: rgb(211 211 211);
 }
 
 .post-text a {
 position: relative;
- 
 transition: 0.3s;
 }
  .post-text a:after {
@@ -995,8 +992,12 @@ width: 98%;
 #avatars-fullscreen-modal .modal-content {
     width: 100%!important;
 }
-
-
+.crumbs span {
+    font-size: 16px!important;
 }
 
+.crumbs {
+    height: 88px!important;
+}
 
+}
