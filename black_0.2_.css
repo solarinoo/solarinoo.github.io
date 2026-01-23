@@ -124,6 +124,9 @@ textarea, .alert-success {
     border: 1px solid #7a7a7a;
     transition: 0.3s;
 }
+.post-title-date {
+    color: #565656;
+}
 
 ::-webkit-scrollbar {
     background-color: #9f9f9f;
