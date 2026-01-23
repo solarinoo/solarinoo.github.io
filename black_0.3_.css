@@ -1,0 +1,164 @@
+@import url('https://solarinoo.github.io/black_0.1_.css');
+
+body {
+    background: url(https://i1.beon.fun/29/35/3529/49/1633049/666.jpg) fixed;
+}
+
+.post-content, .comment-content, div.left-menu, .bg-white, .textareabg, .modal-content, .emj-dropdown-content {
+    background: #fff;
+}
+[href="mailto:a@beon.fun"] {
+    color: #000000;
+}
+.crumb-item, .crumbs, .datebg {
+    color: #000000;
+}
+
+.post-title, h1, .left-menu h3  {
+    color: #000000;
+}
+
+[onclick="return showSpoiler(this)"], a.user {
+    color: #000000 !important;
+}
+
+.pc-menu a {
+    color: #202020!important;
+    transition: 0.2s;
+}
+
+.pc-menu a:hover {
+transition: 0s;
+color:#767676!important;
+}
+
+a.navbar-brand {
+    color: #202020!important;
+    font-size: 22px;
+    transition: 0.2s;
+}
+a.navbar-brand:hover {
+transition: 0s;
+color:#767676!important;
+}
+.m2 {
+    color: #000;
+}
+
+a, div {
+    color: #202020;
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+a:hover, span[data-target="#deleteconfirmmodal"]:hover {
+    text-decoration: unset!important;
+    color:#767676;
+transition: 0.2s;
+}
+
+  
+.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
+    color: #202020;
+   padding: 3px;
+   transition: .5s;
+}
+.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
+    color: #767676!important;
+   cursor:pointer;
+   transition: .2s;
+}
+
+ [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
+    color: #202020;
+   transition: .3s;
+}
+
+ [class="post-opt col-12 col-md-6"] span:hover,  .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
+    color: #767676!important;
+   transition: .3s;
+}
+
+select, input, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary, input.w-100.input-tags, input.w-100.input-mood, input.w-100.input-music, input.w-100.input-want {
+    background: #f3f3f3;
+    color: #000000;
+    border: 1px solid #818181;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+ select:hover,
+input:hover,
+.btn-outline-primary:hover,
+.textareabg input[type="submit"]:hover,
+.textareabg input[type="button"]:hover,
+.left-menu-text input[type="submit"]:hover, 
+button.btn.btn-secondary:hover, 
+button.btn.btn-primary:hover,
+.btn-outline-primary:hover,
+input.w-100.input-tags:hover, input.w-100.input-mood:hover,
+input.w-100.input-music:hover,
+input.w-100.input-want:hover  {
+    color: #767676;
+    transition: 0.4s;
+}
+
+textarea, .alert-success {
+    color: #000000;
+    background: #f3f3f3;
+    border: 1px solid #818181;
+}
+
+.avatar-select-label-selected {
+    border: 1px solid #000000;
+    filter: opacity(0.7);
+    transition: 0.3s;
+}
+
+.avatars-fullscreen-link-wrapper {
+    background: #fff;
+}
+
+::selection {
+    color: #000;
+    background: #959595;
+}
+
+.avatar-select-label-selected {
+    border: 1px solid #7a7a7a;
+    transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    border: 7px solid #ffffff;
+    background-color: #8f8f8f;
+    min-height: 24px;
+    min-width: 24px;
+}
+::-webkit-scrollbar-track {
+    border: 7px solid #ffffff;
+    background-color: #000000;
+}
+
+
+
+@media (max-width: 840px), (max-width: 700px) {
+    .menu__box {
+    background:#fff;
+}
+.menu__item  {
+   color: #000000;
+}
+.menu__item:hover {
+    background-color: #000000;
+}
+    .left-menu > div.mobile_open_menu > h3 {
+        color: #000000!important;
+        font-weight: bold;
+    }
+}
