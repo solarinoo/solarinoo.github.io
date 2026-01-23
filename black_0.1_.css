@@ -296,6 +296,7 @@ input.w-100.input-want:hover  {
     background: #040404;
     border: 1px solid #1a1a1a;
     margin: 10px 0px 20px!important;
+     padding: 3px 8px;
 }
 
 textarea {
