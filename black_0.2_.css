@@ -143,3 +143,19 @@ textarea, .alert-success {
     border: 7px solid #9f9f9f;
     background-color: #000000;
 }
+
+@media (max-width: 840px), (max-width: 700px) {
+    .menu__box {
+    background: url(https://i1.beon.fun/29/35/3529/61/1632761/111.png) fixed;
+}
+.menu__item  {
+   color: #000000;
+}
+.menu__item:hover {
+    background-color: #000000;
+}
+    .left-menu > div.mobile_open_menu > h3 {
+        color: #000000!important;
+        font-weight: bold;
+    }
+}
