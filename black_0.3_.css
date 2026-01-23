@@ -109,6 +109,13 @@ input.w-100.input-want:hover  {
     transition: 0.4s;
 }
 
+.quotation {
+    border-left: 3px solid #ffffff;
+    background: #0a0a0a;
+    color: #fff;
+    font-size: 12px;
+}
+
 textarea, .alert-success {
     color: #000000;
     background: #f3f3f3;
