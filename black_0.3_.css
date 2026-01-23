@@ -45,6 +45,11 @@ color:#767676!important;
     color: #000;
 }
 
+.tag_bar > span:hover {
+    color:#9b9b9b;
+  transition: 0.3s;
+}
+
 a, div {
     color: #202020;
     text-decoration: none !important;
