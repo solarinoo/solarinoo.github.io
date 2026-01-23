@@ -167,7 +167,9 @@ h2 {
     font-size: 12px;
     text-align: center;
 }
-
+.post-content, .comment-content {
+    min-height: auto;
+}
 .post-content, .comment-content {
     /* margin: 10px 10px 20px; */
     margin: 0px 0px 25px !important;
