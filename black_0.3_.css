@@ -1,5 +1,35 @@
 @import url('https://solarinoo.github.io/black_0.1_.css');
 
+/*доп*/
+
+
+.post-content.post-page h1 {
+    color: #000;
+}
+
+h5 {
+    color: #898989;
+}
+[style="text-align: right;"] a, .content h1, [class="d-flex justify-content-between mb-3 "] a {
+ color: #000000;
+}
+
+form#newtopicform {
+margin: 0px 0px 25px !important;
+    padding: 15px 20px;
+    background: #fff;
+    border: 1px solid #1a1a1a;
+}
+.user_footer a, .info_container a, .info_text a, .info_text div {
+    color: #202020!important;
+}
+
+.info_text, .info_container {
+      background: #fff;
+}
+
+/*-*/
+
 body {
     background: url(https://i1.beon.fun/29/35/3529/49/1633049/666.jpg) fixed;
 }
