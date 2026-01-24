@@ -17,7 +17,7 @@ h5 {
 form#newtopicform {
 margin: 0px 0px 25px !important;
     padding: 15px 20px;
-    background: #040404;
+    background: #000;
     border: 1px solid #1a1a1a;
 }
 .user_footer a, .info_container a, .info_text a, .info_text div {
