@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=WDXL+Lubrifont+TC&display=swap');
 
 
+.new-comment-scroll-notice {
+    filter: invert(70%); 
+}
 
 .left-menu__gift img {
     width: 80%;
