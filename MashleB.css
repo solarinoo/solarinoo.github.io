@@ -1,5 +1,10 @@
 @import url('https://solarinoo.github.io/MashleW.css');
 
+div.post-text.comment-text {
+    background: #070707;
+}
+
+
 .blog__about:before {
     content: '';
     display: block;
