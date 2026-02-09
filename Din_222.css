@@ -1,0 +1,342 @@
+@import url('https://solarinoo.github.io/pink_girl.css');
+
+ 
+
+.hamburger-menu {
+    background: #adbf9500;
+    background-image: url(https://i1.beon.fun/29/35/3529/82/1653082/menyu-kopiya.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+}
+
+ 
+
+.menu__btn {
+    display: flex;
+    position: relative;
+    width: 38px;
+    height: 47px;
+    cursor: pointer;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #61616100;
+    transition-duration: .25s;
+}
+
+.post-avatar {
+    position: relative;
+}
+
+.post-avatar:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    margin-top: -16px;
+    margin-right: 89px;
+    right: 0;
+    bottom: 0;
+    transform: rotate(20deg) scale(-1, 1);
+    display: block;
+    background: url(https://i1.beon.fun/29/35/3529/56/1652056/skrepka.png) no-repeat;
+    background-size: contain;
+    height: 75px;
+    width: 40px;
+    filter: drop-shadow(1px 2px 1px #00000060);
+    pointer-events: none;
+}
+
+
+body.bodybg {
+    background: url(https://i1.beon.fun/29/35/3529/24/1651224/Fon2-kopiya.png) repeat top fixed, #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.blog__about:before {
+    content: ' ';
+    display: block;
+    background: url(https://i1.beon.fun/29/35/3529/17/1651217/bokovushka.png) no-repeat center;
+    background-size: contain;
+    height: 200px;
+    padding: 12px;
+    box-shadow: none;
+    border: 2px solid #adbf95;
+}
+
+.post-title, h1, .left-menu > div > h3 {
+    border-bottom: 4px solid #adbf95;
+    transition: 0.5s;
+}
+
+
+.post-content.blog_total_counter {
+    height: 380px;
+    display: block;
+    background: url(https://i1.beon.fun/29/35/3529/19/1651219/menyu-kopiya.png) no-repeat center, #ffffff;
+    font-size: 0;
+    background-size: contain;
+}
+
+.post-content, .comment-content {
+    padding: 20px;
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    color: #888888;
+    text-align: justify;
+    line-height: 150%;
+    border: 2px solid #adbf95;
+    margin: 10px 10px 20px;
+}
+
+a, div, span[data-target="#deleteconfirmmodal"] {
+    text-decoration: unset !important;
+    color: #87ad61;
+    transition: .3s;
+}
+
+
+.left-menu > div {
+    border: 2px solid #adbf95;
+}
+
+.post-opt {
+    text-align: left;
+}
+
+.row.w-100 {
+    position: sticky;
+    top: 100%;
+    margin: auto;
+}
+
+.textareabg {
+    border: 2px solid #adbf95;
+}
+
+textarea {
+    border: none;
+    background: #e8f0de;
+    color: #888;
+}
+
+
+.textareabg input[type="text"] {
+    border: 2px solid #adbf95;
+}
+
+select, .btn-outline-primary, .textareabg input[type="submit"], .textareabg input[type="button"], .left-menu-text input[type="submit"], button.btn.btn-secondary, button.btn.btn-primary, input.w-100.input-tags, input.w-100.input-mood, input.w-100.input-music, input.w-100.input-want {
+    background: #e8f0de;
+}
+
+input[type="submit"] {
+    background: #e8f0de;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 8px;
+    border-radius: 50px;
+    background-color: #adbf95;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background-color:#e8f0de;
+transition: all .3s linear;
+-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear; 
+}
+
+::selection {
+    background: #adbf95;
+    color: #000;
+}
+
+.avatars-fullscreen-link-wrapper a {
+    color: #adbf95;
+}
+
+.avatar-select-label-selected {
+    opacity: 1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 1px #adbf95;
+    width: 100px;
+    transition: 0.3s;
+}
+
+.datebg {
+ 
+    color: #ffffff;
+    background: #aabc93;
+    border-radius: 30px;
+}
+
+.post-avatar img {
+    width: 100px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 1px 4px #acbe94;
+}
+
+.post-text, .comment-text {
+    flex-grow: 1;
+    padding-left: 4px;
+    line-height: 1.4;
+    background-image: linear-gradient(to bottom, #adbf9526 1px, #ffffff 1px);
+    background-size: 1px 18px;
+}
+
+.quotation {
+    border-left: 3px solid #999;
+    background: #d2e5c36b;
+    font-size: 11px;
+    line-height: 1.4;
+    padding-left: 5px;
+    margin-left: 7px;
+    margin-bottom: 0;
+    padding-top: 0.2rem;
+}
+
+.crumbs {
+    max-width: 630px;
+    margin: auto;
+    font-size: 11px;
+    color: #ffffff;
+    background: #adbf95;
+    border-radius: 30px;
+}
+
+.bg-white {
+    border: 2px solid #adbf95;
+}
+
+.m2 {
+    color: #adbf95;
+}
+
+ 
+.menu__box {
+    border: 2px solid #adbf95;
+}
+
+a.menu__item {
+    color: #adbf95;
+    line-height: 1.4;
+    padding: 0px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.menu__item:hover {
+    background-color: #e9f1df;
+    color: #000;
+    transition-duration: unset;
+    transition: 0.2s;
+}
+
+div#footer:before {
+display:none;
+}
+
+[onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before, [href="#footer"]:before {
+    color: #adbf95;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #adbf95 !important;
+}
+
+.modal-content {
+    background: #fff;
+    border: 5px solid #adbf95;
+}
+
+.alert-success {
+    background-color: #e8f0de;
+}
+
+.blog__about h3.left-menu-text:before, .blog__tags:before, .blog__read-me:before, .blog__iread:before, .blog__last-comments:before, .blog__gifts:before, .community__moders:before, .community__members:before, .left-menu__unread-message:before, .left-menu__user-notification.left-menu__unread-notifications:before, .notifications__comments.left-menu__user-notification:before {
+display:none;
+}
+
+h2 {
+    color: #ffffff;
+    background: #adbf95;
+}
+
+.content {
+    width: 53.2%;
+}
+
+.bg-white, .crumbs {
+    max-width: 625px;
+}
+
+.text-center img {
+    object-fit: cover;
+    border: 2px solid #adbf95;
+}
+
+
+
+#fnplayer-volume-inner {
+    height: 4px;
+    width: 100%;
+    background-color: #adbf95 !important;
+    border: none;
+}
+
+#fnplayer-slider {
+    height: 4px;
+    background-color: #adbf95 !important;
+}
+
+#fnplayer-play {
+    border-color: transparent transparent transparent #adbf95 !important;
+    margin-right: -6px;
+}
+#fnplayer-slider-inner {
+    height: 4px;
+    width: 0%;
+    background-color: #cde6c2;
+}
+
+@media (max-width: 700px) {
+    .left-menu > div.mobile_open_menu > h3 {
+        margin: 0px;
+        padding: 0px 5.5px;
+        height: 35px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 35px;
+        text-align: center;
+        color: #888888 !important;
+        background-color: #ffffff !important;
+        border-bottom: 4px solid #bac9a6;
+    }
+
+.post-avatar:before {
+    margin-top: -14px!important;
+    margin-right: 64px!important;
+    height: 65px!important;
+    width: 30px!important;
+}
+
+.post-content.blog_total_counter {
+    height: 255px!important;
+}
+
+body.bodybg {
+    background: url(https://i1.beon.fun/29/35/3529/24/1651224/Fon2-kopiya.png) repeat top fixed, #fff!important;
+}
+}
