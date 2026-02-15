@@ -765,7 +765,7 @@ display:none;
 div.crumbs {
     margin: auto;
     position: relative;
-    padding-top: 52px;
+    padding-top: 67px;
 }
 
 
@@ -805,7 +805,7 @@ letter-spacing: 5px;
 }
 
 .crumbs span {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .crumb-item {
@@ -817,7 +817,7 @@ letter-spacing: 5px;
 .pagination {
     float: none;
     padding-top: 0px;
-    margin-top: -20px;
+    margin-top: -7px;
     display: block;
     font-size: 0px;
     letter-spacing: 2px;
