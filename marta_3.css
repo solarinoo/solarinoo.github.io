@@ -95,6 +95,7 @@ text-shadow: 0 0 7px #ffe1f1;
 
 
 .row.w-100.mt-3 {
+       padding-top: 3px !important;
     margin: -55px 0px 0px 0px !important;
     color: #bbbbbb;
     font-weight: 600;
