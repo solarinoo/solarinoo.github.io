@@ -290,6 +290,7 @@ main.py-4 {
 main.py-4 {
     padding: 50px;
     padding-top: 80px !important;
+   padding-bottom: 80px !important;
    width: 76%;
     background: url(https://i1.beon.fun/29/35/3529/15/1637615/1.png) no-repeat top left, url(https://i1.beon.fun/29/35/3529/7/1637607/2.png) no-repeat top right, url(https://i1.beon.fun/29/35/3529/8/1637608/3.png) no-repeat bottom right, url(https://i1.beon.fun/29/35/3529/9/1637609/4.png) no-repeat bottom left, #281e31;
     background-size: 12%;
