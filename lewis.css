@@ -53,7 +53,7 @@ font-size:0;
 .pagination-goto,
 .left-menu__friends,
 .left-menu__unread-message img.flag,
- .user:before, img.flag  {
+ .user:before, img.flag, .blog__refferers  {
 display:none;
 }
 
@@ -1131,7 +1131,7 @@ margin-right: -20px!important;
 .pagination-goto,
 .left-menu__friends,
 .left-menu__unread-message img.flag,
- .user:before, img.flag  {
+ .user:before, img.flag, .blog__refferers {
 display:none!important;
 }
 
