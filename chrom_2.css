@@ -1,6 +1,23 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
- 
+ .post-row .fas, .comment-row .fas  {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #b7945d;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #9b2d30 !important;
+    text-shadow: 0px 1px 2px #ccb28a;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #b7945d;
+    cursor: pointer;
+}
+
 
 /*1*/
 
@@ -107,16 +124,7 @@ font-size: 14px;
     transition: .3s;
 }
 
-.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
-    color: #b19466;
-   padding: 3px;
-   transition: .5s;
-}
-.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
-    color: #60a0d7;
-   cursor:pointer;
-   transition: .2s;
-}
+
 
  [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
     color: #b19466;
@@ -695,6 +703,7 @@ span[style="font-size: 1.6rem;"] > span.imagewrapper > img {
     margin-left: 0;
     margin-bottom: 0;
     padding-top: 0;
+line-height: 1.4;
 }
 
 
