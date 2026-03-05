@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&family=WDXL+Lubrifont+TC&display=swap');
 
 
+
 .new-comment-scroll-notice {
     filter: invert(70%); 
 }
@@ -71,17 +72,27 @@ span.post-title-date+span   {
 font-size:0px;
 } 
 
-.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
+
+.post-row .fas, .comment-row .fas  {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     color: #bbbbbb;
-   padding: 3px;
-   transition: .5s;
+}
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #7fa2bf!important;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #bbbbbb;
+    cursor: pointer;
+   transition: .3s;
 }
 .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
     color: #7fa2bf;
    cursor:pointer;
    transition: .2s;
 }
-
  [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
     color: #bbbbbb;
    transition: .3s;
