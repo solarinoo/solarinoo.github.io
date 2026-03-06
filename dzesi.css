@@ -8,10 +8,7 @@ font-family: 'Roboto', sans-serif; */
     color: #fff;
 } 
 
-/*upd*/
-[class="load_ignored_comments"] {
-     display: none;
-}
+
 
 /*основа*/
 
@@ -71,15 +68,9 @@ display:none;
 /*теги*/
 
 
+
 .post__tags-list {
     background: #f5f5f5;
-    border-top: 1px solid #dcdcdc;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 30px;
 }
 
 .post__tags-list a {
@@ -116,6 +107,7 @@ min-height: auto;
 
 .row.w-100 {
 margin: 0px;
+padding-top: 5px;
 }
  
 .comment-text+div {
@@ -125,9 +117,7 @@ margin: 0px;
 color: #9e9e9e;
 }
 
-.comment-content .comment-text+div {
-    padding-top: 50px;
-}
+ 
 
 .post-opt [style="font-size: 1rem;"] {
     margin-top: -15px;
@@ -139,9 +129,6 @@ color: #9e9e9e;
 
 span.comments_count {
     background: #66339900;
-    position: absolute;
-    top: 70px;
-    right: 10px;
 }
 span.comments_count span {
 display: none;
@@ -162,9 +149,9 @@ span.post-likes-count, .row.w-100 [href$="edit"], .row.w-100 [href*="/repost/pos
 [href^="//beon.fun/repost/post/"] , [href^="//beon.fun/repost/comment/"],
 .post-opt [href$="/edit"],
 .comment-row span[data-target="#deleteconfirmmodal"],
-.post-opt span[data-target="#deleteconfirmmodal"]   {
+.post-opt span[data-target="#deleteconfirmmodal"], [onclick="deleteComment(this)"]   {
     background: #f5f5f500;
-    position: absolute;
+
     top: 25px;
     width:30px;
     height: 30px;
@@ -174,7 +161,7 @@ span.post-likes-count, .row.w-100 [href$="edit"], .row.w-100 [href*="/repost/pos
    cursor: pointer;
 }
  
-
+ 
 i.fas.fa-trash-alt {
     font-size: 0;
 }
@@ -211,7 +198,7 @@ right: 113px;
 }
 
 .post-opt.col-12.col-md-6 [data-target="#deleteconfirmmodal"]:before, 
-.post-opt span[data-target="#deleteconfirmmodal"]:before,
+.post-opt span[data-target="#deleteconfirmmodal"]:before, [onclick="deleteComment(this)"]:before,
 .comment-row span[data-target="#deleteconfirmmodal"]:before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 100;
@@ -241,12 +228,7 @@ color: #9e9e9e;
 
 .likebutton, span.repostbutton, span.bookmarkbutton, span.complaintbutton {
     background: #f5f5f500; 
-    position: absolute;
-    top: 25px;
-    width: 30px;
-    height: 30px;
     text-align: center;
-    overflow: hidden;
     color: #9e9e9e;
     font-size: 15px;
     cursor: pointer;
@@ -297,7 +279,6 @@ right:98px;
 .post-content .post-title-user, .comment-content .post-title-user {
     left: 80px;
     top: 27px;
-    max-width: 300px;
     position: absolute;
     font-size: 17px;
     color: #b4aada;
@@ -309,11 +290,12 @@ right:98px;
     font-size: 13px;
     padding: 12px 18px 80px 18px;
     background: #fff;
-    margin-top: -21.7px;
+    margin-top: -23.7px;
     margin-bottom: -5px;
     margin-left: -5px;
     margin-right: -5px;
     border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
 }
 
 .comment-text {
@@ -396,12 +378,32 @@ h2 {
     text-align: center;
 }
 
+.post-content.post-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.post-content.post-page .small-text + div {
+    position: relative;
+    background: #ffffff00;
+    border-top: 1px solid #dcdcdc;
+    z-index: 7;
+    padding: 0 12px;
+    margin-top: -17px;
+    margin-left: -6px;
+    margin-right: -6px;
+    order: 1;
+}
+
 /* корректировка заголовка */
-.textareabg.p-1 h1, .content h1 {
+.textareabg.p-1 h1 {
 border: 1px solid #dddddd;
 margin-bottom:0;
 }
-
+.content h1 {
+margin-bottom:0;
+}
 .post-title-date {
     font-size: 0px;
     color: #9e9e9e;
@@ -501,6 +503,9 @@ color: #000;
     text-align: center; 
      
 }
+.blog__about.mb-3 {
+margin-bottom: 0rem !important;
+}
 
 .blog__about h3.left-menu-text  {
  font-size: 0px!important;
@@ -511,9 +516,9 @@ border-bottom:none!important;
 
 }
 .blog__about [href="/design/disable"]:before {
-    content: 'откл. дизайн';
+    content: 'отключить дизайн';
     color: #b4aada;
-    font-size: 15px!important;
+    font-size: 13px!important;
     letter-spacing: 1px;
    text-transform: uppercase;
     font-family: 'Lora', serif;
@@ -561,8 +566,7 @@ font-size:0;
   .blog__about div.left-menu-text a {
     text-transform: uppercase;
     text-align: center;
-    display: inline-table;
- 
+      margin-top: 3px;
 }
 .blog__tags {
     padding: 20px 0px 25px 0px;
@@ -586,7 +590,7 @@ border-bottom:none!important;
 
 .blog__about {
     background: #fff;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 h3.left-menu-text {
     font-size: 12px; 
@@ -596,7 +600,76 @@ h3.left-menu-text {
     border-bottom: 1px solid #dcdcdc; 
 }
 
+/* .left-menu__user-notification.left-menu__unread-message img+p {
+    font-size: 14px;
+    color: #000; 
+    overflow: auto;
+    line-height: normal;
+    max-height: 50px;
+    margin-top: 8px; 
+} 
 
+ .left-menu__unread-message img { 
+    margin-top: -8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+[class="left-menu__user-notification left-menu__unread-message"] {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 17px;
+    max-width: 500px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc!important;
+    transition: 0.5s cubic-bezier(0.57, 0.06, 0.29, 0.97);
+    transition-delay: 0.8s;
+}
+
+.left-menu__user-notification.left-menu__unread-message::-webkit-scrollbar, .left-menu__user-notification.left-menu__unread-notifications::-webkit-scrollbar, .notifications__comments.left-menu__user-notification::-webkit-scrollbar {
+width: 0px;
+background-color: transparent;
+}
+[class="left-menu__user-notification left-menu__unread-notifications"] {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 17px;
+    max-width: 500px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc!important;
+   transition: 0.5s cubic-bezier(0.57, 0.06, 0.29, 0.97);
+    transition-delay: 0.8s;
+}
+ 
+[class="notifications__comments  left-menu__user-notification  "] {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 500px;
+    max-height: 17px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc!important;
+    transition: 0.5s cubic-bezier(0.57, 0.06, 0.29, 0.97);
+    transition-delay: 0.8s;
+}
+ 
+[class="left-menu__user-notification left-menu__unread-message"]:hover, [class="notifications__comments  left-menu__user-notification  "]:hover,[class="left-menu__user-notification left-menu__unread-notifications"]:hover {
+   background: #f5f5f5;
+   color: #000; 
+    max-height: 350px;
+   transition: 0.5s cubic-bezier(0.57, 0.06, 0.29, 0.97);
+   z-index:1;
+}*/
 [class="left-menu__user-notification left-menu__unread-message"], [class="notifications__comments  left-menu__user-notification  "],[class="left-menu__user-notification left-menu__unread-notifications"] {
 display:none;
 }
@@ -642,8 +715,8 @@ a.navbar-brand:before {
     position: absolute;
     left: 20px;
     top: 22px;
-    content: ' B';
-    width: 35px;
+    content: 'Beon';
+    width: 80px;
     height: 35px;
     color: #9e9e9e;
     border: 1px solid #dddddd;
@@ -792,44 +865,47 @@ span.pagination-goto+a:after {
 }
 
 
-.crumbs [href="/p"] {
-    display: none;
-}
 
 .crumbs {
     position: absolute;
     left: 0;
     text-align: center;
     right: 0;
-    top: 105px;
+    top: 511px;
     border-radius: unset;
     font-size: 0px;
     letter-spacing: 1.5px;
 }
-
-.crumbs [href="/"] {
-    margin-top: 300px !important;
-    display: none;
+ .crumbs [href="/p"] {
+display: none;
 }
- 
-
-span.crumb-item {
-    font-size: 20px!important;
-    border-radius: unset;
-    position: absolute;
-    color: #b4aada;
-    right: 0;
-    left: 0;
+div.crumbs {
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    font-family: 'Playfair Display', serif;
-    width: 30%;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 380px auto;
+    font-size: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
+.crumbs a+span.crumb-item {
+display: none;
+}
+
+span.crumb-item, .crumbs [href="/"] {
+    color: #b4aada!important;
+}
+
+.crumbs a {
+    font-size: 8px;
+}
+
+.crumbs span {
+    font-size: 35px;
+}
+
+.crumb-item {
+     font-size: 25px;
+    letter-spacing: 5px;
+}
+
  
 
 /*-------*/
@@ -967,11 +1043,18 @@ overflow-y: auto;
     flex: auto;
 }
 
+#avatars-fullscreen-modal .modal-dialog {
+    max-width: 35%;
+}
+
+.avatars-fullscreen-link-wrapper {
+    background: #ffffff;
+}
 .avatar-select-list {
     background: #fafafa;
     text-align: center;
     width: 100%;
-    height: 50px;
+    height: 100px!important;
     overflow-y: scroll;
 }
 
@@ -1001,6 +1084,14 @@ overflow-y: auto;
 .emj-dropdown {
     padding: 0px; 
 }
+.row {
+    align-items: flex-end;
+}
+
+  div.row.w-100.mt-3.post-opt {
+    margin-top: 5px !important;
+}
+
 .row {
     margin-left: 0;
     margin-right:0;
@@ -1208,6 +1299,8 @@ display:none!important;
 [class="left-menu__user-notification left-menu__unread-message"], [class="notifications__comments  left-menu__user-notification  "],[class="left-menu__user-notification left-menu__unread-notifications"] {
 display:none!important;
 }
-
+#avatars-fullscreen-modal .modal-dialog {
+    max-width: 100%;
+}
 
 }
