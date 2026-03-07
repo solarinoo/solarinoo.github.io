@@ -1303,4 +1303,29 @@ display:none!important;
     max-width: 100%;
 }
 
+ .blog__refferers {
+display:none!important;
+}
+.blog__about:before {
+    height: 245px!important;
+}
+
+.crumbs {
+    top: 438px!important;
+}
+
+.crumbs span {
+    font-size: 20px!important;
+}
+
+label.menu__btn:hover span:before, label.menu__btn:hover span:after, label.menu__btn:hover span {
+    background: #7e7e7e!important;
+}
+.hamburger-menu {
+    position: unset!important;
+}
+
+a.navbar-brand:before {
+    top: 28px!Important;
+}
 }
