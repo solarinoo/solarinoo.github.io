@@ -97,7 +97,6 @@ transition: 0.2s;
 .post__tags-list {
     font-size: 0;
     max-width: fit-content;
-    margin-left: auto;
     margin-bottom: 4px;
     border-bottom: 1px solid #242424;
 }
