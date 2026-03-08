@@ -128,7 +128,7 @@ color:#fff;
 }
 
 .post-opt {
-    text-align: end;
+    text-align: unset;
     font-size: 0.75rem;
     margin-bottom: 15px;
 }
