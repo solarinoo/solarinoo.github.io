@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Tektur&display=swap');
-@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');
-font-weight:normal;font-style:normal;
-font-display:block;
+@font-face{
+  font-family:"tabler-icons";
+  src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot");
+  src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot?#iefix") format("embedded-opentype"),
+      url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff2") format("woff2"),
+      url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff") format("woff"),
+      url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+  font-display:block;
 }
 
 #avatars-fullscreen-modal .modal-content {
@@ -413,7 +420,8 @@ margin-bottom: 0!important;
 
 
 .navbar-brand:before {
-    content: '\ea95';
+    content: '\f679';
+    margin-top: 4px;
     color: #2e2e2e;
     display: block;
     float: left;
@@ -421,7 +429,7 @@ margin-bottom: 0!important;
     margin-right: 8px;
     font-size: 30px;
     font-weight: 100;
-    font-family: 'cappuccicons';
+    font-family: 'tabler-icons';
 }
 .font-snowblue {
     font-family: 'Mulish', sans-serif;
@@ -756,7 +764,7 @@ color: #a5a5a5;
     z-index: 2;
 }
 .datebg:after {
-    content: '\ea95';
+    content: '\eb8d';
     color: #2e2e2e;
     display: block;
     float: right;
@@ -765,7 +773,7 @@ color: #a5a5a5;
     padding-left: 5px;
     font-size: 30px;
     font-weight: 100;
-    font-family: 'cappuccicons';
+    font-family: 'tabler-icons';
 }
 
 .datebg {
