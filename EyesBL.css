@@ -11,6 +11,10 @@
   font-display:block;
 }
 
+.post-content.dialog-preview .post-title-date, div.comment-header > span.post-title-date {
+    margin-top: -23px;
+}
+
 #avatars-fullscreen-modal .modal-content {
     max-height: 90vh;
     width: 60%;
