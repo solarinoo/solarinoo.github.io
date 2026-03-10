@@ -63,12 +63,22 @@ display:none;
     background: #939393;
 }
 
-
-.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
+.post-row .fas, .comment-row .fas  {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     color: #a9a9a9;
-   padding: 3px;
-   transition: .5s;
 }
+
+.liked .fas, .reposted .fas, .bookmarked .fas {
+    color: #fff!important;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #a9a9a9;
+    cursor: pointer;
+   transition: .3s;
+}
+ 
 .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
     color: #fff;
    cursor:pointer;
