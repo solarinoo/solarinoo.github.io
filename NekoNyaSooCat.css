@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
-@font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
+@font-face{
+font-family:"tabler-icons";
+src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot");
+src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot?#iefix") format("embedded-opentype"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff2") format("woff2"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff") format("woff"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.ttf") format("truetype");
+font-weight:normal;
+font-style:normal;
+font-display:block;
+}
  
 
 
@@ -67,16 +77,14 @@ padding-left: 15px;
     background: #939393;
 }
 .user:before {
-    content: '\ea43';
-    font-family: 'cappuccicons';
+    content: '\f65b';
+ font-family: 'tabler-icons';
     font-size: 13px;
     margin-right: 4px;
     color: #484848;
 }
 
-.liked .fas, .reposted .fas, .bookmarked .fas {
-    color: #fff!important;
-}
+
  .post-opt [style="font-size: 1rem;"] {
     font-size: 13px!important;
 }
@@ -89,7 +97,7 @@ padding-left: 15px;
 }
 
 .liked .fas, .reposted .fas, .bookmarked .fas {
-    color: #ff0000 !important;
+    color: #fff!important;
 }
 
 span[data-target="#deleteconfirmmodal"] {
@@ -114,8 +122,8 @@ span[data-target="#deleteconfirmmodal"] {
 }
 
 .tag:before {
-    content: '\ebd1';
-    font-family: 'cappuccicons';
+    content: '\f689';
+font-family: 'tabler-icons';
     font-size: 10px;
     margin-right: 2px;
     color: #b1b1b1;
@@ -202,8 +210,8 @@ h3.left-menu-text {
 
 
  .blog__tags a:before {
-     content: '\ebd1';
-    font-family: 'cappuccicons';
+     content: '\f689';
+font-family: 'tabler-icons';
     font-size: 10px;
     margin-right: 2px;
     color: #b1b1b1;
@@ -487,8 +495,8 @@ color:#fff!important;
 }
  
 a.navbar-brand:before {
-    content: '\e9c8';
-    font-family: 'cappuccicons';
+    content: '\f287';
+font-family: 'tabler-icons';
     font-size: 25px;
     color: #d1cfc8;
     font-weight: 100;
@@ -758,8 +766,8 @@ input.w-100.input-want:hover  {
 }
 
 [href="#footer"]:before {
-    content: '\ebd1';
-    font-family: 'cappuccicons';
+    content: '\f689';
+font-family: 'tabler-icons';
     text-shadow: -3px -3px #161616;
     transform: rotate(190deg);
     font-size: 80px;
@@ -786,8 +794,8 @@ color: #161616;
 
 
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"]:before {
-    content: '\ebd1';
-    font-family: 'cappuccicons';
+    content: '\f689';
+font-family: 'tabler-icons';
     transform: rotate(12deg);
     text-shadow: -3px -3px #161616;
     font-size: 80px;
