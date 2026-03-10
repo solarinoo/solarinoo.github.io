@@ -93,18 +93,26 @@ color:#fb9d28 ;
     transition: .3s;
 }
 
+.post-row .fas, .comment-row .fas  {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #adadad;
+}
+
 .liked .fas, .reposted .fas, .bookmarked .fas {
-    color: #fb9d28 !important;
+    color: #fb9d28!important;
+}
+
+span[data-target="#deleteconfirmmodal"] {
+    color: #adadad;
+    cursor: pointer;
+   transition: .3s;
 }
  .post-opt [style="font-size: 1rem;"] {
     font-size: 13px!important;
 }
   
-.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
-    color: #fff;
-   padding: 3px;
-   transition: .5s;
-}
+ 
 .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
     color: #fb9d28;
    cursor:pointer;
