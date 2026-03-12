@@ -941,7 +941,16 @@ border:none!important;
 /*-----------*/
 
  
+@media (max-width: 1024px), (max-width: 1440px) {
 
+a:hover,
+span[data-target="#deleteconfirmmodal"]:hover {
+    color: inherit !important;
+    background: none !important;
+    mix-blend-mode: normal !important;
+} 
+
+}
 
 @media  (max-width: 840px)  {
 
