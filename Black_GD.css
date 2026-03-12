@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
-@font-face{font-family:'cappuccicons';
-src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;
+@font-face{
+font-family:"tabler-icons";
+src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot");
+src:url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.eot?#iefix") format("embedded-opentype"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff2") format("woff2"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.woff") format("woff"),
+url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/fonts/tabler-icons.ttf") format("truetype");
+font-weight:normal;
+font-style:normal;
+font-display:block;
 }
+
+
+ 
 
 #avatars-fullscreen-modal .modal-content {
     max-height: 90vh;
@@ -187,13 +198,14 @@ color: #877d66!important;
 }
 
 .tag:before {
-    content: "\ec73";
+    content: "\ec76";
     color: #ffffffde;
     letter-spacing: 2px;
     font-weight: 100;
     font-size: 13px;
-    font-family: 'cappuccicons';
+font-family:"tabler-icons";
 }
+
 
 .text-center img {
     margin-top: 8px;
@@ -258,8 +270,8 @@ display:none;
 }
 
 a.navbar-brand:before {
-    content: "\eb96";
-    font-family:'cappuccicons';
+    content: "\f684";
+font-family:"tabler-icons";
     color: #ffffffde;
     font-weight: 100;
     letter-spacing: 8px;
