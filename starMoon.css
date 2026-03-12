@@ -167,14 +167,14 @@ div#footer:before {
 
 
 div.left-menu {
-    margin-right: 30px;
+margin-right: 30px;
     margin-bottom: auto;
     padding: 0;
     border: none;
     background: #0d158a2b;
-    border: 1px solid #fff0;
-    border-image: linear-gradient(195deg, #ffbe8e52, #ffffff00, #ffbe8e52);
-    border-image-slice: 1;
+    border: 1px solid #fff0 !important;
+    border-image: linear-gradient(195deg, #ffbe8e52, #ffffff00, #ffbe8e52) !important;
+    border-image-slice: 1 !important;
 }
 
  .left-menu > div > h3 {
