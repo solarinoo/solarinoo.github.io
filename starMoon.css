@@ -949,6 +949,20 @@ span[data-target="#deleteconfirmmodal"]:hover {
     background: none !important;
     mix-blend-mode: normal !important;
 } 
+ 
+.left-menu {
+width: 100%!important;
+}
+
+.post-content.blog_total_counter {
+    margin-top: 20px !important;
+}
+
+    body.bodybg {
+        background: url(https://i1.beon.fun/29/35/3529/80/1683780/111.jpg) repeat fixed !important;
+        background-color: #080a1a82 !important;
+}
+ 
 
 }
 
