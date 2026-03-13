@@ -1,0 +1,6 @@
+@import url('https://solarinoo.github.io/starMoon.css');
+
+body.bodybg {
+background: url(https://i1.beon.fun/29/35/3529/82/1691382/1222.jpg) no-repeat left bottom fixed, url(https://i1.beon.fun/29/35/3529/80/1683780/111.jpg) no-repeat fixed;
+background-size: contain, cover;
+}
