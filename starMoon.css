@@ -941,7 +941,7 @@ border:none!important;
 /*-----------*/
 
  
-@media (max-width: 1024px), (max-width: 1440px) {
+@media  (max-width: 1440px) {
 
 a:hover,
 span[data-target="#deleteconfirmmodal"]:hover {
@@ -950,9 +950,7 @@ span[data-target="#deleteconfirmmodal"]:hover {
     mix-blend-mode: normal !important;
 } 
  
-.left-menu {
-width: 100%!important;
-}
+ 
 
 .post-content.blog_total_counter {
     margin-top: 20px !important;
@@ -966,6 +964,22 @@ width: 100%!important;
 
 }
 
+@media (max-width: 1024px) {
+
+.left-menu {
+width: 100%!important;
+}
+
+.post-content.blog_total_counter {
+    margin-top: 20px !important;
+}
+
+    body.bodybg {
+        background: url(https://i1.beon.fun/29/35/3529/80/1683780/111.jpg) repeat fixed !important;
+        background-color: #080a1a82 !important;
+}
+
+}
 @media  (max-width: 840px)  {
 
  
