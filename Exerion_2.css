@@ -439,7 +439,7 @@ a.post-title-user[href="//beon.fun/users/viseweiss"]:after {
 a.user.post-title-user:before {
     content: "КОДОВОЕ ИМЯ: ";
     display: block;
-    margin-top: 2px;
+    margin-top: 1px;
     float: left;
     font-weight: 600;
     letter-spacing: 2px;
