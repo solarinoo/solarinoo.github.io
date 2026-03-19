@@ -15,12 +15,6 @@ font-display:block;
 
  
 
-.fa-heart, .fa-retweet, .fa-bookmark, .fa-trash-alt, .fa-exclamation-triangle, .fa-quote-left {
-    color: #d1cfc8;
-   padding: 3px;
-   transition: .5s;
-}
-
 
 /*1*/
 
@@ -116,7 +110,13 @@ text-transform: uppercase;
 }
 
  
-.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
+.fa-heart, .fa-retweet, .fa-bookmark, .fa-trash-alt, .fa-exclamation-triangle, .fa-quote-left {
+    color: #d1cfc8;
+   padding: 3px;
+   transition: .5s;
+}
+
+.fa-heart:hover, .fa-retweet:hover, .fa-bookmark:hover, .fa-exclamation-triangle:hover, .fa-quote-left:hover{
     transition: .0s;
 color: #994040;
     text-shadow: 0 1px 2px #000000;
