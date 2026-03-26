@@ -157,7 +157,7 @@ font-size: 14px;
 .user:before, [src="//beon.fun/i/tag.png"],
 [src="//beon.fun/i/design-off.png"],
 .post-content.blog_total_counter, .flag, [src="//beon.fun/i/offline.png"],
- .post-title-date+a, [src="/i/logo2-deer.png"], .text-center img   {
+ .post-title-date+a, [src="/i/logo2-deer.png"], .text-center img, .blog__refferers   {
 display:none;
 }
 
@@ -1440,7 +1440,7 @@ display:none!important;
 .user:before, [src="//beon.fun/i/tag.png"],
 [src="//beon.fun/i/design-off.png"],
 .post-content.blog_total_counter, .flag, [src="//beon.fun/i/offline.png"],
- .post-title-date+a, [src="/i/logo2-deer.png"], .text-center img   {
+ .post-title-date+a, [src="/i/logo2-deer.png"], .text-center img, .blog__refferers   {
 display:none!important;
 }
 
