@@ -373,7 +373,7 @@ background: #0d158a2b;
 padding: 30px 5px 5px;
 }
 .post-content.post-page .comment-text {
-padding-top:30px;
+padding-top:0px;
 }
 .post-row, .comment-row {
     display: flex;
@@ -517,20 +517,13 @@ display: none;
     color: #ffffff29;
 }
 .post-content.post-page .post-title-date {
-    position: absolute;
-    right: 5px;
-    margin-top: 5px;
-    font-size: 0.7rem;
+position: unset ;
     color: #ffffff38;
 }
 
 .post-content.post-page .post-title-user {
-    position: absolute;
-    color: #fff;
-    left: 120px;
-    font-size: 16px;
-    margin-top: 5px;
-    z-index: 1;
+position: unset ;
+ color:#fff;
 }
 
 .post-content .post-title-user {
