@@ -151,7 +151,7 @@ color:#281e31!important;
 }
 
 .fa-retweet, .fa-bookmark, .fa-exclamation-triangle, .fa-quote-left, span[data-target="#deleteconfirmmodal"]  {
-    color: #281e31;
+    color: #97758f;
    padding: 3px;
    transition: .5s;
 }
@@ -176,7 +176,7 @@ text-shadow: 0 0 7px #ffe1f1;
 
 
 .liked .fas, .reposted .fas, .bookmarked .fas {
-    color: #281e31!important;
+    color: #97758f!important;
 text-shadow: 0 0 7px #ffe1f1;
 }
 
