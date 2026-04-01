@@ -151,7 +151,7 @@ color:#281e31!important;
 }
 
 .fa-retweet, .fa-bookmark, .fa-exclamation-triangle, .fa-quote-left, span[data-target="#deleteconfirmmodal"]  {
-    color: #97758f;
+    color: #261d2f;
    padding: 3px;
    transition: .5s;
 }
