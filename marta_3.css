@@ -150,13 +150,13 @@ color:#281e31!important;
     transition: .3s;
 }
 
-.fa-retweet::before, .fa-bookmark::before, .fa-exclamation-triangle::before, .fa-quote-left::before, span[data-target="#deleteconfirmmodal"]  {
+.fa-retweet, .fa-bookmark, .fa-exclamation-triangle, .fa-quote-left, span[data-target="#deleteconfirmmodal"]  {
     color: #281e31;
    padding: 3px;
    transition: .5s;
 }
 
-.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before  {
+.fa-heart:hover, .fa-retweet:hover, .fa-bookmark:hover, .fa-exclamation-triangle:hover, .fa-quote-left:hover  {
     color: #97758f;
 text-shadow: 0 0 7px #ffe1f1;
    cursor:pointer;
