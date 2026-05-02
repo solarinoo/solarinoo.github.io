@@ -54,6 +54,7 @@ transition: 0.2s;
     color: #dbdad6;
     background: #405b42;
     font-weight: 900;
+      margin-bottom: 20px;
 }
 
 .alert-success:after{
@@ -824,7 +825,7 @@ textarea {
     outline: none;
 }
 
-div#newpostform, .textareabg {
+div#newpostform, form#newtopicform, .textareabg {
     background-color: #f8fafc;
     position: relative;
     background: #ffffffd9;
@@ -834,6 +835,15 @@ div#newpostform, .textareabg {
     box-shadow: 0 0 1px 2px #ffffff, 0 0 1px 3px #729c7d, 0px 4px 4px 0px #787878;
     margin: 10px 10px 20px;
     margin-bottom: 45px;
+}
+
+  div.content h5 {
+margin-left:10px;
+}
+
+.unread-sended-message {
+    background: #abd5af;
+    font-size: 10px !important;
 }
 
 ::-webkit-scrollbar {
