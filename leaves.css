@@ -848,6 +848,11 @@ margin-left:10px;
     font-size: 10px !important;
 }
 
+[class="left-menu-text m2"] {
+margin-top: 1px;
+}
+
+
 ::-webkit-scrollbar {
     background-color: #d8d7d3;
 }
