@@ -216,6 +216,7 @@ padding: 2px;
 
 .left-menu * {
     font-size: 13px;
+text-transform: lowercase;
 }
 
 .readertime {
