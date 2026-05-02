@@ -325,12 +325,12 @@ pointer-events: none;
 .post-content.blog_total_counter:after {
     content: '';
     position: absolute;
-    top: -16px;
+    top: -10px;
     right: 0;
-    margin-right: -19px;
+    margin-right: -2px;
     filter: drop-shadow(-4px -2px 0px #405b42);
-    height: 98px;
-    width: 100px;
+    height: 95px;
+    width: 80px;
     background: url(https://i1.beon.fun/29/35/3529/11/1753311/32.png) no-repeat;
     background-size: contain;
 }
