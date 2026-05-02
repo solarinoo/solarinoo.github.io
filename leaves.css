@@ -384,8 +384,6 @@ border: 2px dotted #f8f8f7;
     margin-right: 0;
 }
 
-
-
 .comment-content > div:first-child {
     margin-left: 108px;
 border-bottom: 1px dashed #5a8e6a;
@@ -478,6 +476,10 @@ border-bottom: 1px dashed #5a8e6a;
     background-size: contain;
 pointer-events: none;
     z-index: 2;
+}
+
+div.content h2 {
+    border-bottom: 1px dashed #5a8e6a;
 }
 
 
