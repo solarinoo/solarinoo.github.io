@@ -974,7 +974,11 @@ main.py-4 {
 }
 
 @media  (max-width: 840px), (max-width: 700px) {
- 
+
+      .pagination a {
+    font-size: 12px!important;
+}
+  
 .left-menu .post-title-date  {
     font-size: 10px!important;
     text-transform: lowercase!important;
