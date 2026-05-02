@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=LINE+Seed+JP&family=Playpen+Sans:wght@100..800&display=swap');
 
+@media (max-width: 800px) {
+.post-content,
+.comment-content,
+.left-menu > div,
+.textareabg {
+box-shadow: 0 2px 6px rgba(0,0,0,.18) !important;
+}
+ 
+.textareabg,
+.bg-white,
+.crumbs,
+.datebg,
+#usermenu {
+box-shadow: 0 2px 5px rgba(0,0,0,.12) !important;
+}
 
-
+.left-menu > div{
+backdrop-filter:none!important;
+}
+}
 
 /*1*/
 
