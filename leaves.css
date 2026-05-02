@@ -91,7 +91,7 @@ a.tag {
 }
 
 .comments_count {
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 .row {
@@ -309,21 +309,7 @@ pointer-events: none;
     z-index: 2;
     transform: rotate(-25deg);
 }
-
-.post-content:after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    right: 0;
-    margin-right: -11px;
-    filter: drop-shadow(-4px -2px 0px #405b42);
-    height: 60px;
-    width: 60px;
-    background: url(https://i1.beon.fun/29/35/3529/11/1753311/32.png) no-repeat;
-    background-size: contain;
-pointer-events: none;
-    z-index: 2;
-}
+ 
 
 .post-title {
     position: relative;
