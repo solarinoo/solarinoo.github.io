@@ -969,13 +969,15 @@ display:none!important;
 main.py-4 {
     background: url( ) no-repeat left fixed, #dbdad6!important;
 }
-    .left-menu > div.mobile_open_menu > h3 {
+     .left-menu > div.mobile_open_menu > h3 {
         color: #405b42;
     }
 
      .content {
     background: url() no-repeat right fixed, #dbdad6!important;
 }
+
+ 
 .post-content,
 .comment-content,
 .left-menu > div,
@@ -983,10 +985,45 @@ main.py-4 {
 box-shadow: 0 2px 6px rgba(0,0,0,.18) !important;
 }
  
+.textareabg,
+.bg-white,
+.crumbs,
+.datebg,
+#usermenu {
+box-shadow: 0 2px 5px rgba(0,0,0,.12) !important;
+}
 
 .left-menu > div{
 backdrop-filter:none!important;
 }
+
+
+*{
+box-shadow:none !important;
+backdrop-filter:none !important;
+-webkit-backdrop-filter:none !important;
+transition:none!important;
+}
+
+
+.post-content,
+.comment-content,
+.left-menu > div,
+.textareabg,
+.bg-white,
+.crumbs,
+.datebg,
+main.py-4,
+#usermenu, [onclick="window.scroll({top: 0,behavior: 'smooth'})"], [href="#footer"] {
+box-shadow: 0 2px 5px rgba(0,0,0,.18) !important;
+}
+body,
+.content,
+main.py-4{
+background-attachment: scroll !important;
+background-image:none !important;
+}
+ 
  
 }
 
@@ -1143,6 +1180,7 @@ display:none!important;
 .content {
     background: url() no-repeat right fixed, #dbdad6!important;
 }
+     
 .post-content,
 .comment-content,
 .left-menu > div,
