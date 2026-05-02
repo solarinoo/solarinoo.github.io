@@ -1124,4 +1124,9 @@ img.flag, .blog__refferers  {
 display:none!important;
 }
 
+.content {
+    background: url() no-repeat right fixed, #dbdad6!important;
+}
+
+
 }
