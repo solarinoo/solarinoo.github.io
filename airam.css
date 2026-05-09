@@ -392,7 +392,7 @@ font-size:12px;
 }
 
 
-img {
+/*img {
   filter: grayscale(1)  opacity(0.2);
     transition: .7s;
 }
@@ -412,7 +412,7 @@ transition: .7s;
     border-style: none;
     filter: grayscale(0);
     transition: .7s;
-}
+}*/
 
 
  .post-avatar {
