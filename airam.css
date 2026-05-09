@@ -143,7 +143,7 @@ text-transform: lowercase;
 .left-menu__unread-message img.flag,
  .user:before, img.flag, .blog__refferers, .post-content.blog_total_counter, .blog:before,  .blog__refferers, .fa-lock-open:before,
 .blog__last-comments, 
-.blog__read-me, .community__members, .community__moders {
+.blog__read-me, .community__members, .community__moders, .blog__iread {
 display:none;
 }
 
@@ -803,7 +803,7 @@ border:none!important;
 .left-menu__unread-message img.flag,
  .user:before, img.flag, .blog__refferers, .post-content.blog_total_counter, .blog:before,  .blog__refferers, .fa-lock-open:before,
 .blog__last-comments, 
-.blog__read-me, .community__members, .community__moders {
+.blog__read-me, .community__members, .community__moders, .blog__iread {
 display:none!important;
 }
 
