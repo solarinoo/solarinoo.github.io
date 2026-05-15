@@ -143,7 +143,7 @@ a.tag {
  [src="/i/online.png"],
 .blog_total_counter,
 .pagination-goto,  
-[src="//beon.fun/i/tag.png"]  {
+[src="//beon.fun/i/tag.png"], .blog__refferers  {
 display:none;
 }
 span.post-title-date+span {
@@ -992,7 +992,7 @@ margin-right: -20px!important;
 .left-menu__friends,
 .left-menu__unread-message img.flag,
 .post-content.blog_total_counter,
- .user:before {
+ .user:before, .blog__refferers {
 display:none!important;
 }
 
