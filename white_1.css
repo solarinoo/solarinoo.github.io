@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+font-family: "Andika", sans-serif;
+}
+
 [src="//beon.fun/i/logo2.png"] {
     display:none;
 }
@@ -70,7 +76,6 @@ font-size: 15px!important;
 /* ========== */
 
 div#app {
- font-family: Apple Chancery, cursive;
 	padding-top: 0; 
 	padding-bottom: 0;
 }
@@ -191,7 +196,7 @@ div.left-menu {
     width: 25%;
     padding: 0px 1% 2% 1%;
     overflow-x: hidden;
-    font-size: 10px;
+    font-size: 12px;
 }
 
  .left-menu:before {
@@ -850,13 +855,7 @@ border-left: 4px solid #000;
 
 
 @media (max-width: 1024px) {
-    div#app {
-        font-family: monospace!important;
-    }
-
-a.post-subscribe, .post-content [href$="/unsubscribe"], .post-content [href$="#"] {
-  font-family: monospace!important;
-}
+ 
 div#app {
     width: 100%!important;
    padding: 0 0%!important; 
@@ -886,10 +885,7 @@ div#app {
 
 @media (max-width: 700px) {
 
-div#app {
-	font-family: monospace!important;
-}
-
+ 
 div#app {
     width: 100%!important;
    padding: 0 0%!important; 
@@ -921,7 +917,6 @@ margin-left: -5px;
 
 span.comments_count a {
     font-size: 15px!important;
-font-family: monospace!important;
 }
 
 .left-menu > div.mobile_open_menu > h3 {
@@ -936,7 +931,6 @@ font-family: monospace!important;
     font-size: 0.7rem!important;
 }
 .menu__item {
-  font-family: monospace;
     text-align: center!important;
     color: #000;
   font-size: 13px!important;
@@ -1033,19 +1027,16 @@ font-size: 45px!important;
 [class="post-opt col-12 col-md-6"] {
 padding-right: unset!important;
     padding-left: 0px!important;
-font-family: monospace!important;
 word-spacing: -0.3rem;
 }
 
  .comment-text+div, .row.w-100 {
-font-family: monospace!important;
 word-spacing: -0.3rem;
 }
 
 a.post-subscribe,
 .post-content [href$="/unsubscribe"],
 .post-content [href$="#"]   {
-font-family: monospace!important;
 font-size: 10px!important;
 }
      .avatars-fullscreen-link-wrapper {
