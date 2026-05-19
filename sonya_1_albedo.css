@@ -93,7 +93,9 @@ transition: 0.2s;
     color: #000;
     background: #cfa55e;
 }
-
+.text-primary {
+    color: #b1986e !important;
+}
 .post__mood, .post__musicplay, .post__wish, .post__tags-list {
     color: #100f0e78!important;
 }
