@@ -179,6 +179,7 @@ a.tag {
 .pagination-goto,
 .left-menu__friends,
 .left-menu__unread-message img.flag,
+.blog__read-me, .blog__iread, .blog__last-comments,
 img.flag, .blog__refferers, .post-content.blog_total_counter, .blog:before,  .blog__refferers, .fa-lock-open:before {
 display:none;
 }
@@ -1166,9 +1167,11 @@ div.left-menu {
 .pagination-goto,
 .left-menu__friends,
 .left-menu__unread-message img.flag,
+.blog__read-me, .blog__iread, .blog__last-comments,
 img.flag, .blog__refferers, .post-content.blog_total_counter, .blog:before,  .blog__refferers, .fa-lock-open:before {
 display:none!important;
 }
+
 
 
 }
