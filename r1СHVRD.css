@@ -282,7 +282,7 @@ cursor: pointer;
     color: #a14444;
 }
 .blog__about.mb-3 {
-    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png) right, #bfbfbf;
+    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png) right, #bfbfbf;
     background-size: cover;
     background-blend-mode: difference;
 padding-bottom:10px;
@@ -462,7 +462,7 @@ h2, .comment-box__message-partial.comment-content  {
 text-transform: lowercase;
 }
 .comment-base  {
-    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -484,7 +484,7 @@ min-height: auto;
     color: #333;
 }
 .comment-base .post-content .post-text   {
-    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -493,7 +493,7 @@ min-height: auto;
 }
 
  .comment-content .comment-base {
-    background: url(https://i.postimg.cc/L5JLGX3c/yearwalk-3-10-2014-6-16-02-pm-4344.png);
+    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -505,9 +505,9 @@ min-height: auto;
     font-size: 13px;
 }
 div.post-text.comment-text {
-    background: url( );
+background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
     background-size: cover;
-    padding: 0px;
+    padding: 15px;
     border: unset;
     box-shadow: unset;
 }
