@@ -195,7 +195,7 @@ text-shadow: 0 0 7px #ffe1f1;
 .left-menu__friends,
 .left-menu__unread-message img.flag,
 .post-content.blog_total_counter,
- .user:before, img.flag {
+ .user:before, img.flag, .blog__refferers {
 display:none;
 }
 
@@ -1311,7 +1311,7 @@ margin: 120px auto 0!important;
 .left-menu__friends,
 .left-menu__unread-message img.flag,
 .post-content.blog_total_counter,
- .user:before, img.flag, div#app:before,  div#app:after, main.py-4:before {
+ .user:before, img.flag, div#app:before,  div#app:after, main.py-4:before, .blog__refferers {
 display:none!important;
 }
 
