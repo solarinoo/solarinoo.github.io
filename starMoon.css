@@ -128,7 +128,7 @@ a.tag {
 [src="/i/user.png"],
 .pagination-goto,
 .left-menu__friends,
-.left-menu__unread-message img.flag,
+.left-menu__unread-message img.flag, .blog__refferers,
  .user:before,
 img.flag {
 display:none;
@@ -1099,7 +1099,7 @@ width: 98%;
 .left-menu__friends,
 .left-menu__unread-message img.flag,
  .user:before,
-img.flag {
+img.flag, .blog__refferers {
 display:none!important;
 }
 
