@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
+[class="garland"], .left-menu-text.mb-3, .left-menu-text.mb-2 {
+display:none!important;
+}
 
 /*1*/
 
