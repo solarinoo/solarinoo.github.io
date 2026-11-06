@@ -25,14 +25,14 @@ font-size:0;
 }
 
 body.bodybg  {
-background:url(https://i1.beon.fun/29/35/3529/83/1817083/vava.png) repeat fixed;
+background:url(https://i1.beon.fun/29/35/3529/42/1992342/111.png) repeat fixed;
 }
 
 div#app {
     padding: 0%;
     width: 67%;
     margin: 25px auto;
-    background: url(https://i1.beon.fun/29/35/3529/84/1817084/Bez-imeni-1.png) repeat fixed;
+    background: url(https://i1.beon.fun/29/35/3529/41/1992341/444.png) repeat fixed;
     padding: 15px;
     box-shadow: 0 0 20px 20px #f8f8f812;
 border-radius: 4px;
@@ -190,8 +190,8 @@ div.left-menu {
 margin-bottom: 25px;
 padding: 10px;
 border-radius: 4px;
-  background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png);
-    border: 1px solid #cbcbcb;
+  background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
+    border: 1px solid #b9b9b9;
 box-shadow: .5px 2px 8px rgb(0 0 0 / 22%);
 }
 .left-menu > div > h3, .blog__about:before {
@@ -217,7 +217,7 @@ top: 6px;
 left: 0;
 right: 0;
 margin: auto;
-background: url(https://i1.beon.fun/47/82/8247/90/1436090/5.png) no-repeat center;
+background: url(https://i.pinimg.com/736x/35/a7/ed/35a7edf3ff5438153ab06b357a8b14cb.jpg) no-repeat center;
 height: 80px;
 width: 80px;
     object-fit: cover;
@@ -232,11 +232,11 @@ background-size: cover;
 .left-menu:before {
     content: '';
     display: block;
-    background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png), linear-gradient(180deg, #202020 50%, #ffffff00 50%);
+    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png), linear-gradient(180deg, #202020 50%, #ffffff00 50%);
     background-blend-mode: color;
     height: 105px;
     background-size: cover;
-    border: 1px solid #cbcbcb;
+    border: 1px solid #b9b9b9;
     box-shadow: .5px 2px 8px rgb(0 0 0 / 22%);
     border-radius: 4px;
     margin-bottom: 20px;
@@ -347,8 +347,8 @@ position: unset!important;
     padding: 10px;
     padding-bottom: 70px;
     border-radius: 4px;
-    background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png);
-    border: 1px solid #cbcbcb;
+    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
+    border: 1px solid #b9b9b9;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
 }
 
@@ -360,8 +360,8 @@ position: relative;
     padding: 10px;
    padding-bottom: 47px;
     border-radius: 4px;
-    background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png);
-    border: 1px solid #cbcbcb;
+    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
+    border: 1px solid #b9b9b9;
     box-shadow: .5px 10px 8px rgb(0 0 0 / 22%);
 }
 .quotation {
@@ -409,8 +409,8 @@ font-family: "WDXL Lubrifont TC", sans-serif;
 #usermenu {
 position:releative;
     border-radius: 0;
-    background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png);
-    border: 1px solid #cbcbcb;
+    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
+    border: 1px solid #b9b9b9;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
   z-index:1;
 }
@@ -781,8 +781,8 @@ input[type=checkbox], input[type=radio] {
 .textareabg {
     border-radius: 4px;
     padding: 10px !important;
-    background: url(https://i1.beon.fun/29/35/3529/86/1817086/121.png);
-    border: 1px solid #cbcbcb;
+    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
+    border: 1px solid #b9b9b9;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
     margin:10px 0px 70px 0px !important;
 }
