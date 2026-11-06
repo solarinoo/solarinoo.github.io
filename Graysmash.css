@@ -190,8 +190,8 @@ div.left-menu {
 margin-bottom: 25px;
 padding: 10px;
 border-radius: 4px;
-  background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
-    border: 1px solid #b9b9b9;
+  background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png);
+    border: 1px solid #a3a3a3;
 box-shadow: .5px 2px 8px rgb(0 0 0 / 22%);
 }
 .left-menu > div > h3, .blog__about:before {
@@ -232,11 +232,11 @@ background-size: cover;
 .left-menu:before {
     content: '';
     display: block;
-    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png), linear-gradient(180deg, #202020 50%, #ffffff00 50%);
+    background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png), linear-gradient(180deg, #202020 50%, #ffffff00 50%);
     background-blend-mode: color;
     height: 105px;
     background-size: cover;
-    border: 1px solid #b9b9b9;
+    border: 1px solid #a3a3a3;
     box-shadow: .5px 2px 8px rgb(0 0 0 / 22%);
     border-radius: 4px;
     margin-bottom: 20px;
@@ -347,8 +347,8 @@ position: unset!important;
     padding: 10px;
     padding-bottom: 70px;
     border-radius: 4px;
-    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
-    border: 1px solid #b9b9b9;
+    background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png);
+    border: 1px solid #a3a3a3;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
 }
 
@@ -360,8 +360,8 @@ position: relative;
     padding: 10px;
    padding-bottom: 47px;
     border-radius: 4px;
-    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
-    border: 1px solid #b9b9b9;
+    background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png);
+    border: 1px solid #a3a3a3;
     box-shadow: .5px 10px 8px rgb(0 0 0 / 22%);
 }
 .quotation {
@@ -409,8 +409,8 @@ font-family: "WDXL Lubrifont TC", sans-serif;
 #usermenu {
 position:releative;
     border-radius: 0;
-    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
-    border: 1px solid #b9b9b9;
+    background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png);
+    border: 1px solid #a3a3a3;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
   z-index:1;
 }
@@ -659,7 +659,7 @@ border-radius: 4px !important;
 }
 
 .modal-content {
-    background: #f5f5f5;
+    background: #dddddd;
     border: 2px solid #4a4a4a;
     font-weight: bold;
 }
@@ -781,8 +781,8 @@ input[type=checkbox], input[type=radio] {
 .textareabg {
     border-radius: 4px;
     padding: 10px !important;
-    background: url(https://i1.beon.fun/29/35/3529/67/1992367/222.png);
-    border: 1px solid #b9b9b9;
+    background: url(https://i1.beon.fun/29/35/3529/75/1992375/1121.png);
+    border: 1px solid #a3a3a3;
     box-shadow: .5px 5px 8px rgb(0 0 0 / 22%);
     margin:10px 0px 70px 0px !important;
 }
