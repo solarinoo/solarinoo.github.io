@@ -6,10 +6,10 @@
 /*1*/
 
 html {
-cursor: url(https://i1.beon.fun/29/35/3529/92/1773292/genshin-impact-albedo-and-brush-pointer.png), pointer;
+cursor: url(https://cdn.custom-cursor.com/db/11389/32/genshin-impact-albedo-and-brush-pointer.png), pointer;
 }
 button, input, a,img,span,label.menu__btn,button, .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before, [class="post-opt col-12 col-md-6"] span:hover, .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
-cursor: url(https://i1.beon.fun/29/35/3529/91/1773291/genshin-impact-albedo-and-brush-cursor.png), pointer !important;
+cursor: url(https://cdn.custom-cursor.com/db/11390/32/genshin-impact-albedo-and-brush-cursor.png), pointer !important;
 }
 
 * {
@@ -35,7 +35,7 @@ div#app {
 
 body {
 animation: star 50s linear alternate infinite;
-background: url(https://i1.beon.fun/29/35/3529/79/1772279/8c5c3ec8-cf08-4e5d-96b7-5e5c125595d9.png)  repeat fixed;
+background: url(https://cdn.pixsafe.online/pixsafe/albums/YVUGN/ffff_jh2ci.png)  repeat fixed;
 }
 
 
@@ -52,7 +52,7 @@ div#app::before {
     content: '';
     height: 275px;
     display: block;
-    background: url(https://i1.beon.fun/29/35/3529/9/1775509/11.png) no-repeat center / 44%;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/kD7ch/121_1MtMN.png) no-repeat center / 44%;
     filter: drop-shadow(-6px 4px 0px #fff);
 }
 
@@ -200,7 +200,7 @@ font-size:0px;
     content: '';
     display: block;
     height: 290px;
-    background: url(https://i1.beon.fun/29/35/3529/93/1772293/2.png) no-repeat center;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/zUVZK/tumblrbfa370af4d15c85817448b4f1ee414f127ece1b72048_7tJUu.png) no-repeat center;
     background-size: contain;
     filter: drop-shadow(-6px 1px 0px #fdebcd);
 }
@@ -259,15 +259,15 @@ h3.left-menu-text {
 h3.left-menu-text:before {
     content: ' ';
     position: absolute;
-    right: 0;
-    margin-top: -9px;
-    width: 45px;
-    height: 45px;
+    right: -10px;
+    margin-top: -24px;
+    width: 60px;
+    height: 60px;
     font-size: 0px;
-    background: url(https://i1.beon.fun/29/35/3529/4/1774404/2222222222222.png) no-repeat top right;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/7wyvX/mfmfm_qPNv8.png) no-repeat top right;
     background-size: contain;
-    transform: scale(-1, 1) rotate(-16deg);
-    filter: drop-shadow(2px 2px 0px #00000040);
+    /* transform: scale(-1, 1) rotate(-16deg); */
+    filter: drop-shadow(1px 1px 1px #00000040);
 }
  
 .blog__tags a:before {
@@ -318,7 +318,7 @@ padding: 2px;
     width: 500px;
     height: 500px;
     font-size: 0px;
-    background: url(https://i1.beon.fun/29/35/3529/79/1775479/21.png) no-repeat top right;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/rh7m6/fabula-ai_xAagV.png) no-repeat top right;
     background-size: contain;
     transform: rotate(40deg);
     filter: hue-rotate(340deg) contrast(1.2) opacity(0.8);
@@ -352,7 +352,7 @@ a.navbar-brand {
 font-size: 14px;
     color: transparent !important;
     text-shadow: none!important;
-    background: url(https://i1.beon.fun/29/35/3529/7/1773407/df8wx2z-d8f54994-03f5-4e4d-80e1-ca18c86d7bb1.gif) no-repeat center;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/13jlG/Tumblrl883012485455864_TwdIV.gif) no-repeat center;
     background-size: contain;
     width: 60px;
     height: 60px;
@@ -392,7 +392,7 @@ color: #000!important;
     width: 120px;
     height: 120px;
     font-size: 0px;
-    background: url(https://i1.beon.fun/14/0/14/58/1601558/UI_TraceEffectIcon_Albedo.png) no-repeat top right;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/RC4n9/ItemEchoKreideprinz_Vwg4j.png) no-repeat top right;
     background-size: contain;
 transform: rotate(253deg);
     filter: hue-rotate(340deg) contrast(1.2) opacity(0.8);
@@ -525,7 +525,7 @@ h1 {
     width: 45px;
     height: 45px;
     font-size: 0px;
-    background: url(https://i1.beon.fun/29/35/3529/0/1773400/st-small-507x507-pad-600x600-f8f8f8-Photoroom.png) no-repeat top right;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/JwYW9/4222_zSPkl.png) no-repeat top right;
     background-size: contain;
     transform: rotate(18deg);
     filter: drop-shadow(-3px 2px 0px #dec69f) hue-rotate(347deg);
@@ -535,14 +535,14 @@ h1 {
 .post-avatar:before {
     content: ' ';
     position: absolute;
-    left: -28px;
-    margin-top: -10px;
-    width: 60px;
-    height: 60px;
+    left: -38px;
+    margin-top: -20px;
+    width: 80px;
+    height: 80px;
     font-size: 0px;
-    background: url(https://i1.beon.fun/29/35/3529/4/1774404/2222222222222.png) no-repeat top right;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/7wyvX/mfmfm_qPNv8.png) no-repeat top right;
     background-size: contain;
-    transform: rotate(-15deg);
+    transform: rotate( 22deg);
     filter: drop-shadow(2px 2px 0px #fff) hue-rotate(345deg);
     pointer-events: none;
 }
