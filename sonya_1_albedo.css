@@ -6,10 +6,10 @@
 /*1*/
 
 html {
-cursor: url(https://cdn.custom-cursor.com/db/11389/32/genshin-impact-albedo-and-brush-pointer.png), pointer;
+cursor: url(https://cdn.pixsafe.online/pixsafe/albums/Mmflx/genshin-impact-albedo-and-brush-pointer_w38s5.png), pointer;
 }
 button, input, a,img,span,label.menu__btn,button, .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before, [class="post-opt col-12 col-md-6"] span:hover, .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
-cursor: url(https://cdn.custom-cursor.com/db/11390/32/genshin-impact-albedo-and-brush-cursor.png), pointer !important;
+cursor: url(https://cdn.pixsafe.online/pixsafe/albums/Mmflx/genshin-impact-albedo-and-brush-cursor_WsuBl.png), pointer !important;
 }
 
 * {
