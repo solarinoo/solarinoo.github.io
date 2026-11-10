@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Marck+Script&display=swap');
 
- 
+ .left-menu-text [name="posts-bymonth"] {
+display:none;
+}
+
 /*1*/
 
 * {
@@ -14,7 +17,7 @@
 
 
 body {
-    background: url(https://i1.beon.fun/29/35/3529/70/1788370/sfff.jpg)  repeat fixed;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/XoaYk/112_n2Ajc.png)  repeat fixed;
 }
 div#app {
     padding: 0;
@@ -34,8 +37,8 @@ font-weight: bold;
     content: '';
     position: absolute;
     left: 0;
-    top: -27px;
-    background: url(https://i1.beon.fun/29/35/3529/99/1788499/vwvw.png);
+    top: -33px;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/jJ4uf/111_OVt5V.png);
     height: 34px;
     width: 100%;
 filter: drop-shadow(-2px -2px 0px white);
@@ -47,7 +50,7 @@ color:#8d2453;
 }
 .bottombg.p-1 {
 color:#8d2453;
-    background: url(https://i1.beon.fun/29/35/3529/81/1788481/niz.jpg);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/v0y3E/niz_xsoan.jpg);
     background-size: cover;
     padding: 0 !important;
 margin-top: 38px;
@@ -357,11 +360,12 @@ list-style-type: none;
     content: '';
     position: absolute;
     left: 0;
-    top: 86px;
-    background: url(https://i1.beon.fun/29/35/3529/77/1788577/1211.png);
+    top: 87px;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/jJ4uf/111_OVt5V.png);
     height: 34px;
     width: 100%;
-    filter: drop-shadow(2px 2px 0px white);
+    filter: drop-shadow(-2px -2px 0px white);
+    transform: scale(-1);
     z-index: 1;
 }
 [onclick="window.scroll({top: 0,behavior: 'smooth'})"] {
@@ -447,7 +451,7 @@ main.py-4:before {
     position: fixed;
     right: 0px;
     bottom: -2px;
-    background: url(https://i1.beon.fun/29/35/3529/85/1788585/09ii.png) no-repeat;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/ZkVVr/09ii_do6Lk.png) no-repeat;
     background-size: contain;
     height: 440px;
     width: 410px;
@@ -456,7 +460,7 @@ main.py-4:before {
 }
 
 .blog_total_counter {
-    background: url(https://i1.beon.fun/29/35/3529/82/1788682/czzz.png) no-repeat !important;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/jB9Cg/aazz_BmklW.png) no-repeat !important;
     height: 410px;
     background-size: cover !important;
     font-size: 0;
@@ -470,7 +474,7 @@ main.py-4:before {
     border-image-width: 67px 35px 53px 4px;
     padding: 3%;
     border-image-repeat: stretch stretch;
-    border-image-source: url(https://i1.beon.fun/29/35/3529/31/1788431/2111.png);
+    border-image-source: url(https://cdn.pixsafe.online/pixsafe/albums/uJNGJ/2111_AVfhA.png);
     border-style: solid;
     padding: 30px 35px;
 margin: 10px 10px 20px;
@@ -487,7 +491,7 @@ margin: 10px 10px 20px;
     right: -15px;
     bottom: 0;
     margin-top: 15px;
-    background: url(https://i1.beon.fun/29/35/3529/64/1793664/111111aaa.png) no-repeat;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/ENuVj/aaa_kfZ2r.png) no-repeat;
     background-size: contain;
     height: 50px;
     width: 60px;
@@ -534,16 +538,16 @@ margin: 10px 10px 20px;
 .post-avatar:before {
     content: '';
     position: absolute;
-    left: -26px;
-    margin-top: -15px;
-    background: url(https://i1.beon.fun/29/35/3529/65/1793665/mfmff1111.png) no-repeat;
+    left: -12px;
+    margin-top: -8px;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/aLTaV/tsts2_BI5wP.png) no-repeat;
     background-size: contain;
-    height: 50px;
-    width: 60px;
-    transform: rotate(127deg);
-    filter: drop-shadow(2px -1px 0px #fff);
+    height: 40px;
+    width: 50px;
+    /* transform: rotate( 354deg); */
+    filter: drop-shadow(2px 1px 0px #8d2453);
     pointer-events: none;
-z-index:1;
+    z-index: 1;
 }
 
  h1  {
@@ -777,7 +781,7 @@ opacity: 1;
     border-image-width: 67px 35px 53px 4px;
     padding: 3%;
     border-image-repeat: stretch stretch;
-    border-image-source: url(https://i1.beon.fun/29/35/3529/31/1788431/2111.png);
+    border-image-source: url(https://cdn.pixsafe.online/pixsafe/albums/uJNGJ/2111_AVfhA.png);
     border-style: solid;
     padding: 30px 35px;
     background-color: #ffffff00;
@@ -815,7 +819,7 @@ background-color: #f8fafc00;
     border-image-slice: 74 41 70 8 fill;
     border-image-width: 67px 35px 53px 4px;
     border-image-repeat: stretch stretch;
-    border-image-source: url(https://i1.beon.fun/29/35/3529/31/1788431/2111.png);
+    border-image-source: url(https://cdn.pixsafe.online/pixsafe/albums/uJNGJ/2111_AVfhA.png);
     border-style: solid;
     padding: 30px 35px ! Important;
     margin: 10px 10px 20px;
