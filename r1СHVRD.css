@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
 
-
+.crumbs a+span.crumb-item, .crumbs [href="/p"], [href="/p/"] span {
+display: none;
+}
 
 
 /*1*/
@@ -24,12 +26,12 @@ div#app::before {
     content: '';
     height: 250px;
     display: block;
-    background: url(https://i1.beon.fun/29/35/3529/31/1794631/verh.png) repeat-x;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/5sM3Q/yearwalk-3-10-2014-6-16-02-pm-4344_WzvQX.png) repeat-x;
     background-size: 80%;
 }
 
 body.bodybg {
-    background: url(https://i1.beon.fun/29/35/3529/33/1794633/fon.jpg) fixed;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/XqZ3e/photo-2024-08-04-01-11-40_jvGC2.jpg) fixed;
     background-size: auto;
 }
 main.py-4 {
@@ -46,16 +48,16 @@ width: 80%;
 }
 a, div  {
     text-decoration: unset!important;
-   color:#dfdfdf;
+   color:#606060;
    transition: .4s;
 } 
 
 span[data-target="#deleteconfirmmodal"] {
-color:#5e5e5e;
+color:#606060;
   transition: 0.2s;
 }
 span[data-target="#deleteconfirmmodal"]:hover {
-color:#000;
+color:#fff;
  text-decoration: unset!important;
 transition: 0.4s;
 }
@@ -98,42 +100,35 @@ align-items: flex-end;
     font-size: 14px!important;
 }
   
+ 
+  .post-text a, .comment-text a {
+    color:#000000;
+    text-shadow: 0px 0 1px #000000;
+    transition: .3s;
+}
+
+ .post-text a:hover, .comment-text a:hover  {
+   text-decoration: unset!important;
+    color:#ab6d13;
+    text-shadow: 0px 0 1px #ab6d13;
+transition: 0.2s;
+}
+ 
 .fa-heart, .fa-retweet, .fa-bookmark, .fa-trash-alt, .fa-exclamation-triangle, .fa-quote-left, [onclick="deleteComment(this)"]  {
-    color: #5e5e5e;
+    color: #727272;
    transition: .2s;
 }
 
-.fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before,  [onclick="deleteComment(this)"]:hover  {
-    color: #fff;
-    text-shadow: 0px 0 2px #b7bd9d;
+.fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before,  [onclick="deleteComment(this)"]:hover  {
+    color: red;
+    text-shadow: 0px 0 2px #ab6d13;
    cursor:pointer;
    transition: .2s;
 }
 
 .liked .fas, .reposted .fas, .bookmarked .fas {
-    color: #fff!important;
-}
-
-
- [class="post-opt col-12 col-md-6"] span, .post-opt a, [onclick="deleteComment(this)"]  {
-    color: #5e5e5e;
-   transition: .3s;
-}
-
- [class="post-opt col-12 col-md-6"] span:hover,  .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
-    color: #fff;
-   transition: .3s;
-}
-
-  .post-text a, .comment-text a {
-color:#333;
-    transition: .3s;
-}
-
-  .post-text a:hover, .comment-text a:hover {
-color:#000;
-margin-left:0px;
-    transition: .3s;
+    color: red!important;
+    text-shadow: 0px 0 2px #ab6d13;
 }
 .tag:before {
     content: '#';
@@ -195,7 +190,7 @@ min-width: 250px;
 
 .left-menu:before {
     content: ' ';
-    background: url(https://i1.beon.fun/10/88/8810/30/1173430/tumblr_n6j2c18ahz1rkkpoeo5_1280-copy-22.png) no-repeat center;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/AAjMH/tumblrn6j2c18ahz1rkkpoeo51280-copy-22_cKb60.png) no-repeat center;
     height: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -204,7 +199,7 @@ min-width: 250px;
 .left-menu > div {
     margin-bottom: 20px;
     border: 2px ridge #000000;
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png) right, #bfbfbf;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png) right, #bfbfbf;
     background-size: cover;
     background-blend-mode: difference;
     box-shadow: inset 0px 0px 3px 1px #0a0a0a;
@@ -224,7 +219,7 @@ div.left-menu {
     text-transform: uppercase;
     color: #ffffff;
   transition: 0.4s;
-    background: url(https://i1.beon.fun/29/35/3529/33/1794633/fon.jpg) repeat !important;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/XqZ3e/photo-2024-08-04-01-11-40_jvGC2.jpg) repeat !important;
     background-size: auto;
     border-bottom: 4px groove #000000;
 }
@@ -282,7 +277,7 @@ cursor: pointer;
     color: #a14444;
 }
 .blog__about.mb-3 {
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png) right, #bfbfbf;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png) right, #bfbfbf;
     background-size: cover;
     background-blend-mode: difference;
 padding-bottom:10px;
@@ -311,7 +306,7 @@ padding-bottom:10px;
 /*3*/
 
 .bg-white {
-    background: url(https://i1.beon.fun/29/35/3529/31/1794631/verh.png) repeat-x fixed, url(https://i1.beon.fun/29/35/3529/33/1794633/fon.jpg) fixed;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/5sM3Q/yearwalk-3-10-2014-6-16-02-pm-4344_WzvQX.png) repeat-x fixed, url(https://cdn.pixsafe.online/pixsafe/albums/XqZ3e/photo-2024-08-04-01-11-40_jvGC2.jpg) fixed;
        border: 3px solid #272727;
     background-size: 80%, auto;
     background-blend-mode: hard-light;
@@ -343,7 +338,7 @@ a.navbar-brand:after {
     height: 75px;
     width: 75px;
     float:left;
-    background: url(https://i1.beon.fun/29/35/3529/74/1794674/ikonka.png) no-repeat;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/e8tFs/Year-Walk-i-Tunes-App-Store-Icon_gJqhN.png) no-repeat;
     background-size: contain;
     transition: 0.4s;
 }
@@ -462,7 +457,7 @@ h2, .comment-box__message-partial.comment-content  {
 text-transform: lowercase;
 }
 .comment-base  {
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -475,7 +470,7 @@ text-transform: lowercase;
 min-height: auto;
 }
 .post-row .post-text  {
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
     font-size: 13px;
@@ -484,7 +479,7 @@ min-height: auto;
     color: #333;
 }
 .comment-base .post-content .post-text   {
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -493,7 +488,7 @@ min-height: auto;
 }
 
  .comment-content .comment-base {
-    background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -505,11 +500,11 @@ min-height: auto;
     font-size: 13px;
 }
 div.post-text.comment-text {
-background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
-    border: unset;
-    box-shadow: unset;
+    /*border: unset;
+    box-shadow: unset;*/
 }
 
 
@@ -526,12 +521,13 @@ background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
 }
 .datebg:after {
     content: '';
-    height: 14px;
+    height: 20px;
     width: 20px;
     display: block;
     float: inline-end;
-    margin-left: 4px;
-    background: url(https://i1.beon.fun/29/35/3529/74/1794674/ikonka.png) no-repeat;
+    margin-top: -2px;
+    margin-left: 2px;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/e8tFs/Year-Walk-i-Tunes-App-Store-Icon_gJqhN.png) no-repeat;
     background-size: contain;
 }
 .datebg:before {
@@ -712,7 +708,7 @@ background:#000;
 }
 
 .modal-content {
-   background: url(https://i1.beon.fun/29/35/3529/32/1794632/temy.png);
+   background: url(https://cdn.pixsafe.online/pixsafe/albums/IuWyv/yearwalk-3-10-2014-6-16-02-pm-43442_eC0fA.png);
     background-size: cover;
     padding: 15px;
     border: 1px solid #000;
@@ -803,7 +799,7 @@ border: 1px solid #000;
     padding: 18px !important;
 }
 textarea {
-    background: url(https://i1.beon.fun/29/35/3529/31/1794631/verh.png) repeat-x, url(https://i1.beon.fun/29/35/3529/33/1794633/fon.jpg);
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/5sM3Q/yearwalk-3-10-2014-6-16-02-pm-4344_WzvQX.png) repeat-x, url(https://cdn.pixsafe.online/pixsafe/albums/XqZ3e/photo-2024-08-04-01-11-40_jvGC2.jpg);
     border: 1px solid #000;
     box-shadow: 0px 0px 0px 1px #545454;
     color: #fff;
