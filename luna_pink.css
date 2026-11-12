@@ -26,9 +26,10 @@ mask-size: 120px 120px;
 background-size: 120px 120px;
 transform: translate(-10px, -10px); 
 }
-.post-avatar {
+.post-avatar  a[href="//piuchan.beon.fun"]{
 margin: 10px;
 }
+
 
  .left-menu-text [name="posts-bymonth"] {
 display:none;
