@@ -2,6 +2,7 @@
 
 /*хонки*/
 
+ 
 .post-avatar  a[href="//piuchan.beon.fun"] img {
 mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png); 
 mask-mode: match-source;
@@ -11,6 +12,9 @@ mask-size: 100px 100px;
 height: 100px;
 width: 100px;
 object-fit: cover;
+    border: none;
+    padding: 0px;
+    background: unset;
 }
 .post-avatar a[href="//piuchan.beon.fun"]:before{
 content: "";
