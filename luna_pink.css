@@ -8,6 +8,7 @@ mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png);
      -webkit-mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png);
 mask-mode: match-source;
 mask-repeat: no-repeat;
+-webkit-mask-repeat: no-repeat;
 mask-size: 100px 100px; 
 -webkit-mask-position: center; 
 height: 100px;
@@ -27,6 +28,7 @@ mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png);
 background: url(https://cdn.pixsafe.online/pixsafe/albums/K4Ak0/glitter-shiny_VJc6u.gif);
 mask-mode: match-source;
 mask-repeat: no-repeat;
+ -webkit-mask-repeat: no-repeat;
 mask-size: 120px 120px; 
 -webkit-mask-position: center;
 background-size: 120px 120px;
@@ -1085,7 +1087,7 @@ span.comments_count span::before {
 
  .post-avatar a[href="//piuchan.beon.fun"] {
     margin: 10px;
-    margin-right: 15px!important;
+    margin-right: 25px!important;
 }
  
 }
