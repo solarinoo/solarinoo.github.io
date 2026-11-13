@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face{font-family:'cappuccicons';src:url('//source.cappuccicons.com/cappuccicons.eot');src:url('//source.cappuccicons.com/cappuccicons.eot#iefix') format('embedded-opentype'), url('//source.cappuccicons.com/cappuccicons.ttf') format('truetype'), url('//source.cappuccicons.com/cappuccicons.woff') format('woff'), url('//source.cappuccicons.com/cappuccicons.svg#cappuccicons') format('svg');font-weight:normal;font-style:normal;font-display:block;}
 
-.crumbs a+span.crumb-item, .crumbs [href="/p"], [href="/p/"] span {
-display: none;
-}
-
+ 
 
 /*1*/
 
@@ -103,14 +100,12 @@ align-items: flex-end;
  
   .post-text a, .comment-text a {
     color:#000000;
-    text-shadow: 0px 0 1px #000000;
     transition: .3s;
 }
 
  .post-text a:hover, .comment-text a:hover  {
    text-decoration: unset!important;
     color:#ab6d13;
-    text-shadow: 0px 0 1px #ab6d13;
 transition: 0.2s;
 }
  
