@@ -1117,5 +1117,10 @@ span.comments_count span::before {
     background-size: 60px 60px!important;
     transform: translate(-10px, -10px);
 }
+
+ .post-title, .post-text, .comment-text, h1 {
+    word-break: break-word;
+    margin-left: 10px!important;
+}
  
 }
