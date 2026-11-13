@@ -23,7 +23,7 @@ div#app::before {
     content: '';
     height: 250px;
     display: block;
-    background: url(https://cdn.pixsafe.online/pixsafe/albums/5sM3Q/yearwalk-3-10-2014-6-16-02-pm-4344_WzvQX.png) repeat-x;
+    background: url(https://cdn.pixsafe.online/pixsafe/albums/5sM3Q/yearwalk-3-10-2014-6-16-02-pm-4344_WzvQX.png) repeat-x fixed;
     background-size: 80%;
 }
 
