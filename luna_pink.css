@@ -25,7 +25,7 @@ height: 120px;
 width: 120px;
 mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png); 
  -webkit-mask-image: url(https://i1.beon.fun/55/16/1655/57/1344257/heart_13984477-1.png);
-background: url(https://cdn.pixsafe.online/pixsafe/albums/K4Ak0/glitter-shiny_VJc6u.gif);
+background: url(https://cdn.pixsafe.online/pixsafe/albums/K4Ak0/glitter-shiny_VJc6u.gif) no-repeat;
 mask-mode: match-source;
 mask-repeat: no-repeat;
  -webkit-mask-repeat: no-repeat;
