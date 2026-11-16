@@ -37,7 +37,7 @@ font-size:0;
 
  body.bodybg {
     background: url(https://i1.beon.fun/29/35/3529/55/2012555/11.png)  no-repeat fixed, url()  no-repeat right fixed, #010101;
-    background-size: auto;
+    background-size: cover;
     background-blend-mode: lighten;
 }
 
