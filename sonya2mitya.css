@@ -419,10 +419,10 @@ outline-offset: -4px;
 
 
 .quotation {
-    border-left: 2px solid #f1d5a4;
+    border-left: 2px solid #b0addc;
     font-weight: 500;
-    color: #856c41;
-    background: #f5d49c5c;
+    color: #000000;
+    background: #928cd382;
     font-size: 14px;
     line-height: 1.45;
     padding-left: 5px;
