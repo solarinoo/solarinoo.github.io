@@ -7,7 +7,7 @@
 html {
 cursor: url(https://cdn.pixsafe.online/pixsafe/albums/7Fil1/Pikselnyyportretserebrovolosogogeroya_s2TTd.png), pointer;
 }
-button, input, a,img,span,label.menu__btn,button, .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before, [class="post-opt col-12 col-md-6"] span:hover, .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
+.left-menu-text.mb-3 [name="posts-bymonth"], [href="#footer"], button, input, a,img,span,label.menu__btn,button, .fa-heart:hover:before, .fa-retweet:hover:before, .fa-bookmark:hover:before, .fa-exclamation-triangle:hover:before, .fa-quote-left:hover:before, [class="post-opt col-12 col-md-6"] span:hover, .post-opt a:hover, [onclick="deleteComment(this)"]:hover {
 cursor: url(https://cdn.pixsafe.online/pixsafe/albums/T2PqN/ts_feZpI.png), pointer !important;
 }
 
